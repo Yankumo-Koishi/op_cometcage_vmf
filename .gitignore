@@ -610,3 +610,7 @@ Prefabs/Welding Doors/prop_door_single_W.vmx
 Prefabs/Welding Doors/welding_door.vmx
 Prefabs/Welding Doors/welding_door_EW.vmx
 *.vmx
+*.log
+*.prt
+*.bsp
+Prefabs/architectural-building/apartments-six-story-red-01.vmf
