@@ -1,0 +1,384 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "2595"
+	"mapversion" "33"
+	"prefab" "0"
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"nGridSpacing" "8"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "423402"
+	"mapversion" "33"
+	"classname" "worldspawn"
+	"skyname" "sky_wasteland02"
+}
+entity
+{
+	"id" "982"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"solid" "6"
+	"skin" "0"
+	"disableshadows" "1"
+	"mindxlevel" "0"
+	"maxdxlevel" "0"
+	"model" "models/props_wasteland/plasterwall029c_window01a.mdl"
+	"fademindist" "4000"
+	"fademaxdist" "5000"
+	"origin" "0 4.76837e-007 0"
+	editor
+	{
+		"color" "220 30 220"
+	}
+}
+entity
+{
+	"id" "984"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"solid" "0"
+	"skin" "0"
+	"disableshadows" "1"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"pressuredelay" "0"
+	"mindxlevel" "0"
+	"maxdxlevel" "0"
+	"RandomAnimation" "0"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"SetBodyGroup" "1"
+	"StartDisabled" "0"
+	"model" "models/props_wasteland/plasterwall029c_window01a_bars.mdl"
+	"targetname" "window_&ib_bars"
+	"origin" "0 4.76837e-007 0"
+	editor
+	{
+		"color" "220 30 220"
+		"comments" "This is the model for the window interior. It gets triggered to switch models by the func_breakable inside."
+	}
+}
+entity
+{
+	"id" "998"
+	"classname" "env_cubemap"
+	"sides" "43"
+	"origin" "0 32 0"
+	editor
+	{
+		"color" "0 0 255"
+	}
+}
+entity
+{
+	"id" "1001"
+	"classname" "env_cubemap"
+	"sides" "44"
+	"origin" "0 -32 0"
+	editor
+	{
+		"color" "0 0 255"
+	}
+}
+entity
+{
+	"id" "1004"
+	"classname" "func_areaportalwindow"
+	"FadeStartDist" "200"
+	"FadeDist" "300"
+	"TranslucencyLimit" "0"
+	"target" "window_&ib_fading_part"
+	solid
+	{
+		"id" "1005"
+		side
+		{
+			"id" "31"
+			"plane" "(13 1.5625 -24) (13 1.5625 24) (-13 1.5625 24)"
+			"material" "TOOLS/TOOLSAREAPORTAL"
+			"uaxis" "[-1 0 0 -5.07693] 0.13"
+			"vaxis" "[0 0 -1 5.66667] 0.15"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "32"
+			"plane" "(-13 1.4375 -24) (-13 1.4375 24) (13 1.4375 24)"
+			"material" "TOOLS/TOOLSAREAPORTAL"
+			"uaxis" "[-1 0 0 -5.08237] 0.13"
+			"vaxis" "[0 0 -1 5.33333] 0.15"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33"
+			"plane" "(13 1.4375 -24) (13 1.4375 24) (13 1.5625 24)"
+			"material" "TOOLS/TOOLSAREAPORTAL"
+			"uaxis" "[0 -1 0 -56] 0.0078125"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34"
+			"plane" "(-13 1.5625 -24) (-13 1.5625 24) (-13 1.4375 24)"
+			"material" "TOOLS/TOOLSAREAPORTAL"
+			"uaxis" "[0 -1 0 -56] 0.0078125"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "35"
+			"plane" "(-13 1.4375 -24) (13 1.4375 -24) (13 1.5625 -24)"
+			"material" "TOOLS/TOOLSAREAPORTAL"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 1 0 56] 0.0078125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "36"
+			"plane" "(-13 1.5625 24) (13 1.5625 24) (13 1.4375 24)"
+			"material" "TOOLS/TOOLSAREAPORTAL"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 1 0 56] 0.0078125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 128 255"
+		}
+	}
+	editor
+	{
+		"color" "220 0 180"
+		"comments" "This portal controls the fading over distance."
+	}
+}
+entity
+{
+	"id" "1009"
+	"classname" "func_illusionary"
+	"renderfx" "0"
+	"rendermode" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"disableshadows" "1"
+	"disablereceiveshadows" "1"
+	"origin" "0 1.5 1"
+	"targetname" "window_&ib_fading_part"
+	solid
+	{
+		"id" "1010"
+		side
+		{
+			"id" "43"
+			"plane" "(13 1.8125 -24) (13 1.8125 24) (-13 1.8125 24)"
+			"material" "DEV/DEV_WINDOWPORTAL"
+			"uaxis" "[-1 0 0 -64] 0.5"
+			"vaxis" "[0 0 -1 -97] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "44"
+			"plane" "(-13 1.1875 -24) (-13 1.1875 24) (13 1.1875 24)"
+			"material" "DEV/DEV_WINDOWPORTAL"
+			"uaxis" "[-1 0 0 -64] 1"
+			"vaxis" "[0 0 -1 32] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "45"
+			"plane" "(13 1.1875 -24) (13 1.1875 24) (13 1.8125 24)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 -40] 0.0078125"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "46"
+			"plane" "(-13 1.8125 -24) (-13 1.8125 24) (-13 1.1875 24)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 -40] 0.0078125"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "47"
+			"plane" "(-13 1.1875 -24) (13 1.1875 -24) (13 1.8125 -24)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 1 0 40] 0.0078125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "48"
+			"plane" "(-13 1.8125 24) (13 1.8125 24) (13 1.1875 24)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 1 0 40] 0.0078125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+		}
+	}
+	editor
+	{
+		"color" "255 255 255"
+	}
+	editor
+	{
+		"color" "220 0 180"
+		"comments" "This is the part of the window that fades in over distance and makes the window opaque. The env_cubemap entities should point at this."
+	}
+}
+entity
+{
+	"id" "1012"
+	"classname" "func_illusionary"
+	"renderfx" "0"
+	"rendermode" "10"
+	"renderamt" "0"
+	"rendercolor" "255 255 255"
+	"disableshadows" "1"
+	"disablereceiveshadows" "1"
+	"origin" "0 -0.5 0"
+	"targetname" "window_&ib_lighting_panel"
+	solid
+	{
+		"id" "1013"
+		side
+		{
+			"id" "49"
+			"plane" "(13 -0.250019 24) (-13 -0.250019 24) (-13 -0.250019 -24)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 -32] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "50"
+			"plane" "(-13 -0.750019 24) (13 -0.750019 24) (13 -0.750019 -24)"
+			"material" "LIGHTS/WHITE002"
+			"uaxis" "[-1 0 0 -36.9091] 1.1"
+			"vaxis" "[0 0 -1 -34.8182] 1.1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "51"
+			"plane" "(13 -0.750019 24) (13 -0.250019 24) (13 -0.250019 -24)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 -28] 0.03125"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "52"
+			"plane" "(-13 -0.250019 24) (-13 -0.750019 24) (-13 -0.750019 -24)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 -28] 0.03125"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "53"
+			"plane" "(13 -0.750019 -24) (13 -0.250019 -24) (-13 -0.250019 -24)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 1 0 28] 0.03125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "54"
+			"plane" "(13 -0.250019 24) (13 -0.750019 24) (-13 -0.750019 24)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 1 0 28] 0.03125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+		}
+	}
+	editor
+	{
+		"color" "255 255 255"
+	}
+	editor
+	{
+		"color" "220 0 180"
+		"comments" "This brush is here to generate light to the interior space through the window. The white side should face the interior."
+	}
+}
+cameras
+{
+	"activecamera" "0"
+	camera
+	{
+		"position" "[49.1376 -41.4679 45.5963]"
+		"look" "[-31.2821 29.6694 -15.3971]"
+	}
+}
+cordon
+{
+	"mins" "(99999 99999 99999)"
+	"maxs" "(-99999 -99999 -99999)"
+	"active" "0"
+}

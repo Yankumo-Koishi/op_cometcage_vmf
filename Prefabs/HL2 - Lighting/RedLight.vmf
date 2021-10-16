@@ -1,0 +1,116 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8849"
+	"mapversion" "6351"
+	"formatversion" "100"
+	"prefab" "1"
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "8"
+}
+world
+{
+	"id" "94816"
+	"mapversion" "6351"
+	"classname" "worldspawn"
+	"chaptertitlenomessage" "1"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+	"vscriptlanguage_client" "-2"
+}
+entity
+{
+	"id" "94819"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "1"
+	"disablevertexlighting" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_silo/light_red2.mdl"
+	"skin" "1"
+	"solid" "0"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "94823"
+	"classname" "light"
+	"_fifty_percent_distance" "450"
+	"_light" "255 96 96 60"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "2048"
+	"spawnflags" "0"
+	"origin" "0 0 -48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "94828"
+	"classname" "light_spot"
+	"_cone" "80"
+	"_exponent" "1"
+	"_fifty_percent_distance" "450"
+	"_inner_cone" "75"
+	"_light" "255 96 96 60"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "2048"
+	"angles" "-89.9999 0 0"
+	"pitch" "-89.9999"
+	"spawnflags" "0"
+	"origin" "0 0 -19"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "94833"
+	"classname" "env_lightglow"
+	"angles" "0 0 0"
+	"GlowProxySize" "2.0"
+	"HDRColorScale" "1.0"
+	"HorizontalGlowSize" "10"
+	"MaxDist" "128"
+	"MinDist" "64"
+	"OuterMaxDist" "1024"
+	"rendercolor" "170 0 0"
+	"VerticalGlowSize" "10"
+	"origin" "0 0 -14.9999"
+	editor
+	{
+		"color" "255 128 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}

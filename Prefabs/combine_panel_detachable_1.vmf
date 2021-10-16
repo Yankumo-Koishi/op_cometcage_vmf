@@ -1,0 +1,571 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "2688"
+	"mapversion" "20"
+	"formatversion" "100"
+	"prefab" "0"
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"nGridSpacing" "16"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "0"
+	"mapversion" "20"
+	"classname" "worldspawn"
+	"skyname" "sky_wasteland02"
+}
+entity
+{
+	"id" "401"
+	"classname" "func_physbox"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"propdata" "8"
+	"health" "0"
+	"material" "0"
+	"explosion" "0"
+	"spawnobject" "0"
+	"explodemagnitude" "0"
+	"pressuredelay" "0"
+	"renderfx" "0"
+	"rendermode" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"disablereceiveshadows" "0"
+	"Damagetype" "0"
+	"massScale" "0"
+	"damagetoenablemotion" "0"
+	"forcetoenablemotion" "0"
+	"preferredcarryangles" "0 0 0"
+	"notsolid" "0"
+	"spawnflags" "135168"
+	"origin" "2 0 62.59"
+	"targetname" "petal_lock_1_&i"
+	connections
+	{
+		"OnPhysGunDrop" "logic_shield_panel_1a_&i,CancelPending,,0,-1"
+		"OnPhysGunPickup" "logic_shield_panel_1a_&i,Trigger,,0,-1"
+	}
+	solid
+	{
+		"id" "1222"
+		side
+		{
+			"id" "157"
+			"plane" "(2.28571 -40 124) (4 -28 124) (8 -28 124)"
+			"material" "METAL/METALWALL078A"
+			"uaxis" "[0 -1 0 256] 0.21875"
+			"vaxis" "[1 0 0 0] 0.0078125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "156"
+			"plane" "(4 -28 0) (0 -56 0) (4 -56 0)"
+			"material" "METAL/METALWALL078A"
+			"uaxis" "[1 0 0 0] 0.0078125"
+			"vaxis" "[0 -1 0 256] 0.21875"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "155"
+			"plane" "(0 -56 0) (4 -28 0) (4 -28 124)"
+			"material" "METAL/METALWALL078A"
+			"uaxis" "[0 -1 0 256] 0.21875"
+			"vaxis" "[0 0 -1 0] 0.244485"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "154"
+			"plane" "(8 -28 0) (4 -56 0) (4 -56 112)"
+			"material" "METAL/METALWALL078A"
+			"uaxis" "[0 -1 0 256] 0.21875"
+			"vaxis" "[0 0 -1 0] 0.244485"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "153"
+			"plane" "(4 -56 0) (0 -56 0) (0 -56 112)"
+			"material" "METAL/METALWALL078A"
+			"uaxis" "[1 0 0 0] 0.0078125"
+			"vaxis" "[0 0 -1 0] 0.244485"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "152"
+			"plane" "(0 -56 112) (2.28571 -40 124) (6.28571 -40 124)"
+			"material" "METAL/METALWALL078A"
+			"uaxis" "[1 0 0 0] 1"
+			"vaxis" "[0 -1 0 -16] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "151"
+			"plane" "(4 -28 0) (8 -28 0) (8 -28 124)"
+			"material" "METAL/METALWALL078A"
+			"uaxis" "[1 0 0 0] 1"
+			"vaxis" "[0 0 -1 -128] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 0 180"
+			"visgroupshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "1223"
+		side
+		{
+			"id" "163"
+			"plane" "(4 -28 124) (4 24 124) (8 24 124)"
+			"material" "METAL/METALWALL078A"
+			"uaxis" "[0 -1 0 256] 0.21875"
+			"vaxis" "[1 0 0 0] 0.0078125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "162"
+			"plane" "(4 24 0) (4 -28 0) (8 -28 0)"
+			"material" "METAL/METALWALL078A"
+			"uaxis" "[1 0 0 0] 0.0078125"
+			"vaxis" "[0 -1 0 256] 0.21875"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "161"
+			"plane" "(4 -28 0) (4 24 0) (4 24 124)"
+			"material" "METAL/METALWALL078A"
+			"uaxis" "[0 -1 0 256] 0.21875"
+			"vaxis" "[0 0 -1 0] 0.244485"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "160"
+			"plane" "(8 24 0) (8 -28 0) (8 -28 124)"
+			"material" "METAL/METALWALL078A"
+			"uaxis" "[0 -1 0 256] 0.21875"
+			"vaxis" "[0 0 -1 0] 0.244485"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "159"
+			"plane" "(4 24 0) (8 24 0) (8 24 124)"
+			"material" "METAL/METALWALL078A"
+			"uaxis" "[1 0 0 -4] 1"
+			"vaxis" "[0 0 -1 -128] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "158"
+			"plane" "(8 -28 0) (4 -28 0) (4 -28 124)"
+			"material" "METAL/METALWALL078A"
+			"uaxis" "[1 0 0 -4] 1"
+			"vaxis" "[0 0 -1 -128] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 0 180"
+			"visgroupshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "1224"
+		side
+		{
+			"id" "171"
+			"plane" "(4 24 124) (1.5 44 124) (5.5 44 124)"
+			"material" "METAL/METALWALL078A"
+			"uaxis" "[0 -1 0 256] 0.21875"
+			"vaxis" "[1 0 0 0] 0.0078125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "170"
+			"plane" "(3 32 0) (4 24 0) (8 24 0)"
+			"material" "METAL/METALWALL078A"
+			"uaxis" "[1 0 0 0] 0.0078125"
+			"vaxis" "[0 -1 0 256] 0.21875"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "169"
+			"plane" "(4 24 0) (3 32 0) (0 56 44)"
+			"material" "METAL/METALWALL078A"
+			"uaxis" "[0 -1 0 256] 0.21875"
+			"vaxis" "[0 0 -1 0] 0.244485"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "168"
+			"plane" "(7 32 0) (8 24 0) (8 24 124)"
+			"material" "METAL/METALWALL078A"
+			"uaxis" "[0 -1 0 256] 0.21875"
+			"vaxis" "[0 0 -1 0] 0.244485"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "167"
+			"plane" "(4 56 44) (4 56 100) (0 56 100)"
+			"material" "METAL/METALWALL078A"
+			"uaxis" "[1 0 0 0] 0.0078125"
+			"vaxis" "[0 0 -1 0] 0.244485"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "166"
+			"plane" "(3 32 0) (7 32 0) (4 56 44)"
+			"material" "METAL/METALWALL078A"
+			"uaxis" "[1 0 0 0] 1"
+			"vaxis" "[0 0 -1 -128] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "165"
+			"plane" "(4 56 100) (5.5 44 124) (1.5 44 124)"
+			"material" "METAL/METALWALL078A"
+			"uaxis" "[1 0 0 0] 1"
+			"vaxis" "[0 0 -1 -128] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "164"
+			"plane" "(8 24 0) (4 24 0) (4 24 124)"
+			"material" "METAL/METALWALL078A"
+			"uaxis" "[1 0 0 0] 1"
+			"vaxis" "[0 0 -1 -128] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 0 180"
+			"visgroupshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "255 255 255"
+		"visgroupshown" "1"
+	}
+	editor
+	{
+		"color" "220 0 180"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "404"
+	"classname" "phys_ballsocket"
+	"forcelimit" "0"
+	"torquelimit" "0"
+	"breaksound" "Breakable.Metal"
+	"spawnflags" "0"
+	"attach2" "petal_lock_1_&i"
+	"targetname" "socket_shield_panel_1a_&i"
+	connections
+	{
+		"OnBreak" "spark_shield_panel_1b_&i,SparkOnce,,0.2,-1"
+		"OnBreak" "spark_shield_panel_1a_&i,SparkOnce,,0,-1"
+	}
+	"origin" "8 -56.8675 94.4118"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "406"
+	"classname" "phys_ballsocket"
+	"forcelimit" "0"
+	"torquelimit" "0"
+	"breaksound" "Breakable.Metal"
+	"spawnflags" "0"
+	"attach2" "petal_lock_1_&i"
+	"targetname" "socket_shield_panel_1b_&i"
+	connections
+	{
+		"OnBreak" "spark_shield_panel_1c_&i,SparkOnce,,0,-1"
+	}
+	"origin" "8 56.8675 46.4118"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "504"
+	"classname" "logic_relay"
+	"StartDisabled" "0"
+	"targetname" "logic_shield_panel_1a_&i"
+	"spawnflags" "2"
+	connections
+	{
+		"OnTrigger" "sound_shield_panel_1_&i,PlaySound,,0,-1"
+		"OnTrigger" "shake_shield_panel_1_&i,StartShake,,0,-1"
+		"OnTrigger" "impact_shield_panel_1a_&i,Explode,,0.4,-1"
+		"OnTrigger" "impact_shield_panel_1b_&i,Explode,,0.1,-1"
+		"OnTrigger" "impact_shield_panel_1a_&i,Explode,,0,-1"
+		"OnTrigger" "logic_shield_panel_1b_&i,Trigger,,0.75,-1"
+		"OnTrigger" "impact_shield_panel_1b_&i,Explode,,0.15,-1"
+		"OnTrigger" "impact_shield_panel_1a_&i,Explode,,0.2,-1"
+		"OnTrigger" "impact_shield_panel_1a_&i,Explode,,0.35,-1"
+	}
+	"origin" "16 8 96"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "587"
+	"classname" "logic_relay"
+	"StartDisabled" "0"
+	"targetname" "logic_shield_panel_1b_&i"
+	"spawnflags" "2"
+	connections
+	{
+		"OnTrigger" "logic_shield_panel_1b_&i,Disable,,0,-1"
+		"OnTrigger" "logic_shield_panel_1a_&i,Disable,,0,-1"
+		"OnTrigger" "socket_shield_panel_1c_&i,Break,,0.6,-1"
+		"OnTrigger" "socket_shield_panel_1b_&i,Break,,0.4,-1"
+		"OnTrigger" "socket_shield_panel_1a_&i,Break,,0,-1"
+	}
+	"origin" "16 8 80"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "636"
+	"classname" "env_physexplosion"
+	"magnitude" "100"
+	"targetname" "impact_shield_panel_1a_&i"
+	"spawnflags" "1"
+	"radius" "128"
+	"targetentityname" "petal_lock_1_&i"
+	"origin" "-24 32 112"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "656"
+	"classname" "env_physexplosion"
+	"magnitude" "100"
+	"targetname" "impact_shield_panel_1b_&i"
+	"spawnflags" "1"
+	"radius" "128"
+	"targetentityname" "petal_lock_1_&i"
+	"origin" "-24 -24 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "837"
+	"classname" "env_shake"
+	"targetname" "shake_shield_panel_1_&i"
+	"amplitude" "2"
+	"radius" "200"
+	"duration" "1"
+	"frequency" "2.5"
+	"origin" "-8 8 96"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "856"
+	"classname" "env_spark"
+	"angles" "0 0 0"
+	"MaxDelay" "0"
+	"Magnitude" "2"
+	"TrailLength" "1"
+	"targetname" "spark_shield_panel_1a_&i"
+	"origin" "8.99999 -60.3086 86.7461"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "869"
+	"classname" "env_spark"
+	"angles" "0 0 0"
+	"MaxDelay" "0"
+	"Magnitude" "2"
+	"TrailLength" "1"
+	"targetname" "spark_shield_panel_1b_&i"
+	"origin" "4 -60.3086 48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "1230"
+	"classname" "ambient_generic"
+	"targetname" "sound_shield_panel_1_&i"
+	"radius" "1250"
+	"health" "10"
+	"preset" "0"
+	"volstart" "0"
+	"fadein" "0"
+	"fadeout" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"spinup" "0"
+	"spindown" "0"
+	"lfotype" "0"
+	"lforate" "0"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"cspinup" "0"
+	"message" "SolidMetal.Strain"
+	"spawnflags" "48"
+	"origin" "-8 8 76"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "1257"
+	"classname" "env_spark"
+	"angles" "0 0 0"
+	"MaxDelay" "0"
+	"Magnitude" "2"
+	"TrailLength" "1"
+	"targetname" "spark_shield_panel_1c_&i"
+	"origin" "4 60 76"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "1405"
+	"classname" "phys_ballsocket"
+	"forcelimit" "0"
+	"torquelimit" "0"
+	"breaksound" "Breakable.Metal"
+	"spawnflags" "0"
+	"attach2" "petal_lock_1_&i"
+	"targetname" "socket_shield_panel_1c_&i"
+	connections
+	{
+		"OnBreak" "spark_shield_panel_1c_&i,SparkOnce,,0,-1"
+	}
+	"origin" "4 -8 124"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordon
+{
+	"mins" "(99999 99999 99999)"
+	"maxs" "(-99999 -99999 -99999)"
+	"active" "0"
+}

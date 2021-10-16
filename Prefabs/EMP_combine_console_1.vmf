@@ -1,0 +1,519 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "2623"
+	"mapversion" "1283"
+	"prefab" "0"
+}
+visgroups
+{
+	visgroup
+	{
+		"name" "1 object"
+		"visgroupid" "1"
+		"color" "209 182 207"
+		"visible" "1"
+	}
+	visgroup
+	{
+		"name" "1 object"
+		"visgroupid" "2"
+		"color" "218 83 176"
+		"visible" "1"
+	}
+	visgroup
+	{
+		"name" "1 object"
+		"visgroupid" "3"
+		"color" "231 148 229"
+		"visible" "1"
+	}
+	visgroup
+	{
+		"name" "1 object"
+		"visgroupid" "4"
+		"color" "184 169 190"
+		"visible" "1"
+	}
+	visgroup
+	{
+		"name" "1 object"
+		"visgroupid" "5"
+		"color" "141 130 219"
+		"visible" "1"
+	}
+	visgroup
+	{
+		"name" "21 objects"
+		"visgroupid" "16"
+		"color" "204 93 82"
+		"visible" "1"
+	}
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"nGridSpacing" "16"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "0"
+	"mapversion" "1283"
+	"classname" "worldspawn"
+	"skyname" "sky_palace01"
+}
+entity
+{
+	"id" "376053"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"skin" "0"
+	"solid" "6"
+	"disableshadows" "0"
+	"model" "models/props_combine/combine_interface002.mdl"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"lightingorigin" "lighting_console"
+	"origin" "-4.04044 9.0043 0"
+	editor
+	{
+		"color" "209 182 207"
+		"visgroupid" "1"
+	}
+}
+entity
+{
+	"id" "376490"
+	"classname" "env_beam"
+	"renderfx" "0"
+	"renderamt" "100"
+	"rendercolor" "45 207 255"
+	"Radius" "256"
+	"life" "0"
+	"BoltWidth" "1"
+	"NoiseAmplitude" "8"
+	"texture" "sprites/laserbeam.spr"
+	"TextureScroll" "35"
+	"framerate" "0"
+	"framestart" "0"
+	"StrikeTime" "1"
+	"damage" "0"
+	"TouchType" "0"
+	"targetname" "beam_alyx_EMP_&i"
+	"LightningStart" "sprite_alyx_EMP_MAIN"
+	"LightningEnd" "target_alyx_EMP_&i"
+	"spawnflags" "290"
+	"origin" "-2.04044 -13.0406 78"
+	editor
+	{
+		"color" "141 130 219"
+		"visgroupid" "5"
+	}
+}
+entity
+{
+	"id" "376493"
+	"classname" "ambient_generic"
+	"targetname" "sound_alyx_EMP_&i"
+	"health" "10"
+	"preset" "0"
+	"volstart" "0"
+	"fadein" "0"
+	"fadeout" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"spinup" "0"
+	"spindown" "0"
+	"lfotype" "0"
+	"lforate" "0"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"cspinup" "0"
+	"radius" "1250"
+	"message" "beams/beamstart11.wav"
+	"spawnflags" "48"
+	"origin" "-2.04044 -13.0406 62"
+	editor
+	{
+		"color" "184 169 190"
+		"visgroupid" "4"
+	}
+}
+entity
+{
+	"id" "376496"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "logic_alyx_EMP_&i"
+	connections
+	{
+		"OnTrigger" "logic_lightning_EMP_&i,Trigger,,0.5,-1"
+		"OnTrigger" "sprite_alyx_EMP_MAIN,HideSprite,,0.5,-1"
+		"OnTrigger" "sprite_alyx_EMP_MAIN,ShowSprite,,0,-1"
+		"OnTrigger" "sound_alyx_EMP_&i,PlaySound,,0,-1"
+		"OnTrigger" "spark_alyx_EMP_&i,SparkOnce,,0.5,-1"
+		"OnTrigger" "beam_alyx_EMP_&i,TurnOff,,0.5,-1"
+		"OnTrigger" "beam_alyx_EMP_&i,TurnOn,,0,-1"
+	}
+	"origin" "-2.04044 -13.0406 94"
+	editor
+	{
+		"color" "204 93 82"
+		"visgroupid" "16"
+	}
+}
+entity
+{
+	"id" "376498"
+	"classname" "env_spark"
+	"targetname" "spark_alyx_EMP_&i"
+	"angles" "0 0 0"
+	"MaxDelay" "0"
+	"Magnitude" "2"
+	"TrailLength" "1"
+	"spawnflags" "128"
+	"origin" "-2.04044 -13.0406 46"
+	editor
+	{
+		"color" "231 148 229"
+		"visgroupid" "3"
+	}
+}
+entity
+{
+	"id" "376500"
+	"classname" "info_target"
+	"targetname" "target_alyx_EMP_&i"
+	"angles" "0 0 0"
+	"origin" "-2.04044 -13.0406 46"
+	editor
+	{
+		"color" "218 83 176"
+		"visgroupid" "2"
+	}
+}
+entity
+{
+	"id" "443726"
+	"classname" "logic_relay"
+	"StartDisabled" "0"
+	"spawnflags" "2"
+	"targetname" "logic_lightning_EMP_&i"
+	connections
+	{
+		"OnTrigger" "teleseq_&i_01,TurnOff,,0.05,-1"
+		"OnTrigger" "teleseq_&i_01,TurnOn,,0,-1"
+		"OnTrigger" "teleseq_&i_02,TurnOn,,0.05,-1"
+		"OnTrigger" "teleseq_&i_02,TurnOff,,0.1,-1"
+		"OnTrigger" "teleseq_&i_03,TurnOn,,0.1,-1"
+		"OnTrigger" "teleseq_&i_03,TurnOff,,0.15,-1"
+		"OnTrigger" "teleseq_&i_04,TurnOn,,0.15,-1"
+		"OnTrigger" "teleseq_&i_04,TurnOff,,0.2,-1"
+		"OnTrigger" "tesla_crawls_sound_&i,PlaySound,,0,-1"
+	}
+	"origin" "-2.04044 -13.0406 109"
+	editor
+	{
+		"color" "204 93 82"
+		"visgroupid" "16"
+	}
+}
+entity
+{
+	"id" "443728"
+	"classname" "env_beam"
+	"radius" "256"
+	"renderfx" "0"
+	"renderamt" "120"
+	"rendercolor" "64 198 242"
+	"life" "0"
+	"BoltWidth" ".5"
+	"NoiseAmplitude" "8"
+	"texture" "sprites/laserbeam.spr"
+	"TextureScroll" "35"
+	"framerate" "0"
+	"framestart" "0"
+	"StrikeTime" "1"
+	"damage" "0"
+	"TouchType" "0"
+	"targetname" "teleseq_&i_01"
+	"spawnflags" "130"
+	"LightningStart" "teleseq_&i_01"
+	"LightningEnd" "teleseq_&i_02"
+	"origin" "-4.04044 -13.0406 42"
+	editor
+	{
+		"color" "204 93 82"
+		"visgroupid" "16"
+	}
+}
+entity
+{
+	"id" "443731"
+	"classname" "env_beam"
+	"radius" "256"
+	"renderfx" "0"
+	"renderamt" "140"
+	"rendercolor" "64 198 242"
+	"life" "0"
+	"BoltWidth" ".5"
+	"NoiseAmplitude" "8"
+	"texture" "sprites/laserbeam.spr"
+	"TextureScroll" "35"
+	"framerate" "0"
+	"framestart" "0"
+	"StrikeTime" "1"
+	"damage" "0"
+	"TouchType" "0"
+	"targetname" "teleseq_&i_02"
+	"spawnflags" "2"
+	"LightningEnd" "teleseq_&i_03"
+	"LightningStart" "teleseq_&i_02"
+	"origin" "-8.04044 12.9593 48"
+	editor
+	{
+		"color" "204 93 82"
+		"visgroupid" "16"
+	}
+}
+entity
+{
+	"id" "443734"
+	"classname" "env_beam"
+	"radius" "256"
+	"renderfx" "0"
+	"renderamt" "180"
+	"rendercolor" "64 198 242"
+	"life" "0"
+	"BoltWidth" ".5"
+	"NoiseAmplitude" "8"
+	"texture" "sprites/laserbeam.spr"
+	"TextureScroll" "35"
+	"framerate" "0"
+	"framestart" "0"
+	"StrikeTime" "1"
+	"damage" "0"
+	"TouchType" "0"
+	"targetname" "teleseq_&i_03"
+	"spawnflags" "2"
+	"LightningEnd" "teleseq_&i_04"
+	"LightningStart" "teleseq_&i_03"
+	"origin" "11.9596 22.9594 32"
+	editor
+	{
+		"color" "204 93 82"
+		"visgroupid" "16"
+	}
+}
+entity
+{
+	"id" "443737"
+	"classname" "env_beam"
+	"radius" "256"
+	"renderfx" "0"
+	"renderamt" "180"
+	"rendercolor" "64 198 242"
+	"life" "0"
+	"BoltWidth" ".5"
+	"NoiseAmplitude" "8"
+	"texture" "sprites/laserbeam.spr"
+	"TextureScroll" "35"
+	"framerate" "0"
+	"framestart" "0"
+	"StrikeTime" "1"
+	"damage" "0"
+	"TouchType" "0"
+	"targetname" "teleseq_&i_04"
+	"spawnflags" "2"
+	"LightningEnd" "teleseq_&i_05"
+	"LightningStart" "teleseq_&i_04"
+	"origin" "1.95956 -23.0406 26"
+	editor
+	{
+		"color" "204 93 82"
+		"visgroupid" "16"
+	}
+}
+entity
+{
+	"id" "443740"
+	"classname" "env_beam"
+	"radius" "256"
+	"renderfx" "0"
+	"renderamt" "140"
+	"rendercolor" "64 198 242"
+	"life" "0"
+	"BoltWidth" ".5"
+	"NoiseAmplitude" "8"
+	"texture" "sprites/laserbeam.spr"
+	"TextureScroll" "35"
+	"framerate" "0"
+	"framestart" "0"
+	"StrikeTime" "1"
+	"damage" "0"
+	"TouchType" "0"
+	"targetname" "teleseq_&i_05"
+	"spawnflags" "2"
+	"LightningEnd" "teleseq_&i_06"
+	"LightningStart" "teleseq_&i_05"
+	"origin" "9.95956 -11.0406 32"
+	editor
+	{
+		"color" "204 93 82"
+		"visgroupid" "16"
+	}
+}
+entity
+{
+	"id" "443743"
+	"classname" "env_beam"
+	"radius" "256"
+	"renderfx" "0"
+	"renderamt" "100"
+	"rendercolor" "64 198 242"
+	"life" "0"
+	"BoltWidth" ".5"
+	"NoiseAmplitude" "8"
+	"texture" "sprites/laserbeam.spr"
+	"TextureScroll" "35"
+	"framerate" "0"
+	"framestart" "0"
+	"StrikeTime" "1"
+	"damage" "0"
+	"TouchType" "0"
+	"targetname" "teleseq_&i_06"
+	"spawnflags" "258"
+	"LightningEnd" "teleseq_&i_X"
+	"LightningStart" "teleseq_&i_06"
+	"origin" "-22.0402 -19.0406 56"
+	editor
+	{
+		"color" "204 93 82"
+		"visgroupid" "16"
+	}
+}
+entity
+{
+	"id" "443746"
+	"classname" "env_beam"
+	"radius" "256"
+	"renderfx" "0"
+	"renderamt" "180"
+	"rendercolor" "64 198 242"
+	"life" "0"
+	"BoltWidth" ".5"
+	"NoiseAmplitude" "8"
+	"texture" "sprites/laserbeam.spr"
+	"TextureScroll" "35"
+	"framerate" "0"
+	"framestart" "0"
+	"StrikeTime" "1"
+	"damage" "0"
+	"TouchType" "0"
+	"targetname" "teleseq_&i_X"
+	"spawnflags" "2"
+	"LightningStart" "teleseq_&i_X"
+	"origin" "-22.0402 24.9594 52"
+	editor
+	{
+		"color" "204 93 82"
+		"visgroupid" "16"
+	}
+}
+entity
+{
+	"id" "443939"
+	"classname" "ambient_generic"
+	"health" "6"
+	"preset" "0"
+	"volstart" "0"
+	"fadein" "0"
+	"fadeout" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"spinup" "0"
+	"spindown" "0"
+	"lfotype" "0"
+	"lforate" "0"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"cspinup" "0"
+	"radius" "1250"
+	"targetname" "tesla_crawls_sound_&i"
+	"message" "k_lab.mini_teleport_arcs"
+	"spawnflags" "48"
+	"origin" "-2.04044 2.95932 108"
+	editor
+	{
+		"color" "204 93 82"
+		"visgroupid" "16"
+	}
+}
+cameras
+{
+	"activecamera" "7"
+	camera
+	{
+		"position" "[14.7285 1516.91 25.5707]"
+		"look" "[72.3854 1389.82 8.32129]"
+	}
+	camera
+	{
+		"position" "[-218.226 -1003.69 204.281]"
+		"look" "[-282.141 -927.516 179.803]"
+	}
+	camera
+	{
+		"position" "[474.483 211.166 74.1803]"
+		"look" "[477.686 212.816 179.059]"
+	}
+	camera
+	{
+		"position" "[1349.35 -1953.87 -82.4864]"
+		"look" "[1349.35 -1953.87 -272.835]"
+	}
+	camera
+	{
+		"position" "[496.616 -2627.71 -146.54]"
+		"look" "[480.556 -2629.06 -227.037]"
+	}
+	camera
+	{
+		"position" "[1172.98 -2893.2 91.2042]"
+		"look" "[1065.75 -3350.27 23.8444]"
+	}
+	camera
+	{
+		"position" "[1040.23 -2676.1 22.6325]"
+		"look" "[1049.54 -2676.7 -279.838]"
+	}
+	camera
+	{
+		"position" "[-3919.34 -62.1345 123.686]"
+		"look" "[-4142.13 8.54066 7.65912]"
+	}
+	camera
+	{
+		"position" "[385.504 -2616.84 -169.097]"
+		"look" "[378.637 -2616.77 -325.107]"
+	}
+	camera
+	{
+		"position" "[613.809 -900.641 83.997]"
+		"look" "[770.209 -1038.44 64.2256]"
+	}
+	camera
+	{
+		"position" "[277.751 45.9476 103.134]"
+		"look" "[316.536 72.6235 91.8148]"
+	}
+}
+cordon
+{
+	"mins" "(-600 -3504 -1136)"
+	"maxs" "(2744 -144 816)"
+	"active" "0"
+}

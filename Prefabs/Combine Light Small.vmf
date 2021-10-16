@@ -1,0 +1,126 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8845"
+	"mapversion" "30"
+	"formatversion" "100"
+	"prefab" "1"
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "8"
+}
+world
+{
+	"id" "5163"
+	"mapversion" "30"
+	"classname" "worldspawn"
+	"chaptertitlenomessage" "1"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+	"vscriptlanguage_client" "-2"
+	group
+	{
+		"id" "5164"
+		editor
+		{
+			"color" "108 193 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "5165"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableselfshadowing" "0"
+	"disablevertexlighting" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"model" "models/props_combine/combine_light001a.mdl"
+	"screenspacefade" "0"
+	"skin" "2"
+	"solid" "6"
+	"spawnflags" "0"
+	"origin" "0 8 4"
+	editor
+	{
+		"color" "108 193 0"
+		"groupid" "5164"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 5000]"
+	}
+}
+entity
+{
+	"id" "5169"
+	"classname" "point_spotlight"
+	"angles" "0 90 0"
+	"HDRColorScale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "185 220 255"
+	"spawnflags" "1"
+	"spotlightlength" "500"
+	"spotlightwidth" "50"
+	"origin" "0 18 39"
+	editor
+	{
+		"color" "108 193 0"
+		"groupid" "5164"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 6000]"
+	}
+}
+entity
+{
+	"id" "5174"
+	"classname" "ambient_generic"
+	"health" "2"
+	"message" "k_lab.ambient_powergenerators"
+	"pitch" "100"
+	"pitchstart" "100"
+	"radius" "320"
+	"spawnflags" "0"
+	"origin" "0 24 32"
+	editor
+	{
+		"color" "108 193 0"
+		"groupid" "5164"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "5177"
+	"classname" "light_spot"
+	"_cone" "35"
+	"_exponent" "1"
+	"_inner_cone" "20"
+	"_light" "185 220 255 180"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"angles" "0 90 0"
+	"pitch" "0"
+	"origin" "0 24 40"
+	editor
+	{
+		"color" "108 193 0"
+		"groupid" "5164"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}

@@ -1,0 +1,109 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "2663"
+	"mapversion" "2"
+	"prefab" "0"
+}
+viewsettings
+{
+	"bSnapToGrid" "0"
+	"bShowGrid" "1"
+	"nGridSpacing" "8"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1606"
+	"mapversion" "2"
+	"classname" "worldspawn"
+	"skyname" "sky_wasteland02"
+}
+entity
+{
+	"id" "1"
+	"classname" "npc_citizen"
+	"angles" "0 270 0"
+	"renderfx" "0"
+	"rendermode" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"disableshadows" "0"
+	"disablereceiveshadows" "0"
+	"hintlimiting" "0"
+	"physdamagescale" "1.0"
+	"additionalequipment" "0"
+	"ammosupply" "SMG1"
+	"ammoamount" "1"
+	"model" "models/humans/male_09.mdl"
+	"spawnflags" "1048706"
+	"targetname" "npc_apartment_citizenchair&i"
+	"origin" "-0.0768776 -1 0.999998"
+	editor
+	{
+		"color" "0 200 200"
+	}
+}
+entity
+{
+	"id" "3"
+	"classname" "scripted_sequence"
+	"angles" "0 270 0"
+	"m_flRadius" "0"
+	"m_flRepeat" "0"
+	"m_fMoveTo" "4"
+	"mindxlevel" "0"
+	"maxdxlevel" "0"
+	"m_iszEntity" "npc_apartment_citizenchair&i"
+	"m_iszIdle" "sitchair1"
+	"spawnflags" "624"
+	"targetname" "script_apartment_citizenchair&i"
+	"origin" "-0.0768776 0 0.999998"
+	editor
+	{
+		"color" "255 0 255"
+	}
+}
+entity
+{
+	"id" "6"
+	"classname" "prop_physics"
+	"model" "models/props_c17/Furniturechair001a.mdl"
+	"angles" "0 270 0"
+	"skin" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"pressuredelay" "0"
+	"minhealthdmg" "0"
+	"shadowcastdist" "0"
+	"physdamagescale" "0.1"
+	"Damagetype" "0"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"damagetoenablemotion" "0"
+	"forcetoenablemotion" "0"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"spawnflags" "8"
+	"origin" "-0.0768776 1 19.9038"
+	editor
+	{
+		"color" "220 30 220"
+	}
+}
+cameras
+{
+	"activecamera" "0"
+	camera
+	{
+		"position" "[53.4017 -41.9104 80.6083]"
+		"look" "[-260.105 205.107 -114.06]"
+	}
+}
+cordon
+{
+	"mins" "(99999 99999 99999)"
+	"maxs" "(-99999 -99999 -99999)"
+	"active" "0"
+}

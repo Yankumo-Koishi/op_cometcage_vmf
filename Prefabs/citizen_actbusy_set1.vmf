@@ -1,0 +1,407 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "2623"
+	"mapversion" "2"
+	"prefab" "0"
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"nGridSpacing" "8"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1842"
+	"mapversion" "2"
+	"classname" "worldspawn"
+	"skyname" "sky_wasteland02"
+	solid
+	{
+		"id" "1"
+		side
+		{
+			"id" "1"
+			"plane" "(-72 104 0) (-8 104 0) (-8 104 80)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 32] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2"
+			"plane" "(-8 104 0) (-72 104 0) (-72 88 0)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 32] 0.25"
+			"vaxis" "[0 1 0 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3"
+			"plane" "(-8 88 0) (-72 88 0) (-72 88 80)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 32] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(-72 104 80) (-8 104 80) (-8 88 80)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 32] 0.25"
+			"vaxis" "[0 -1 0 -96] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(-72 88 80) (-72 88 0) (-72 104 0)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[0 -1 0 -32] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(-8 104 80) (-8 104 0) (-8 88 0)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[0 1 0 32] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 241 114"
+		}
+	}
+	solid
+	{
+		"id" "13"
+		side
+		{
+			"id" "13"
+			"plane" "(136 104 0) (136 44 0) (136 44 80)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[0 1 0 80] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14"
+			"plane" "(120 104 0) (120 44 0) (136 44 0)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[0 1 0 80] 0.25"
+			"vaxis" "[1 0 0 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "15"
+			"plane" "(120 44 0) (120 104 0) (120 104 80)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[0 1 0 80] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "16"
+			"plane" "(136 104 80) (136 44 80) (120 44 80)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[0 1 0 80] 0.25"
+			"vaxis" "[-1 0 0 -96] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "17"
+			"plane" "(120 104 80) (120 104 0) (136 104 0)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "18"
+			"plane" "(136 44 80) (136 44 0) (120 44 0)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[-1 0 0 -32] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 213 250"
+		}
+	}
+	solid
+	{
+		"id" "14"
+		side
+		{
+			"id" "19"
+			"plane" "(136 8 0) (136 -52 0) (136 -52 80)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[0 1 0 80] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "20"
+			"plane" "(120 8 0) (120 -52 0) (136 -52 0)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[0 1 0 80] 0.25"
+			"vaxis" "[1 0 0 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "21"
+			"plane" "(120 -52 0) (120 8 0) (120 8 80)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[0 1 0 80] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "22"
+			"plane" "(136 8 80) (136 -52 80) (120 -52 80)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[0 1 0 80] 0.25"
+			"vaxis" "[-1 0 0 -96] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "23"
+			"plane" "(120 8 80) (120 8 0) (136 8 0)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "24"
+			"plane" "(136 -52 80) (136 -52 0) (120 -52 0)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[-1 0 0 -32] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 137 158"
+		}
+	}
+}
+entity
+{
+	"id" "5"
+	"classname" "info_node_hint"
+	"nodeid" "259"
+	"angles" "0 270 0"
+	"hinttype" "12"
+	"StartHintDisabled" "0"
+	"hintactivity" "ACT_BUSY_SIT_GROUND"
+	"targetname" "hint_citizenactbusy%i_crouch1"
+	"TargetNode" "-1"
+	"Group" "hints_citizenactbusy%i"
+	"origin" "-40 71 5"
+	editor
+	{
+		"color" "232 219 8"
+	}
+}
+entity
+{
+	"id" "7"
+	"classname" "info_node"
+	"nodeid" "3"
+	"targetname" "hint_cop_threaten_1"
+	"origin" "24 16 4"
+	editor
+	{
+		"color" "232 219 8"
+	}
+}
+entity
+{
+	"id" "9"
+	"classname" "npc_citizen"
+	"targetname" "npc_citizenactbusy%i_citizen1"
+	"angles" "0 155 0"
+	"renderfx" "0"
+	"rendermode" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"disableshadows" "0"
+	"disablereceiveshadows" "0"
+	"hintlimiting" "0"
+	"physdamagescale" "1.0"
+	"additionalequipment" "0"
+	"ammosupply" "SMG1"
+	"ammoamount" "1"
+	"model" "models/humans/male_01.mdl"
+	"spawnflags" "1310720"
+	"squadname" "suppress_warning"
+	"hintgroup" "hints_citizenactbusy%i"
+	"origin" "24 16 7.60213"
+	editor
+	{
+		"color" "0 200 200"
+	}
+}
+entity
+{
+	"id" "11"
+	"classname" "info_node_hint"
+	"nodeid" "260"
+	"angles" "0 270 0"
+	"hinttype" "12"
+	"StartHintDisabled" "0"
+	"hintactivity" "ACT_BUSY_LEAN_LEFT"
+	"targetname" "hint_citizenactbusy%i_lean1"
+	"TargetNode" "-1"
+	"Group" "hints_citizenactbusy%i"
+	"origin" "106 76 4"
+	editor
+	{
+		"color" "232 219 8"
+	}
+}
+entity
+{
+	"id" "15"
+	"classname" "info_node_hint"
+	"nodeid" "258"
+	"angles" "0 180 0"
+	"hinttype" "12"
+	"StartHintDisabled" "0"
+	"hintactivity" "ACT_BUSY_LEAN_BACK"
+	"targetname" "hint_citizenactbusy%i_back1"
+	"TargetNode" "-1"
+	"Group" "hints_citizenactbusy%i"
+	"origin" "107 -20 4"
+	editor
+	{
+		"color" "232 219 8"
+	}
+}
+entity
+{
+	"id" "17"
+	"classname" "ai_goal_actbusy"
+	"actor" "npc_citizenactbusy%i_citizen1"
+	"targetname" "actbusy_citizenactbusy%i_1"
+	"StartActive" "1"
+	"busysearchrange" "9999"
+	"visibleonly" "0"
+	"origin" "24 -56 39.6021"
+	editor
+	{
+		"color" "220 30 220"
+	}
+}
+entity
+{
+	"id" "19"
+	"classname" "info_node_hint"
+	"nodeid" "216"
+	"angles" "0 90 0"
+	"hinttype" "12"
+	"StartHintDisabled" "0"
+	"hintactivity" "ACT_BUSY_SIT_CHAIR"
+	"targetname" "hint_citizenactbusy%i_sit_chair1"
+	"TargetNode" "-1"
+	"Group" "hints_citizenactbusy%i"
+	"origin" "-17.3235 -59.002 5.60212"
+	editor
+	{
+		"color" "232 219 8"
+	}
+}
+entity
+{
+	"id" "21"
+	"classname" "prop_physics"
+	"angles" "0 90 0"
+	"model" "models/props_trainstation/bench_indoor001a.mdl"
+	"skin" "0"
+	"disableshadows" "0"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"pressuredelay" "0"
+	"minhealthdmg" "0"
+	"shadowcastdist" "0"
+	"physdamagescale" "0.1"
+	"Damagetype" "0"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"damagetoenablemotion" "0"
+	"forcetoenablemotion" "0"
+	"spawnflags" "8"
+	"origin" "-19.1635 -88.5416 18.6021"
+	editor
+	{
+		"color" "220 30 220"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordon
+{
+	"mins" "(99999 99999 99999)"
+	"maxs" "(-99999 -99999 -99999)"
+	"active" "0"
+}

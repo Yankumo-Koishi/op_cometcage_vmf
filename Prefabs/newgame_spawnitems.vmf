@@ -1,0 +1,152 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "2536"
+	"mapversion" "136"
+	"prefab" "0"
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"nGridSpacing" "1"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "675742"
+	"mapversion" "136"
+	"classname" "worldspawn"
+	"skyname" "sky_quarry03"
+	"sounds" "1"
+	"MaxRange" "32768"
+	group
+	{
+		"id" "1598"
+		editor
+		{
+			"color" "220 220 220"
+		}
+	}
+}
+entity
+{
+	"id" "7393"
+	"classname" "logic_auto"
+	"spawnflags" "1"
+	connections
+	{
+		"OnNewGame" "global_newgame_entmaker,ForceSpawn,,0,-1"
+	}
+	"origin" "24 1 9"
+	editor
+	{
+		"color" "220 30 220"
+	}
+}
+entity
+{
+	"id" "7395"
+	"classname" "point_template"
+	"targetname" "global_newgame_template"
+	"Template01" "global_newgame_spawner_suit"
+	"Template02" "global_newgame_spawner_crowbar"
+	"Template03" "global_newgame_spawner_pistol"
+	"origin" "48 1 9"
+	editor
+	{
+		"color" "220 30 220"
+	}
+}
+entity
+{
+	"id" "7397"
+	"classname" "weapon_crowbar"
+	"angles" "0 30 0"
+	"targetname" "global_newgame_spawner_crowbar"
+	"origin" "36.8173 17.7136 2.81702"
+	editor
+	{
+		"color" "0 0 200"
+	}
+}
+entity
+{
+	"id" "7399"
+	"classname" "weapon_pistol"
+	"angles" "0 195 0"
+	"targetname" "global_newgame_spawner_pistol"
+	"origin" "32.8173 -10.2864 6.29498"
+	editor
+	{
+		"color" "0 0 200"
+	}
+}
+entity
+{
+	"id" "7401"
+	"classname" "item_suit"
+	"angles" "0 180 0"
+	"targetname" "global_newgame_spawner_suit"
+	"origin" "48 1 9"
+	editor
+	{
+		"color" "0 0 200"
+	}
+}
+entity
+{
+	"id" "7403"
+	"classname" "env_entity_maker"
+	"angles" "0 0 0"
+	"targetname" "global_newgame_entmaker"
+	"EntityTemplate" "global_newgame_template"
+	"spawnflags" "0"
+	"origin" "0 1 8.80798"
+	editor
+	{
+		"color" "220 30 220"
+	}
+}
+entity
+{
+	"id" "7405"
+	"classname" "info_player_start"
+	"angles" "0 0 0"
+	"spawnflags" "1"
+	"origin" "0 1 0"
+	editor
+	{
+		"color" "0 255 0"
+	}
+}
+cameras
+{
+	"activecamera" "3"
+	camera
+	{
+		"position" "[851.182 -224.55 210.043]"
+		"look" "[827.533 -455.295 139.145]"
+	}
+	camera
+	{
+		"position" "[704 -460 124]"
+		"look" "[704 -464 124]"
+	}
+	camera
+	{
+		"position" "[764.445 -251.455 353.214]"
+		"look" "[774.923 -264.12 338.454]"
+	}
+	camera
+	{
+		"position" "[-33.7824 -71.1337 114.759]"
+		"look" "[33.29 25.3132 32.036]"
+	}
+}
+cordon
+{
+	"mins" "(99999 99999 99999)"
+	"maxs" "(-99999 -99999 -99999)"
+	"active" "0"
+}

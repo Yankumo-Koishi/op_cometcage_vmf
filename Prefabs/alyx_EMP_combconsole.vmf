@@ -1,0 +1,239 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "3110"
+	"mapversion" "8"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+	visgroup
+	{
+		"name" "Auto"
+		"visgroupid" "1"
+		"color" "117 234 83"
+		visgroup
+		{
+			"name" "Entities"
+			"visgroupid" "2"
+			"color" "238 167 196"
+		}
+	}
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"nGridSpacing" "8"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "8"
+	"classname" "worldspawn"
+	"skyname" "sky_wasteland02"
+	"maxpropscreenwidth" "-1"
+}
+entity
+{
+	"id" "4"
+	"classname" "env_alyxemp"
+	"targetname" "sprite_alyx_EMP_MAIN_&i"
+	"parentname" "alyx"
+	"angles" "0 0 0"
+	"Type" "0"
+	"origin" "24 0 52"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupid" "2"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "34"
+	"classname" "logic_choreographed_scene"
+	"busyactor" "0"
+	"targetname" "al_EMP_combconsole_&i"
+	"SceneFile" "scenes/episode_1/al_EMP_combconsole.vcd"
+	"target2" "mark_al_combconsole_&i"
+	"target1" "mark_al_look_EMP_&i"
+	connections
+	{
+		"OnTrigger1" "logic_alyx_EMP_&i,Trigger,,0,-1"
+		"OnStart" "alyx,StartScripting,,0,-1"
+		"OnCompletion" "alyx,StopScripting,,0,-1"
+		"OnStart" "sprite_alyx_EMP_MAIN_&i,SetParentAttachment,emp,2.1,-1"
+		"OnStart" "sprite_alyx_EMP_MAIN_&i,SetParent,alyx,2,-1"
+	}
+	"origin" "24 0 120"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupid" "2"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "42"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "logic_alyx_EMP_&i"
+	connections
+	{
+		"OnTrigger" "sprite_alyx_EMP_MAIN_&i,Stop,0,1,-1"
+		"OnTrigger" "sprite_alyx_EMP_MAIN_&i,StartCharge,.5,0,-1"
+		"OnTrigger" "spark_alyx_EMP_&i,SparkOnce,,0.5,-1"
+		"OnTrigger" "sprite_combconsole_&i,ShowSprite,,1.5,-1"
+		"OnTrigger" "sound_combconsole_&i,PlaySound,,1.6,-1"
+		"OnTrigger" "sprite_combconsole_&i,HideSprite,,2.3,-1"
+		"OnTrigger" "sprite_alyx_EMP_MAIN_&i,StartDischarge,,0.5,-1"
+		"OnTrigger" "sprite_alyx_EMP_MAIN_&i,SetTargetEnt,mark_al_look_EMP_&i,0,-1"
+	}
+	"origin" "24 0 104"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "2"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "47"
+	"classname" "env_spark"
+	"targetname" "spark_alyx_EMP_&i"
+	"angles" "0 0 0"
+	"MaxDelay" "0"
+	"Magnitude" "2"
+	"TrailLength" "1"
+	"spawnflags" "128"
+	"origin" "5 7 46.3601"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "2"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "49"
+	"classname" "info_target"
+	"targetname" "mark_al_look_EMP_&i"
+	"angles" "0 0 0"
+	"origin" "5 7 46.3601"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "2"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "55"
+	"classname" "ambient_generic"
+	"targetname" "sound_combconsole_&i"
+	"health" "10"
+	"preset" "0"
+	"volstart" "0"
+	"fadein" "0"
+	"fadeout" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"spinup" "0"
+	"spindown" "0"
+	"lfotype" "0"
+	"lforate" "0"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"cspinup" "0"
+	"radius" "1250"
+	"message" "d1_trainstation_01.combinelock_unlock"
+	"spawnflags" "48"
+	"origin" "5.43994 8 40"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "2"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "58"
+	"classname" "env_sprite"
+	"renderfx" "0"
+	"rendermode" "5"
+	"renderamt" "255"
+	"rendercolor" "54 255 32"
+	"disablereceiveshadows" "0"
+	"mindxlevel" "0"
+	"maxdxlevel" "0"
+	"framerate" "10.0"
+	"model" "materials/Sprites/light_glow03.vmt"
+	"scale" ".08"
+	"targetname" "sprite_combconsole_&i"
+	"spawnflags" "0"
+	"GlowProxySize" "2.0"
+	"origin" "4.43994 20 46.3601"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupid" "2"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "489"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "mark_al_combconsole_&i"
+	"origin" "36 8 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "2"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "526"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"skin" "0"
+	"disableshadows" "0"
+	"mindxlevel" "0"
+	"maxdxlevel" "0"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"solid" "0"
+	"screenspacefade" "0"
+	"model" "models/props_combine/combine_interface003.mdl"
+	"fadescale" "1"
+	"origin" "4 0 0"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupid" "2"
+		"visgroupshown" "1"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordon
+{
+	"mins" "(99999 99999 99999)"
+	"maxs" "(-99999 -99999 -99999)"
+	"active" "0"
+}

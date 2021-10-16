@@ -1,0 +1,268 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "3172"
+	"mapversion" "102"
+	"formatversion" "100"
+	"prefab" "1"
+}
+world
+{
+	"id" "40450"
+	"mapversion" "102"
+	"classname" "worldspawn"
+	"skyname" "sky_wasteland02"
+	"maxpropscreenwidth" "-1"
+	solid
+	{
+		"id" "40452"
+		side
+		{
+			"id" "1612"
+			"plane" "(3278.05 -1284 169.227) (3270.74 -1302.69 169.163) (3252.05 -1310 169)"
+			"material" "METAL/CITADEL_METALWALL077A"
+			"uaxis" "[-1 0 -0.00872789 61.6115] 0.25"
+			"vaxis" "[0 -1 0 -312] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1613"
+			"plane" "(3233.37 -1265.31 167.837) (3226.06 -1284 167.773) (3233.37 -1302.69 167.837)"
+			"material" "METAL/CITADEL_METALWALL077A"
+			"uaxis" "[-1 0 -0.00872789 61.6115] 0.25"
+			"vaxis" "[0 -1 0 -312] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1614"
+			"plane" "(3233.37 -1265.31 168.837) (3233.37 -1265.31 167.837) (3252.06 -1258 168)"
+			"material" "METAL/CITADEL_METALWALL077A"
+			"uaxis" "[-1 0 -0.00872789 61.6115] 0.25"
+			"vaxis" "[-0.00872789 0 1 -130.453] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1615"
+			"plane" "(3226.05 -1284 168.773) (3226.06 -1284 167.773) (3233.37 -1265.31 167.837)"
+			"material" "METAL/CITADEL_METALWALL077A"
+			"uaxis" "[0 1 0 312] 0.25"
+			"vaxis" "[-0.00872789 0 1 -130.453] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1616"
+			"plane" "(3233.37 -1302.69 168.837) (3233.37 -1302.69 167.837) (3226.06 -1284 167.773)"
+			"material" "METAL/CITADEL_METALWALL077A"
+			"uaxis" "[0 1 0 277] 0.25"
+			"vaxis" "[-0.00872789 0 1 -106.453] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1617"
+			"plane" "(3252.05 -1310 169) (3252.06 -1310 168) (3233.37 -1302.69 167.837)"
+			"material" "METAL/CITADEL_METALWALL077A"
+			"uaxis" "[-1 0 -0.00872789 -69.986] 0.2"
+			"vaxis" "[-0.00872789 0 1 -354.066] 0.2"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1618"
+			"plane" "(3270.74 -1302.69 169.163) (3270.75 -1302.69 168.163) (3252.06 -1310 168)"
+			"material" "METAL/CITADEL_METALWALL077A"
+			"uaxis" "[-1 0 -0.00872789 -113.986] 0.2"
+			"vaxis" "[-0.00872789 0 1 -85.0663] 0.2"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1619"
+			"plane" "(3278.05 -1284 169.227) (3278.06 -1284 168.227) (3270.75 -1302.69 168.163)"
+			"material" "METAL/CITADEL_METALWALL077A"
+			"uaxis" "[0 1 0 312] 0.25"
+			"vaxis" "[-0.00872789 0 1 -130.453] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1620"
+			"plane" "(3270.74 -1265.31 169.163) (3270.75 -1265.31 168.163) (3278.06 -1284 168.227)"
+			"material" "METAL/CITADEL_METALWALL077A"
+			"uaxis" "[0 1 0 -127] 0.2"
+			"vaxis" "[-0.00872789 0 1 -362.066] 0.2"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1621"
+			"plane" "(3252.05 -1258 169) (3252.06 -1258 168) (3270.75 -1265.31 168.163)"
+			"material" "METAL/CITADEL_METALWALL077A"
+			"uaxis" "[-1 0 -0.00872789 61.6115] 0.25"
+			"vaxis" "[-0.00872789 0 1 -130.453] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 190 139"
+			"groupid" "40451"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "40453"
+		side
+		{
+			"id" "1622"
+			"plane" "(3279.94 -1284 182.244) (3272.06 -1304.13 182.175) (3251.94 -1312 182)"
+			"material" "METAL/CITADEL_METALWALL077A"
+			"uaxis" "[-1 0 -0.00872789 69.6116] 0.25"
+			"vaxis" "[0 -1 0 -320] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1623"
+			"plane" "(3231.93 -1263.88 168.825) (3224.05 -1284 168.756) (3231.93 -1304.13 168.825)"
+			"material" "METAL/CITADEL_METALWALL077A"
+			"uaxis" "[-1 0 -0.00872789 69.6116] 0.25"
+			"vaxis" "[0 -1 0 -320] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1624"
+			"plane" "(3231.81 -1263.88 181.824) (3231.93 -1263.88 168.825) (3252.05 -1256 169)"
+			"material" "METAL/CITADEL_METALWALL077A"
+			"uaxis" "[-1 0 -0.00872789 69.6116] 0.25"
+			"vaxis" "[-0.00872789 0 1 -182.453] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1625"
+			"plane" "(3223.94 -1284 181.755) (3224.05 -1284 168.756) (3231.93 -1263.88 168.825)"
+			"material" "METAL/CITADEL_METALWALL077A"
+			"uaxis" "[0 1 0 320] 0.25"
+			"vaxis" "[-0.00872789 0 1 -182.453] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1626"
+			"plane" "(3231.81 -1304.13 181.824) (3231.93 -1304.13 168.825) (3224.05 -1284 168.756)"
+			"material" "METAL/CITADEL_METALWALL077A"
+			"uaxis" "[0 1 0 285] 0.25"
+			"vaxis" "[-0.00872789 0 1 -158.453] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1627"
+			"plane" "(3251.94 -1312 182) (3252.05 -1312 169) (3231.93 -1304.13 168.825)"
+			"material" "METAL/CITADEL_METALWALL077A"
+			"uaxis" "[-1 0 -0.00872789 -59.9861] 0.2"
+			"vaxis" "[-0.00872789 0 1 -419.066] 0.2"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1628"
+			"plane" "(3272.06 -1304.13 182.175) (3272.18 -1304.13 169.176) (3252.05 -1312 169)"
+			"material" "METAL/CITADEL_METALWALL077A"
+			"uaxis" "[-1 0 -0.00872789 -103.986] 0.2"
+			"vaxis" "[-0.00872789 0 1 -150.066] 0.2"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1629"
+			"plane" "(3279.94 -1284 182.244) (3280.05 -1284 169.245) (3272.18 -1304.13 169.176)"
+			"material" "METAL/CITADEL_METALWALL077A"
+			"uaxis" "[0 1 0 320] 0.25"
+			"vaxis" "[-0.00872789 0 1 -182.453] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1630"
+			"plane" "(3272.06 -1263.88 182.175) (3272.18 -1263.88 169.176) (3280.05 -1284 169.245)"
+			"material" "METAL/CITADEL_METALWALL077A"
+			"uaxis" "[0 1 0 -117] 0.2"
+			"vaxis" "[-0.00872789 0 1 -427.066] 0.2"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1631"
+			"plane" "(3251.94 -1256 182) (3252.05 -1256 169) (3272.18 -1263.88 169.176)"
+			"material" "METAL/CITADEL_METALWALL077A"
+			"uaxis" "[-1 0 -0.00872789 69.6116] 0.25"
+			"vaxis" "[-0.00872789 0 1 -182.453] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 190 139"
+			"groupid" "40451"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "40451"
+		editor
+		{
+			"color" "0 190 139"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}

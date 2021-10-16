@@ -1,0 +1,900 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "2778"
+	"mapversion" "84"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+	visgroup
+	{
+		"name" "Auto"
+		"visgroupid" "1"
+		"color" "204 189 210"
+		visgroup
+		{
+			"name" "Entities"
+			"visgroupid" "2"
+			"color" "193 166 143"
+		}
+	}
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"nGridSpacing" "16"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "0"
+	"mapversion" "84"
+	"classname" "worldspawn"
+	"skyname" "sky_wasteland02"
+	"maxpropscreenwidth" "-1"
+	solid
+	{
+		"id" "1426"
+		side
+		{
+			"id" "13"
+			"plane" "(-64 48 -16) (-64 -64 -16) (0 -64 -16)"
+			"material" "DEV/DEV_MEASURECRATE01"
+			"uaxis" "[1 0 0 168.259] 0.27"
+			"vaxis" "[0 -1 0 6.14286] 0.28"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14"
+			"plane" "(-64 -64 -16) (-64 48 -16) (-64 48 0)"
+			"material" "DEV/DEV_MEASURECRATE01"
+			"uaxis" "[0 0 1 -151.741] 0.27"
+			"vaxis" "[0 -1 0 6.14286] 0.28"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "15"
+			"plane" "(0 48 0) (0 48 -16) (0 -64 -16)"
+			"material" "DEV/DEV_MEASURECRATE01"
+			"uaxis" "[0 0 -1 -14.2592] 0.27"
+			"vaxis" "[0 -1 0 6.14286] 0.28"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "16"
+			"plane" "(-64 48 0) (-64 48 -16) (0 48 -16)"
+			"material" "DEV/DEV_MEASURECRATE01"
+			"uaxis" "[1 0 0 168.259] 0.27"
+			"vaxis" "[0 0 1 0.142857] 0.28"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "17"
+			"plane" "(-64 -64 0) (-64 48 0) (0 48 0)"
+			"material" "DEV/DEV_MEASURECRATE01"
+			"uaxis" "[1 0 0 168.259] 0.27"
+			"vaxis" "[0 -1 0 6.14286] 0.28"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "18"
+			"plane" "(0 -64 0) (0 -64 -16) (-64 -64 -16)"
+			"material" "DEV/DEV_MEASURECRATE01"
+			"uaxis" "[1 0 0 168.259] 0.27"
+			"vaxis" "[0 0 -1 -114.143] 0.28"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 220 220"
+			"visgroupshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "1427"
+		side
+		{
+			"id" "19"
+			"plane" "(16 -64 112) (16 48 112) (16 48 -16)"
+			"material" "DEV/DEV_MEASURECRATE01"
+			"uaxis" "[0 1 0 -11.733] 0.267857"
+			"vaxis" "[0 0 -1 -113.778] 0.28125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "20"
+			"plane" "(0 48 112) (0 48 -16) (16 48 -16)"
+			"material" "DEV/DEV_MEASURECRATE01"
+			"uaxis" "[1 0 0 195.765] 0.265625"
+			"vaxis" "[0 0 -1 -113.778] 0.28125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "21"
+			"plane" "(0 -64 112) (16 -64 112) (16 -64 -16)"
+			"material" "DEV/DEV_MEASURECRATE01"
+			"uaxis" "[1 0 0 195.765] 0.265625"
+			"vaxis" "[0 0 -1 -113.778] 0.28125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "22"
+			"plane" "(0 48 -16) (0 -64 -16) (16 -64 -16)"
+			"material" "DEV/DEV_MEASURECRATE01"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 -88] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "23"
+			"plane" "(0 48 112) (0 -64 112) (0 -64 -16)"
+			"material" "DEV/DEV_MEASURECRATE01"
+			"uaxis" "[0 1 0 88] 0.25"
+			"vaxis" "[0 0 -1 -64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "24"
+			"plane" "(0 -64 112) (0 48 112) (16 48 112)"
+			"material" "DEV/DEV_MEASURECRATE01"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 -88] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 220 220"
+			"visgroupshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "1428"
+	"classname" "prop_physics_override"
+	"angles" "0 180 0"
+	"mindxlevel" "0"
+	"maxdxlevel" "0"
+	"skin" "0"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"model" "models/props_combine/combine_interface002.mdl"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"pressuredelay" "0"
+	"minhealthdmg" "0"
+	"shadowcastdist" "0"
+	"physdamagescale" "0.1"
+	"Damagetype" "0"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"damagetoenablemotion" "0"
+	"forcetoenablemotion" "500000"
+	"health" "0"
+	"spawnflags" "72"
+	"overridescript" "mass,500"
+	"targetname" "console&i_console"
+	connections
+	{
+		"OnPhysGunPickup" "relay_console&i_start_pull,Trigger,,0,-1"
+		"OnPhysGunDrop" "relay_console&i_start_pull,CancelPending,,0,-1"
+	}
+	"origin" "-28.1201 0.283722 0.27002"
+	editor
+	{
+		"color" "0 144 245"
+		"visgroupid" "2"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "1432"
+	"classname" "env_spark"
+	"angles" "0 0 0"
+	"Magnitude" "1"
+	"TrailLength" "1"
+	"spawnflags" "128"
+	"targetname" "console&i_sparks"
+	"parentname" "console&i_console"
+	"origin" "-2 11.5888 39"
+	editor
+	{
+		"color" "0 144 245"
+		"visgroupid" "2"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "1434"
+	"classname" "env_explosion"
+	"iMagnitude" "80"
+	"iRadiusOverride" "0"
+	"fireballsprite" "sprites/zerogxplode.spr"
+	"rendermode" "5"
+	"spawnflags" "101"
+	"targetname" "console&i_explosion"
+	"origin" "-1 -6 32"
+	editor
+	{
+		"color" "0 144 245"
+		"visgroupid" "2"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "1436"
+	"classname" "logic_timer"
+	"StartDisabled" "1"
+	"LowerRandomBound" "0.4"
+	"UpperRandomBound" "2"
+	"UseRandomTime" "1"
+	"targetname" "timer_console&i_spark"
+	"spawnflags" "0"
+	connections
+	{
+		"OnTimer" "console&i_sparks,SparkOnce,,0,-1"
+	}
+	"origin" "-48 -54 32"
+	editor
+	{
+		"color" "0 144 245"
+		"visgroupid" "2"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "1438"
+	"classname" "env_spark"
+	"angles" "0 0 0"
+	"Magnitude" "1"
+	"TrailLength" "1"
+	"spawnflags" "128"
+	"targetname" "console&i_wall_sparks"
+	"origin" "-1 10 37"
+	editor
+	{
+		"color" "0 144 245"
+		"visgroupid" "2"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "1440"
+	"classname" "logic_timer"
+	"StartDisabled" "1"
+	"LowerRandomBound" "0.4"
+	"UpperRandomBound" "2"
+	"UseRandomTime" "1"
+	"targetname" "timer_console&i_wall_spark"
+	"spawnflags" "0"
+	connections
+	{
+		"OnTimer" "console&i_wall_sparks,SparkOnce,,0,-1"
+	}
+	"origin" "-48 -54 48"
+	editor
+	{
+		"color" "0 144 245"
+		"visgroupid" "2"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "1442"
+	"classname" "env_spark"
+	"angles" "0 0 0"
+	"Magnitude" "1"
+	"TrailLength" "1"
+	"spawnflags" "128"
+	"targetname" "console&i_monitor_wall_sparks"
+	"origin" "-1 10 89"
+	editor
+	{
+		"color" "0 144 245"
+		"visgroupid" "2"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "1444"
+	"classname" "logic_timer"
+	"StartDisabled" "1"
+	"LowerRandomBound" "0.4"
+	"UpperRandomBound" "2"
+	"UseRandomTime" "1"
+	"targetname" "timer_console&i_monitor_wall_spark"
+	"spawnflags" "0"
+	connections
+	{
+		"OnTimer" "console&i_monitor_wall_sparks,SparkOnce,,0,-1"
+	}
+	"origin" "-48 -54 112"
+	editor
+	{
+		"color" "0 144 245"
+		"visgroupid" "2"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "1446"
+	"classname" "logic_timer"
+	"StartDisabled" "1"
+	"LowerRandomBound" "0.4"
+	"UpperRandomBound" "2"
+	"UseRandomTime" "1"
+	"targetname" "timer_console&i_monitor_spark"
+	"spawnflags" "0"
+	connections
+	{
+		"OnTimer" "console&i_monitor_sparks,SparkOnce,,0,-1"
+	}
+	"origin" "-48 -54 96"
+	editor
+	{
+		"color" "0 144 245"
+		"visgroupid" "2"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "1448"
+	"classname" "env_spark"
+	"angles" "0 0 0"
+	"Magnitude" "1"
+	"TrailLength" "1"
+	"spawnflags" "128"
+	"targetname" "console&i_monitor_sparks"
+	"parentname" "console&i_monitor"
+	"origin" "-4 -13.1632 90"
+	editor
+	{
+		"color" "0 144 245"
+		"visgroupid" "2"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "1450"
+	"classname" "prop_physics_override"
+	"angles" "0 180 0"
+	"mindxlevel" "0"
+	"maxdxlevel" "0"
+	"skin" "0"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"model" "models/props_combine/combine_intmonitor001.mdl"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"pressuredelay" "0"
+	"minhealthdmg" "0"
+	"shadowcastdist" "0"
+	"physdamagescale" "0.1"
+	"Damagetype" "0"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"damagetoenablemotion" "0"
+	"forcetoenablemotion" "500000"
+	"health" "0"
+	"spawnflags" "72"
+	"overridescript" "mass,500"
+	"targetname" "console&i_monitor"
+	connections
+	{
+		"OnPhysGunPickup" "relay_console&i_monitor_start_pull,Trigger,,0,-1"
+		"OnPhysGunDrop" "relay_console&i_monitor_start_pull,CancelPending,,0,-1"
+	}
+	"origin" "-11.1201 1.28372 56"
+	editor
+	{
+		"color" "0 144 245"
+		"visgroupid" "2"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "1454"
+	"classname" "env_explosion"
+	"iMagnitude" "80"
+	"iRadiusOverride" "0"
+	"fireballsprite" "sprites/zerogxplode.spr"
+	"rendermode" "5"
+	"spawnflags" "101"
+	"targetname" "console&i_monitor_explosion"
+	"origin" "-2 -6 96"
+	editor
+	{
+		"color" "0 144 245"
+		"visgroupid" "2"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "1456"
+	"classname" "logic_relay"
+	"targetname" "relay_console&i_monitor_start_fx"
+	"spawnflags" "0"
+	connections
+	{
+		"OnTrigger" "console&i_monitor_explosion,Explode,,0,-1"
+		"OnTrigger" "console&i_monitor_sparks,StartSpark,,0,-1"
+		"OnTrigger" "timer_console&i_monitor_wall_spark,Enable,,0,-1"
+		"OnTrigger" "timer_console&i_monitor_spark,Enable,,0,-1"
+		"OnTrigger" "console&i_monitor_sparks,StopSpark,,2,-1"
+		"OnTrigger" "relay_console&i_monitor_stop_fx,Trigger,,10,-1"
+		"OnTrigger" "console&i_monitor,Skin,1,0,-1"
+	}
+	"origin" "-32 -54 112"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "2"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "1458"
+	"classname" "phys_ballsocket"
+	"forcelimit" "0"
+	"torquelimit" "0"
+	"breaksound" "Breakable.Metal"
+	"spawnflags" "0"
+	"attach2" "console&i_monitor"
+	"targetname" "socket_console&i_monitor1"
+	"origin" "-1 -22 90"
+	editor
+	{
+		"color" "220 220 220"
+		"visgroupid" "2"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "1460"
+	"classname" "phys_ballsocket"
+	"forcelimit" "0"
+	"torquelimit" "0"
+	"breaksound" "Breakable.Metal"
+	"spawnflags" "0"
+	"attach2" "console&i_monitor"
+	"targetname" "socket_console&i_monitor2"
+	"origin" "-1 10 64"
+	editor
+	{
+		"color" "220 220 220"
+		"visgroupid" "2"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "1462"
+	"classname" "logic_relay"
+	"StartDisabled" "0"
+	"targetname" "relay_console&i_monitor_start_pull"
+	"spawnflags" "2"
+	connections
+	{
+		"OnTrigger" "force_console&i_monitor1,Explode,,0.5,-1"
+		"OnTrigger" "force_console&i_monitor2,Explode,,0.6,-1"
+		"OnTrigger" "force_console&i_monitor2,Explode,,0.3,-1"
+		"OnTrigger" "force_console&i_monitor1,Explode,,0.4,-1"
+		"OnTrigger" "relay_console&i_monitor_destroyed,Trigger,,0.6,-1"
+		"OnTrigger" "force_console&i_monitor1,Explode,,0,-1"
+		"OnTrigger" "force_console&i_monitor2,Explode,,0.1,-1"
+		"OnTrigger" "force_console&i_monitor1,Explode,,0.25,-1"
+		"OnTrigger" "shake_console&i_monitor,StartShake,,0,-1"
+		"OnTrigger" "sound_console&i_monitor_strain,PlaySound,,0,-1"
+	}
+	"origin" "-16 -54 112"
+	editor
+	{
+		"color" "220 220 220"
+		"visgroupid" "2"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "1464"
+	"classname" "logic_relay"
+	"StartDisabled" "0"
+	"targetname" "relay_console&i_monitor_destroyed"
+	"spawnflags" "2"
+	connections
+	{
+		"OnTrigger" "socket_console&i_monitor1,Break,,0,-1"
+		"OnTrigger" "socket_console&i_monitor2,Break,,0.3,-1"
+		"OnTrigger" "relay_console&i_monitor_start_pull,Disable,,0,-1"
+		"OnTrigger" "relay_console&i_monitor_destroyed,Disable,,0,-1"
+		"OnTrigger" "relay_console&i_monitor_start_fx,Trigger,,0.31,-1"
+	}
+	"origin" "-16 -54 96"
+	editor
+	{
+		"color" "220 220 220"
+		"visgroupid" "2"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "1466"
+	"classname" "env_physexplosion"
+	"magnitude" "80"
+	"targetname" "force_console&i_monitor1"
+	"spawnflags" "1"
+	"radius" "128"
+	"targetentityname" "console&i_monitor"
+	"origin" "-1 10 96"
+	editor
+	{
+		"color" "220 220 220"
+		"visgroupid" "2"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "1469"
+	"classname" "env_physexplosion"
+	"magnitude" "80"
+	"targetname" "force_console&i_monitor2"
+	"spawnflags" "1"
+	"radius" "128"
+	"targetentityname" "console&i_monitor"
+	"origin" "-1 -22 66"
+	editor
+	{
+		"color" "220 220 220"
+		"visgroupid" "2"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "1472"
+	"classname" "env_shake"
+	"targetname" "shake_console&i_monitor"
+	"amplitude" "2"
+	"radius" "200"
+	"duration" "1"
+	"frequency" "2.5"
+	"spawnflags" "0"
+	"origin" "-7 0 87"
+	editor
+	{
+		"color" "220 220 220"
+		"visgroupid" "2"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "1475"
+	"classname" "ambient_generic"
+	"targetname" "sound_console&i_monitor_strain"
+	"radius" "1250"
+	"health" "10"
+	"preset" "0"
+	"volstart" "0"
+	"fadein" "0"
+	"fadeout" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"spinup" "0"
+	"spindown" "0"
+	"lfotype" "0"
+	"lforate" "0"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"cspinup" "0"
+	"message" "SolidMetal.Strain"
+	"spawnflags" "48"
+	"SourceEntityName" "console&i_monitor"
+	"origin" "-16 -54 80"
+	editor
+	{
+		"color" "220 220 220"
+		"visgroupid" "2"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "1478"
+	"classname" "logic_relay"
+	"targetname" "relay_console&i_monitor_stop_fx"
+	"spawnflags" "0"
+	connections
+	{
+		"OnTrigger" "console&i_monitor_wall_sparks,Kill,,0,-1"
+		"OnTrigger" "timer_console&i_monitor_spark,Kill,,0,-1"
+		"OnTrigger" "timer_console&i_monitor_wall_spark,Kill,,0,-1"
+		"OnTrigger" "console&i_monitor_sparks,Kill,,0,-1"
+	}
+	"origin" "-32 -54 96"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "2"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "1480"
+	"classname" "logic_relay"
+	"StartDisabled" "0"
+	"targetname" "relay_console&i_start_pull"
+	"spawnflags" "2"
+	connections
+	{
+		"OnTrigger" "force_console&i_1,Explode,,0.5,-1"
+		"OnTrigger" "force_console&i_2,Explode,,0.6,-1"
+		"OnTrigger" "force_console&i_2,Explode,,0.3,-1"
+		"OnTrigger" "force_console&i_1,Explode,,0.4,-1"
+		"OnTrigger" "relay_console&i_destroyed,Trigger,,0.6,-1"
+		"OnTrigger" "force_console&i_1,Explode,,0,-1"
+		"OnTrigger" "force_console&i_2,Explode,,0.1,-1"
+		"OnTrigger" "force_console&i_1,Explode,,0.25,-1"
+		"OnTrigger" "shake_console&i,StartShake,,0,-1"
+		"OnTrigger" "sound_console&i_strain,PlaySound,,0,-1"
+	}
+	"origin" "-16 -54 48"
+	editor
+	{
+		"color" "220 220 220"
+		"visgroupid" "2"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "1482"
+	"classname" "logic_relay"
+	"StartDisabled" "0"
+	"targetname" "relay_console&i_destroyed"
+	"spawnflags" "2"
+	connections
+	{
+		"OnTrigger" "socket_console&i_1,Break,,0,-1"
+		"OnTrigger" "socket_console&i_2,Break,,0.3,-1"
+		"OnTrigger" "relay_console&i_start_pull,Disable,,0,-1"
+		"OnTrigger" "relay_console&i_destroyed,Disable,,0,-1"
+		"OnTrigger" "relay_console&i_start_fx,Trigger,,0.31,-1"
+	}
+	"origin" "-16 -54 32"
+	editor
+	{
+		"color" "220 220 220"
+		"visgroupid" "2"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "1484"
+	"classname" "ambient_generic"
+	"targetname" "sound_console&i_strain"
+	"radius" "1250"
+	"health" "10"
+	"preset" "0"
+	"volstart" "0"
+	"fadein" "0"
+	"fadeout" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"spinup" "0"
+	"spindown" "0"
+	"lfotype" "0"
+	"lforate" "0"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"cspinup" "0"
+	"message" "SolidMetal.Strain"
+	"spawnflags" "48"
+	"SourceEntityName" "console&i_console"
+	"origin" "-16 -54 16"
+	editor
+	{
+		"color" "220 220 220"
+		"visgroupid" "2"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "1487"
+	"classname" "logic_relay"
+	"targetname" "relay_console&i_start_fx"
+	"spawnflags" "0"
+	connections
+	{
+		"OnTrigger" "console&i_explosion,Explode,,0,-1"
+		"OnTrigger" "console&i_sparks,StartSpark,,0,-1"
+		"OnTrigger" "timer_console&i_wall_spark,Enable,,0,-1"
+		"OnTrigger" "timer_console&i_spark,Enable,,0,-1"
+		"OnTrigger" "console&i_sparks,StopSpark,,2,-1"
+		"OnTrigger" "relay_console&i_stop_fx,Trigger,,10,-1"
+		"OnTrigger" "console&i_console,Skin,1,0,-1"
+	}
+	"origin" "-32 -54 48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "2"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "1489"
+	"classname" "logic_relay"
+	"targetname" "relay_console&i_stop_fx"
+	"spawnflags" "0"
+	connections
+	{
+		"OnTrigger" "console&i_wall_sparks,Kill,,0,-1"
+		"OnTrigger" "timer_console&i_spark,Kill,,0,-1"
+		"OnTrigger" "timer_console&i_wall_spark,Kill,,0,-1"
+		"OnTrigger" "console&i_sparks,Kill,,0,-1"
+	}
+	"origin" "-32 -54 32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "2"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "1491"
+	"classname" "phys_ballsocket"
+	"forcelimit" "0"
+	"torquelimit" "0"
+	"breaksound" "Breakable.Metal"
+	"spawnflags" "0"
+	"attach2" "console&i_console"
+	"targetname" "socket_console&i_1"
+	"origin" "-1 26 42"
+	editor
+	{
+		"color" "220 220 220"
+		"visgroupid" "2"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "1493"
+	"classname" "phys_ballsocket"
+	"forcelimit" "0"
+	"torquelimit" "0"
+	"breaksound" "Breakable.Metal"
+	"spawnflags" "0"
+	"attach2" "console&i_console"
+	"targetname" "socket_console&i_2"
+	"origin" "-1 -22 16"
+	editor
+	{
+		"color" "220 220 220"
+		"visgroupid" "2"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "1495"
+	"classname" "env_physexplosion"
+	"magnitude" "80"
+	"targetname" "force_console&i_1"
+	"spawnflags" "1"
+	"radius" "128"
+	"targetentityname" "console&i_console"
+	"origin" "-1 -6 48"
+	editor
+	{
+		"color" "220 220 220"
+		"visgroupid" "2"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "1498"
+	"classname" "env_physexplosion"
+	"magnitude" "80"
+	"targetname" "force_console&i_2"
+	"spawnflags" "1"
+	"radius" "128"
+	"targetentityname" "console&i_console"
+	"origin" "-1 10 18"
+	editor
+	{
+		"color" "220 220 220"
+		"visgroupid" "2"
+		"visgroupshown" "1"
+	}
+}
+entity
+{
+	"id" "1501"
+	"classname" "env_shake"
+	"targetname" "shake_console&i"
+	"amplitude" "2"
+	"radius" "200"
+	"duration" "1"
+	"frequency" "2.5"
+	"spawnflags" "0"
+	"origin" "-16 -6 38"
+	editor
+	{
+		"color" "220 220 220"
+		"visgroupid" "2"
+		"visgroupshown" "1"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordon
+{
+	"mins" "(99999 99999 99999)"
+	"maxs" "(-99999 -99999 -99999)"
+	"active" "0"
+}

@@ -1,0 +1,127 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8849"
+	"mapversion" "7"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "4"
+}
+world
+{
+	"id" "1"
+	"mapversion" "7"
+	"classname" "worldspawn"
+	"chaptertitlenomessage" "1"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+	"vscriptlanguage_client" "-2"
+}
+entity
+{
+	"id" "2"
+	"classname" "env_sprite"
+	"framerate" "10.0"
+	"GlowProxySize" "4"
+	"HDRColorScale" "1.0"
+	"model" "sprites/light_glow02.vmt"
+	"renderamt" "255"
+	"rendercolor" "181 216 251 350"
+	"rendermode" "9"
+	"scale" "0.5"
+	"origin" "-15.6396 0 4.82837"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 14500]"
+	}
+}
+entity
+{
+	"id" "6"
+	"classname" "light_spot"
+	"_cone" "45"
+	"_constant_attn" ".5"
+	"_distance" "0"
+	"_exponent" "1"
+	"_fifty_percent_distance" "0"
+	"_hardfalloff" "0"
+	"_inner_cone" "30"
+	"_light" "181 216 251 300"
+	"_lightHDR" "181 216 251 250"
+	"_lightscaleHDR" "1"
+	"_linear_attn" ".25"
+	"_quadratic_attn" "2"
+	"_zero_percent_distance" "0"
+	"angles" "-30 0 0"
+	"pitch" "-30"
+	"spawnflags" "0"
+	"style" "0"
+	"origin" "-7.63965 0 0.828369"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 13000]"
+	}
+}
+entity
+{
+	"id" "13"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_c17/light_cagelight02_on.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-19.6396 0 8.82837"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 12500]"
+	}
+}
+entity
+{
+	"id" "17"
+	"classname" "light"
+	"_constant_attn" ".5"
+	"_light" "181 216 251 30"
+	"_lightHDR" "181 216 251 25"
+	"_lightscaleHDR" "1"
+	"_linear_attn" ".25"
+	"_quadratic_attn" "2"
+	"origin" "12.3604 0 0.828369"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 13000]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}
