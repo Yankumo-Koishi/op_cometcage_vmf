@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8849"
-	"mapversion" "6364"
+	"mapversion" "6365"
 	"formatversion" "100"
 	"prefab" "1"
 }
@@ -16,7 +16,7 @@ viewsettings
 world
 {
 	"id" "95970"
-	"mapversion" "6364"
+	"mapversion" "6365"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -36,7 +36,7 @@ entity
 	"_quadratic_attn" "1"
 	"_zero_percent_distance" "2048"
 	"spawnflags" "0"
-	"origin" "0 -28 -16"
+	"origin" "0 -28 0"
 	editor
 	{
 		"color" "220 30 220"

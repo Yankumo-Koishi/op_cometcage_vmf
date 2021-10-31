@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8849"
-	"mapversion" "1"
+	"mapversion" "2"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,12 +14,12 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "64"
+	"nGridSpacing" "4"
 }
 world
 {
 	"id" "1"
-	"mapversion" "1"
+	"mapversion" "2"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -52,7 +52,7 @@ entity
 	"origin" "-7.31445 0 -3.24805"
 	editor
 	{
-		"color" "234 203 0"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 9000]"
@@ -69,12 +69,12 @@ entity
 	"_lightHDR" "136 202 238 300"
 	"_lightscaleHDR" "1"
 	"_quadratic_attn" "1"
-	"angles" "0 180 0"
-	"pitch" "0"
+	"angles" "30 180 0"
+	"pitch" "30"
 	"origin" "-11.3145 0 -3.24805"
 	editor
 	{
-		"color" "234 203 0"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 9000]"
@@ -93,7 +93,7 @@ entity
 	"origin" "0 0 -19.248"
 	editor
 	{
-		"color" "234 203 0"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 8000]"
@@ -109,10 +109,10 @@ entity
 	"_lightscaleHDR" "1"
 	"_quadratic_attn" "1"
 	"_zero_percent_distance" "160"
-	"origin" "-43.3145 0 -3.24805"
+	"origin" "-44 0 0"
 	editor
 	{
-		"color" "234 203 0"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 9000]"

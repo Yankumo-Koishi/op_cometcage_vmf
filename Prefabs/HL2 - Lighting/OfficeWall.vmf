@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8849"
-	"mapversion" "6313"
+	"mapversion" "6314"
 	"formatversion" "100"
 	"prefab" "1"
 }
@@ -16,7 +16,7 @@ viewsettings
 world
 {
 	"id" "92578"
-	"mapversion" "6313"
+	"mapversion" "6314"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -36,7 +36,7 @@ entity
 	"model" "models/props_silo/wall_light.mdl"
 	"skin" "0"
 	"solid" "0"
-	"origin" "0 32 0"
+	"origin" "0 4 0"
 	editor
 	{
 		"color" "255 255 0"
@@ -58,7 +58,7 @@ entity
 	"OuterMaxDist" "1024"
 	"rendercolor" "96 96 96"
 	"VerticalGlowSize" "10"
-	"origin" "0 26 0"
+	"origin" "0 -2 0"
 	editor
 	{
 		"color" "255 128 0"
@@ -83,7 +83,7 @@ entity
 	"angles" "0 270 90"
 	"pitch" "0"
 	"spawnflags" "0"
-	"origin" "0 26 0"
+	"origin" "0 -2 0"
 	editor
 	{
 		"color" "220 30 220"
@@ -103,7 +103,7 @@ entity
 	"_quadratic_attn" "1"
 	"_zero_percent_distance" "2048"
 	"spawnflags" "0"
-	"origin" "0 0 0"
+	"origin" "0 -28 0"
 	editor
 	{
 		"color" "220 30 220"
