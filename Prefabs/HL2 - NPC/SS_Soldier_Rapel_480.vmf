@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8372"
-	"mapversion" "6632"
+	"editorbuild" "8849"
+	"mapversion" "6633"
 	"formatversion" "100"
 	"prefab" "1"
 }
@@ -12,93 +12,18 @@ viewsettings
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
 	"nGridSpacing" "64"
-	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "74469"
-	"mapversion" "6632"
+	"mapversion" "6633"
 	"classname" "worldspawn"
+	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
 	"maxpropscreenwidth" "-1"
 	"skyname" "sky_day01_01"
-	solid
-	{
-		"id" "74476"
-		side
-		{
-			"id" "6"
-			"plane" "(-64 64 480) (64 64 480) (64 -64 480)"
-			"material" "DEV/DEV_MEASUREGENERIC01B"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "5"
-			"plane" "(-64 -64 464) (64 -64 464) (64 64 464)"
-			"material" "DEV/DEV_MEASUREGENERIC01B"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "4"
-			"plane" "(-64 64 480) (-64 -64 480) (-64 -64 464)"
-			"material" "DEV/DEV_MEASUREGENERIC01B"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[0 0 -1 32] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "3"
-			"plane" "(64 64 464) (64 -64 464) (64 -64 480)"
-			"material" "DEV/DEV_MEASUREGENERIC01B"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 32] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2"
-			"plane" "(64 64 480) (-64 64 480) (-64 64 464)"
-			"material" "DEV/DEV_MEASUREGENERIC01B"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 32] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1"
-			"plane" "(64 -64 464) (-64 -64 464) (-64 -64 480)"
-			"material" "DEV/DEV_MEASUREGENERIC01B"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 32] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 215 104"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
+	"vscriptlanguage_client" "-2"
 	solid
 	{
 		"id" "74483"
@@ -106,6 +31,13 @@ world
 		{
 			"id" "12"
 			"plane" "(-64 64 560) (64 64 560) (64 -64 560)"
+			vertices_plus
+			{
+				"v" "-64 -64 560"
+				"v" "-64 64 560"
+				"v" "64 64 560"
+				"v" "64 -64 560"
+			}
 			"material" "TOOLS/TOOLSSKIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -117,6 +49,13 @@ world
 		{
 			"id" "11"
 			"plane" "(-64 -64 0) (64 -64 0) (64 64 0)"
+			vertices_plus
+			{
+				"v" "-64 64 0"
+				"v" "-64 -64 0"
+				"v" "64 -64 0"
+				"v" "64 64 0"
+			}
 			"material" "TOOLS/TOOLSSKIP"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -128,6 +67,13 @@ world
 		{
 			"id" "10"
 			"plane" "(-64 64 560) (-64 -64 560) (-64 -64 0)"
+			vertices_plus
+			{
+				"v" "-64 -64 0"
+				"v" "-64 64 0"
+				"v" "-64 64 560"
+				"v" "-64 -64 560"
+			}
 			"material" "TOOLS/TOOLSSKIP"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -139,6 +85,13 @@ world
 		{
 			"id" "9"
 			"plane" "(64 64 0) (64 -64 0) (64 -64 560)"
+			vertices_plus
+			{
+				"v" "64 64 0"
+				"v" "64 -64 0"
+				"v" "64 -64 560"
+				"v" "64 64 560"
+			}
 			"material" "TOOLS/TOOLSSKIP"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -150,6 +103,13 @@ world
 		{
 			"id" "8"
 			"plane" "(64 64 560) (-64 64 560) (-64 64 0)"
+			vertices_plus
+			{
+				"v" "-64 64 0"
+				"v" "64 64 0"
+				"v" "64 64 560"
+				"v" "-64 64 560"
+			}
 			"material" "TOOLS/TOOLSSKIP"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -161,6 +121,13 @@ world
 		{
 			"id" "7"
 			"plane" "(64 -64 0) (-64 -64 0) (-64 -64 560)"
+			vertices_plus
+			{
+				"v" "64 -64 0"
+				"v" "-64 -64 0"
+				"v" "-64 -64 560"
+				"v" "64 -64 560"
+			}
 			"material" "TOOLS/TOOLSSKIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -182,11 +149,15 @@ entity
 	"classname" "npc_combine_s"
 	"additionalequipment" "weapon_smg1"
 	"angles" "0 0 0"
+	"BaseSpeedModifier" "1.0"
+	"FriendlyFireOverride" "2"
 	"model" "models/combine_soldier.mdl"
 	"NumGrenades" "5"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
+	"SetDynamicInteractions" "2"
+	"SetProficiencyOverride" "-1"
 	"sleepstate" "3"
 	"spawnflags" "516"
 	"targetname" "pf_SS_Soldier_Rapel_480_&i_soldier"

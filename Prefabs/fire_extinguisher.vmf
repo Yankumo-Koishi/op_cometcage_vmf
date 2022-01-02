@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8849"
-	"mapversion" "10"
+	"mapversion" "14"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -19,7 +19,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "10"
+	"mapversion" "14"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -32,15 +32,15 @@ entity
 {
 	"id" "368"
 	"classname" "trigger_hurt"
-	"damage" "10"
+	"damage" "20"
 	"damagecap" "20"
 	"damagemodel" "0"
 	"damageor" "0"
 	"damagepresets" "0"
-	"damagetype" "0"
+	"damagetype" "128"
 	"hurtrate" "0.5"
 	"nodmgforce" "0"
-	"origin" "32 0 0.62"
+	"origin" "35.11 0 0.62"
 	"spawnflags" "3"
 	"StartDisabled" "1"
 	"targetname" "fireextinguisher_01_hurt"
@@ -50,13 +50,13 @@ entity
 		side
 		{
 			"id" "67"
-			"plane" "(60 12 14.6167) (60 -12 14.6167) (4 -4 6.61667)"
+			"plane" "(4 12 16) (84 12 16) (84 -12 16)"
 			vertices_plus
 			{
-				"v" "60 12 14.6167"
-				"v" "60 -12 14.6167"
-				"v" "4 -4 6.61667"
-				"v" "4 4 6.61667"
+				"v" "4 12 16"
+				"v" "84 12 16"
+				"v" "84 -12 16"
+				"v" "4 -12 16"
 			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 16] 0.25"
@@ -68,13 +68,13 @@ entity
 		side
 		{
 			"id" "68"
-			"plane" "(60 -12 -13.3833) (60 12 -13.3833) (4 4 -5.38333)"
+			"plane" "(4 -12 -16) (84 -12 -16) (84 12 -16)"
 			vertices_plus
 			{
-				"v" "60 -12 -13.3833"
-				"v" "60 12 -13.3833"
-				"v" "4 4 -5.38333"
-				"v" "4 -4 -5.38333"
+				"v" "4 -12 -16"
+				"v" "84 -12 -16"
+				"v" "84 12 -16"
+				"v" "4 12 -16"
 			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 16] 0.25"
@@ -86,13 +86,13 @@ entity
 		side
 		{
 			"id" "69"
-			"plane" "(4 -4 6.61667) (4 -4 -5.38333) (4 4 -5.38333)"
+			"plane" "(4 12 16) (4 -12 16) (4 -12 -16)"
 			vertices_plus
 			{
-				"v" "4 -4 6.61667"
-				"v" "4 -4 -5.38333"
-				"v" "4 4 -5.38333"
-				"v" "4 4 6.61667"
+				"v" "4 12 16"
+				"v" "4 -12 16"
+				"v" "4 -12 -16"
+				"v" "4 12 -16"
 			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -104,13 +104,13 @@ entity
 		side
 		{
 			"id" "70"
-			"plane" "(60 -12 -13.3833) (60 -12 14.6167) (60 12 14.6167)"
+			"plane" "(84 12 -16) (84 -12 -16) (84 -12 16)"
 			vertices_plus
 			{
-				"v" "60 -12 -13.3833"
-				"v" "60 -12 14.6167"
-				"v" "60 12 14.6167"
-				"v" "60 12 -13.3833"
+				"v" "84 12 -16"
+				"v" "84 -12 -16"
+				"v" "84 -12 16"
+				"v" "84 12 16"
 			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -122,13 +122,13 @@ entity
 		side
 		{
 			"id" "71"
-			"plane" "(4 4 6.61667) (4 4 -5.38333) (60 12 -13.3833)"
+			"plane" "(84 12 16) (4 12 16) (4 12 -16)"
 			vertices_plus
 			{
-				"v" "4 4 6.61667"
-				"v" "4 4 -5.38333"
-				"v" "60 12 -13.3833"
-				"v" "60 12 14.6167"
+				"v" "84 12 16"
+				"v" "4 12 16"
+				"v" "4 12 -16"
+				"v" "84 12 -16"
 			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 16] 0.25"
@@ -140,13 +140,13 @@ entity
 		side
 		{
 			"id" "72"
-			"plane" "(4 -4 -5.38333) (4 -4 6.61667) (60 -12 14.6167)"
+			"plane" "(84 -12 -16) (4 -12 -16) (4 -12 16)"
 			vertices_plus
 			{
-				"v" "4 -4 -5.38333"
-				"v" "4 -4 6.61667"
-				"v" "60 -12 14.6167"
-				"v" "60 -12 -13.3833"
+				"v" "84 -12 -16"
+				"v" "4 -12 -16"
+				"v" "4 -12 16"
+				"v" "84 -12 16"
 			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 16] 0.25"
@@ -175,7 +175,7 @@ entity
 	"id" "371"
 	"classname" "info_particle_system"
 	"angles" "0 0 0"
-	"effect_name" "steam_jet_50"
+	"effect_name" "steam_jet_80_steam"
 	"targetname" "fireextinguisher_01_vfx"
 	"origin" "0 0 1.31686"
 	editor
@@ -239,11 +239,11 @@ entity
 		"OnBreak" "fireextinguisher_01_hurt,Enable,,0,-1"
 		"OnBreak" "fireextinguisher_01_snd,PlaySound,,0,-1"
 		"OnBreak" "fireextinguisher_01_vfx,Start,,0,-1"
-		"OnBreak" "fireextinguisher_01_hurt,Disable,,5,-1"
-		"OnBreak" "fireextinguisher_01_snd,StopSound,,5,-1"
-		"OnBreak" "fireextinguisher_01_vfx,Stop,,5,-1"
+		"OnBreak" "fireextinguisher_01_hurt,Disable,,15,-1"
+		"OnBreak" "fireextinguisher_01_snd,StopSound,,15,-1"
+		"OnBreak" "fireextinguisher_01_vfx,Stop,,15,-1"
 		"OnBreak" "fireextinguisher_01_npcsnd,EmitAISound,,0,-1"
-		"OnBreak" "fireextinguisher_01_npcsnd,EmitAISound,,0,-1"
+		"OnBreak" "fireextinguisher_01_npcsnd,Kill,,15,-1"
 	}
 	solid
 	{
@@ -394,7 +394,7 @@ entity
 {
 	"id" "447"
 	"classname" "ai_sound"
-	"duration" "0.5"
+	"duration" "15"
 	"soundtype" "8"
 	"targetname" "fireextinguisher_01_npcsnd"
 	"volume" "120"

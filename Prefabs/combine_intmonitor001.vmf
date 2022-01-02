@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8849"
-	"mapversion" "5"
+	"mapversion" "7"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -19,7 +19,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "5"
+	"mapversion" "7"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -28,28 +28,31 @@ world
 	"skyname" "sky_day01_01"
 	"vscriptlanguage_client" "-2"
 }
-entity
+hidden
 {
-	"id" "2"
-	"classname" "light_spot"
-	"_cone" "45"
-	"_constant_attn" "0"
-	"_exponent" "1"
-	"_inner_cone" "30"
-	"_light" "110 180 245 150"
-	"_lightHDR" "110 180 245 150"
-	"_lightscaleHDR" "1"
-	"_linear_attn" "0"
-	"_quadratic_attn" "1"
-	"angles" "-20 0 0"
-	"pitch" "-20"
-	"origin" "4 3.8147e-06 -2.07336"
-	editor
+	entity
 	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
+		"id" "2"
+		"classname" "light_spot"
+		"_cone" "45"
+		"_constant_attn" "0"
+		"_exponent" "1"
+		"_inner_cone" "30"
+		"_light" "110 180 245 150"
+		"_lightHDR" "110 180 245 150"
+		"_lightscaleHDR" "1"
+		"_linear_attn" "0"
+		"_quadratic_attn" "1"
+		"angles" "-20 0 0"
+		"pitch" "-20"
+		"origin" "4 3.8147e-06 -2.07336"
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 500]"
+		}
 	}
 }
 entity
@@ -93,14 +96,14 @@ entity
 	"id" "28"
 	"classname" "env_sprite"
 	"framerate" "10.0"
-	"GlowProxySize" "2.0"
+	"GlowProxySize" "4"
 	"HDRColorScale" "1.0"
 	"model" "sprites/light_glow02.vmt"
 	"renderamt" "255"
 	"rendercolor" "110 180 245"
 	"rendermode" "9"
-	"scale" "1"
-	"origin" "4 0 -4"
+	"scale" "1.25"
+	"origin" "-4 0 -4"
 	editor
 	{
 		"color" "20 140 20"
@@ -116,4 +119,8 @@ cameras
 cordons
 {
 	"active" "0"
+}
+quickhide
+{
+	"count" "7"
 }
