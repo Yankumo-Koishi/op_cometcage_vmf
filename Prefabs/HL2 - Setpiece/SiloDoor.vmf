@@ -1,95 +1,88 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8157"
-	"mapversion" "8049"
+	"editorbuild" "8857"
+	"mapversion" "8050"
 	"formatversion" "100"
 	"prefab" "1"
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "64"
+}
+palette_plus
+{
+	"color0" "255 255 255"
+	"color1" "255 255 255"
+	"color2" "255 255 255"
+	"color3" "255 255 255"
+	"color4" "255 255 255"
+	"color5" "255 255 255"
+	"color6" "255 255 255"
+	"color7" "255 255 255"
+	"color8" "255 255 255"
+	"color9" "255 255 255"
+	"color10" "255 255 255"
+	"color11" "255 255 255"
+	"color12" "255 255 255"
+	"color13" "255 255 255"
+	"color14" "255 255 255"
+	"color15" "255 255 255"
+}
+light_plus
+{
+	"samples_sun" "6"
+	"samples_ambient" "40"
+	"samples_vis" "256"
+	"texlight" ""
+	"incremental_delay" "0"
+	"bake_dist" "1024"
+	"radius_scale" "1"
+	"brightness_scale" "1"
+	"ao_scale" "0"
+	"bounced" "1"
+	"incremental" "1"
+	"supersample" "0"
+	"bleed_hack" "1"
+	"soften_cosine" "0"
+	"debug" "0"
+	"cubemap" "1"
+	"hdr" "0"
 }
 world
 {
 	"id" "83541"
-	"mapversion" "8049"
+	"mapversion" "8050"
 	"classname" "worldspawn"
-	"skyname" "sky_day01_01"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
+	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
-	solid
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+	"vscriptlanguage_client" "-2"
+}
+entity
+{
+	"id" "83549"
+	"classname" "logic_branch"
+	"targetname" "pf_SiloDoor_&i_branch"
+	connections
 	{
-		"id" "83551"
-		side
-		{
-			"id" "6"
-			"plane" "(-48 32 124) (48 32 124) (48 -32 124)"
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "5"
-			"plane" "(-48 -32 0) (48 -32 0) (48 32 0)"
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "4"
-			"plane" "(-48 32 124) (-48 -32 124) (-48 -32 0)"
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "3"
-			"plane" "(48 32 0) (48 -32 0) (48 -32 124)"
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2"
-			"plane" "(48 32 124) (-48 32 124) (-48 32 0)"
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1"
-			"plane" "(48 -32 0) (-48 -32 0) (-48 -32 124)"
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 102 203"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
+		"OnTrue" "pf_SiloDoor_&i_door,Open,,0.8,-1"
+		"OnTrue" "pf_SiloDoor_&i_prop,SetAnimation,unlock,0,-1"
+		"OnFalse" "pf_SiloDoor_&i_prop,SetAnimation,lock,1.6,-1"
+		"OnFalse" "pf_SiloDoor_&i_door,Close,,0.1,-1"
+	}
+	"origin" "0 -20 12"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
 	}
 }
 entity
@@ -172,6 +165,13 @@ entity
 		{
 			"id" "31468"
 			"plane" "(-48 2 124) (48 2 124) (48 -2 124)"
+			vertices_plus
+			{
+				"v" "-48 -2 124"
+				"v" "-48 2 124"
+				"v" "48 2 124"
+				"v" "48 -2 124"
+			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 24] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -182,7 +182,14 @@ entity
 		side
 		{
 			"id" "31467"
-			"plane" "(-48 -2 -3.7091e-007) (48 -2 -3.7091e-007) (48 2 -3.7091e-007)"
+			"plane" "(-48 -2 -3.7091e-07) (48 -2 -3.7091e-07) (48 2 -3.7091e-07)"
+			vertices_plus
+			{
+				"v" "-48 2 0"
+				"v" "-48 -2 0"
+				"v" "48 -2 0"
+				"v" "48 2 0"
+			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 -24] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -193,7 +200,14 @@ entity
 		side
 		{
 			"id" "31466"
-			"plane" "(-48 2 124) (-48 -2 124) (-48 -2 -3.7091e-007)"
+			"plane" "(-48 2 124) (-48 -2 124) (-48 -2 -3.7091e-07)"
+			vertices_plus
+			{
+				"v" "-48 -2 0"
+				"v" "-48 2 0"
+				"v" "-48 2 124"
+				"v" "-48 -2 124"
+			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -204,7 +218,14 @@ entity
 		side
 		{
 			"id" "31465"
-			"plane" "(48 2 -3.7091e-007) (48 -2 -3.7091e-007) (48 -2 124)"
+			"plane" "(48 2 -3.7091e-07) (48 -2 -3.7091e-07) (48 -2 124)"
+			vertices_plus
+			{
+				"v" "48 2 0"
+				"v" "48 -2 0"
+				"v" "48 -2 124"
+				"v" "48 2 124"
+			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -215,7 +236,14 @@ entity
 		side
 		{
 			"id" "31464"
-			"plane" "(48 2 124) (-48 2 124) (-48 2 -3.7091e-007)"
+			"plane" "(48 2 124) (-48 2 124) (-48 2 -3.7091e-07)"
+			vertices_plus
+			{
+				"v" "-48 2 0"
+				"v" "48 2 0"
+				"v" "48 2 124"
+				"v" "-48 2 124"
+			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 -24] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -226,7 +254,14 @@ entity
 		side
 		{
 			"id" "31463"
-			"plane" "(48 -2 -3.7091e-007) (-48 -2 -3.7091e-007) (-48 -2 124)"
+			"plane" "(48 -2 -3.7091e-07) (-48 -2 -3.7091e-07) (-48 -2 124)"
+			vertices_plus
+			{
+				"v" "48 -2 0"
+				"v" "-48 -2 0"
+				"v" "-48 -2 124"
+				"v" "48 -2 124"
+			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 24] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -247,26 +282,5 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4000]"
-	}
-}
-entity
-{
-	"id" "83549"
-	"classname" "logic_branch"
-	"targetname" "pf_SiloDoor_&i_branch"
-	connections
-	{
-		"OnTrue" "pf_SiloDoor_&i_door,Open,,0.8,-1"
-		"OnTrue" "pf_SiloDoor_&i_prop,SetAnimation,unlock,0,-1"
-		"OnFalse" "pf_SiloDoor_&i_prop,SetAnimation,lock,1.6,-1"
-		"OnFalse" "pf_SiloDoor_&i_door,Close,,0.1,-1"
-	}
-	"origin" "0 -20 12"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 4500]"
 	}
 }
