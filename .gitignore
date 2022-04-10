@@ -8,3 +8,650 @@ d3_c17_07.vmf
 op_c1_01_planb.vmf
 op_c1_01_planb.vmf
 op_c1_01_planb.vmf
+Old Version/Instances/crate_spawn.vmf
+Old Version/Instances/dead_slump_zombie.vmf
+Old Version/Instances/door_spawn.vmf
+Old Version/Instances/outland_building_large_01.vmf
+Old Version/Instances/outland_building_medium_01.vmf
+Old Version/Instances/outland_building_medium_02.vmf
+Old Version/Instances/spawn_player_with_items.vmf
+Old Version/Instances/spawn_zombie_slump_a.vmf
+Old Version/Instances/spawn_zombie_slump_b.vmf
+Old Version/Instances/spawner_combine_and_manhack_squads_radius.vmf
+Old Version/Instances/spawner_combine_squads_radius.vmf
+Old Version/Instances/spawner_headcrabs_single.vmf
+Old Version/Instances/spawner_resupply_crate.vmf
+Old Version/Instances/spawner_zombies_radius.vmf
+Old Version/L4D2 Instance/breakwall_generic.vmf
+Old Version/L4D2 Instance/c1_displaycar.vmf
+Old Version/L4D2 Instance/c1_mall_counter_long.vmf
+Old Version/L4D2 Instance/c1m1_environment_ents.vmf
+Old Version/L4D2 Instance/c1m2_environment_ents.vmf
+Old Version/L4D2 Instance/c1m3_environment_ents.vmf
+Old Version/L4D2 Instance/c1m4_environment_ents.vmf
+Old Version/L4D2 Instance/c2m1_environment_ents.vmf
+Old Version/L4D2 Instance/c2m2_environment_ents.vmf
+Old Version/L4D2 Instance/c2m3_environment_ents.vmf
+Old Version/L4D2 Instance/c2m4_environment_ents.vmf
+Old Version/L4D2 Instance/c2m5_environment_ents.vmf
+Old Version/L4D2 Instance/c3m1_environment_ents.vmf
+Old Version/L4D2 Instance/c3m2_environment_ents.vmf
+Old Version/L4D2 Instance/c3m3_environment_ents.vmf
+Old Version/L4D2 Instance/c3m4_environment_ents.vmf
+Old Version/L4D2 Instance/c4m1_environment_ents.vmf
+Old Version/L4D2 Instance/c4m2_environment_ents.vmf
+Old Version/L4D2 Instance/c4m3_environment_ents.vmf
+Old Version/L4D2 Instance/c4m4_environment_ents.vmf
+Old Version/L4D2 Instance/c4m4_storm_ents.vmf
+Old Version/L4D2 Instance/c4m4_storm_logic.vmf
+Old Version/L4D2 Instance/c5m1_environment_ents.vmf
+Old Version/L4D2 Instance/c5m2_environment_ents.vmf
+Old Version/L4D2 Instance/c5m3_environment_ents.vmf
+Old Version/L4D2 Instance/c5m5_environment_ents.vmf
+Old Version/L4D2 Instance/fire_grow.vmf
+Old Version/L4D2 Instance/fire_grow_wall.vmf
+Old Version/L4D2 Instance/jukebox.vmf
+Old Version/L4D2 Instance/prop_car_alarm.vmf
+Old Version/L4D2 Instance/prop_car_physics_69sedan.vmf
+Old Version/L4D2 Instance/prop_car_physics_82hatchback.vmf
+Old Version/L4D2 Instance/prop_car_physics_82hatchback_wrecked.vmf
+Old Version/L4D2 Instance/prop_car_physics_84sedan.vmf
+Old Version/L4D2 Instance/prop_car_physics_95sedan.vmf
+Old Version/L4D2 Instance/prop_car_police.vmf
+Old Version/L4D2 Instance/prop_car_police_rural.vmf
+Old Version/L4D2 Instance/prop_car_sedan.vmf
+Old Version/L4D2 Instance/prop_fire_barrel.vmf
+Old Version/L4D2 Instance/prop_fire_barrel_smokey.vmf
+Old Version/L4D2 Instance/prop_fire_extinguisher.vmf
+Old Version/L4D2 Instance/prop_outhouse.vmf
+Old Version/L4D2 Instance/prop_outhouse_rescue.vmf
+Old Version/L4D2 Instance/prop_policecar_lights.vmf
+Old Version/L4D2 Instance/prop_swamphouse01.vmf
+Old Version/L4D2 Instance/prop_swamphouse02.vmf
+Old Version/L4D2 Instance/prop_swamphouse02a.vmf
+Old Version/L4D2 Instance/prop_swamphouse03.vmf
+Old Version/L4D2 Instance/prop_swamphouse04.vmf
+Old Version/L4D2 Instance/prop_swamphouse04b.vmf
+Old Version/L4D2 Instance/prop_swamphouse04c.vmf
+Old Version/L4D2 Instance/prop_swampshack01.vmf
+Old Version/L4D2 Instance/prop_tallwindow_01.vmf
+Old Version/L4D2 Instance/prop_tallwindow_nolight_01.vmf
+Old Version/L4D2 Instance/prop_tent_ceda_02.vmf
+Old Version/L4D2 Instance/prop_trafficmessage.vmf
+Old Version/L4D2 Instance/prop_trailer_02.vmf
+Old Version/L4D2 Instance/prop_trees_wall.vmf
+Old Version/L4D2 Instance/prop_van_lights.vmf
+Old Version/L4D2 Instance/prop_window_nolight_01.vmf
+Old Version/L4D2 Instance/prop_windowlight_01.vmf
+Old Version/L4D2 Instance/prop_windowlight_02.vmf
+Old Version/L4D2 Instance/scavenge_generator.vmf
+Old Version/Prefabs/architectural-building/prefab_brick_warehouse_01.vmf
+Old Version/Prefabs/architectural-building/red_brick_house.vmf
+Old Version/Prefabs/architectural-building/residential-five-story-blue-corner-01.vmf
+Old Version/Prefabs/architectural-building/residential-five-story-orange-01.vmf
+Old Version/Prefabs/architectural-building/residential-five-story-red-01.vmf
+Old Version/Prefabs/architectural-building/residential-five-story-with-cafeteria-01.vmf
+Old Version/Prefabs/architectural-building/residential-five-story-yellow-corner-01.vmf
+Old Version/Prefabs/architectural-building/residential-five-story-yellow-corner-02.vmf
+Old Version/Prefabs/architectural-building/residential-four-story-double-01.vmf
+Old Version/Prefabs/architectural-building/residential-four-story-red-combine-01.vmf
+Old Version/Prefabs/architectural-building/residential-three-story-blue-01.vmf
+Old Version/Prefabs/architectural-building/residential-three-story-red-01.vmf
+Old Version/Prefabs/architectural-building/residential-three-story-white-01.vmf
+Old Version/Prefabs/architectural-building/residential-three-story-with-store-01.vmf
+Old Version/Prefabs/architectural-building/tarp.vmf
+Old Version/Prefabs/architectural-building/Warehouse.vmf
+Old Version/Prefabs/architectural-building/wc_ind1.vmf
+Old Version/Prefabs/architectural-building/wc_ind2.vmf
+Old Version/Prefabs/architectural-building/wc_ind3.vmf
+Old Version/Prefabs/architectural-building/wc_ind4.vmf
+Old Version/Prefabs/architectural-building/wc_ind5.vmf
+Old Version/Prefabs/architectural-building/wc_rd1.vmf
+Old Version/Prefabs/architectural-building/wc_rd2.vmf
+Old Version/Prefabs/architectural-building/wc_rd3.vmf
+Old Version/Prefabs/architectural-building/wc_rd4.vmf
+Old Version/Prefabs/architectural-building/wc_rd5.vmf
+Old Version/Prefabs/bazaar.vmf
+Old Version/Prefabs/borealis_cagelight01.vmf
+Old Version/Prefabs/box.vmf
+Old Version/Prefabs/breencast_breen_stage.vmf
+Old Version/Prefabs/breencast_jumbotron_big.vmf
+Old Version/Prefabs/breencast_jumbotron_large.vmf
+Old Version/Prefabs/breencast_jumbotron_med.vmf
+Old Version/Prefabs/breencast_jumbotron_standard.vmf
+Old Version/Prefabs/breencast_studio.vmf
+Old Version/Prefabs/breencast_tv.vmf
+Old Version/Prefabs/breencast_tv_breakable.vmf
+Old Version/Prefabs/button_keypad.vmf
+Old Version/Prefabs/c17_cagelight01.vmf
+Old Version/Prefabs/c17_cagelight02.vmf
+Old Version/Prefabs/citizen_actbusy_set1.vmf
+Old Version/Prefabs/citizen_script_chair1.vmf
+Old Version/Prefabs/citizen_script_chair_and_table1.vmf
+Old Version/Prefabs/citizen_script_couchknees.vmf
+Old Version/Prefabs/citizen_script_couchlying.vmf
+Old Version/Prefabs/citizen_script_couchsmallsit1.vmf
+Old Version/Prefabs/citizen_script_couchsmallsit2.vmf
+Old Version/Prefabs/citizen_script_couchwithtable.vmf
+Old Version/Prefabs/collapsing_tower.vmf
+Old Version/Prefabs/Combine Light Small.vmf
+Old Version/Prefabs/combine_ball_generator.vmf
+Old Version/Prefabs/combine_ballspawner.vmf
+Old Version/Prefabs/combine_breenlight.vmf
+Old Version/Prefabs/combine_breenmon_detachable.vmf
+Old Version/Prefabs/combine_breenmon_detachable2.vmf
+Old Version/Prefabs/combine_console_detachable.vmf
+Old Version/Prefabs/combine_console_detachable2.vmf
+Old Version/Prefabs/combine_emitter.vmf
+Old Version/Prefabs/combine_emplacement_gun.vmf
+Old Version/Prefabs/combine_generator.vmf
+Old Version/Prefabs/combine_healthcharger.vmf
+Old Version/Prefabs/combine_intmonitor001.vmf
+Old Version/Prefabs/combine_intmonitor001_alert.vmf
+Old Version/Prefabs/combine_intmonitor003.vmf
+Old Version/Prefabs/combine_light_001a.vmf
+Old Version/Prefabs/combine_light_001b.vmf
+Old Version/Prefabs/combine_light_002a.vmf
+Old Version/Prefabs/combine_masterinterface.vmf
+Old Version/Prefabs/combine_metalbox_001a.vmf
+Old Version/Prefabs/combine_metalbox_002a.vmf
+Old Version/Prefabs/combine_monitor_array.vmf
+Old Version/Prefabs/combine_monitor_large.vmf
+Old Version/Prefabs/combine_multiple_emplacement_gun.vmf
+Old Version/Prefabs/combine_panel_detachable_1.vmf
+Old Version/Prefabs/combine_panel_detachable_2.vmf
+Old Version/Prefabs/combine_shield.vmf
+Old Version/Prefabs/combine_shield_static.vmf
+Old Version/Prefabs/combine_shieldwall.vmf
+Old Version/Prefabs/combine_shieldwall_static.vmf
+Old Version/Prefabs/combine_suitcharger.vmf
+Old Version/Prefabs/combine_teleport_shield.vmf
+Old Version/Prefabs/combine_wall_crusher.vmf
+Old Version/Prefabs/detachableconsole_interface01.vmf
+Old Version/Prefabs/detachableconsole_interface02.vmf
+Old Version/Prefabs/detachableconsole_interface03.vmf
+Old Version/Prefabs/detachableconsole_monitor01.vmf
+Old Version/Prefabs/detachableconsole_monitor02.vmf
+Old Version/Prefabs/door_break.vmf
+Old Version/Prefabs/Doors/door_apartmentdouble.vmf
+Old Version/Prefabs/Doors/door_default.vmf
+Old Version/Prefabs/Doors/door_double.vmf
+Old Version/Prefabs/Doors/door_double_window.vmf
+Old Version/Prefabs/Doors/door_wide_red.vmf
+Old Version/Prefabs/Doors/door_wide_white.vmf
+Old Version/Prefabs/Doors/windowed_door_red.vmf
+Old Version/Prefabs/Doors/windowed_door_white.vmf
+Old Version/Prefabs/drop-3-soldiers.vmf
+Old Version/Prefabs/EMP_combine_console_1.vmf
+Old Version/Prefabs/ep2_silofan.vmf
+Old Version/Prefabs/fire_extinguisher.vmf
+Old Version/Prefabs/fleeing_citizen.vmf
+Old Version/Prefabs/four_sided_monitor.vmf
+Old Version/Prefabs/func_tank.vmf
+Old Version/Prefabs/Gameplay/CombineMonitor.vmf
+Old Version/Prefabs/Gameplay/forcefield.vmf
+Old Version/Prefabs/Gameplay/laser_mine.vmf
+Old Version/Prefabs/Gameplay/plug.vmf
+Old Version/Prefabs/gman_overwatch.vmf
+Old Version/Prefabs/gunrack_1.vmf
+Old Version/Prefabs/gunrack_2_rpg.vmf
+Old Version/Prefabs/HL2 - Architecture/ColumnCut.vmf
+Old Version/Prefabs/HL2 - Architecture/ColumnEdge.vmf
+Old Version/Prefabs/HL2 - Architecture/CornerArch_IN_10.vmf
+Old Version/Prefabs/HL2 - Architecture/CornerArch_IN_12.vmf
+Old Version/Prefabs/HL2 - Architecture/CornerArch_IN_4.vmf
+Old Version/Prefabs/HL2 - Architecture/CornerArch_IN_6.vmf
+Old Version/Prefabs/HL2 - Architecture/CornerArch_IN_8.vmf
+Old Version/Prefabs/HL2 - Architecture/CornerArch_OUT_10.vmf
+Old Version/Prefabs/HL2 - Architecture/CornerArch_OUT_12.vmf
+Old Version/Prefabs/HL2 - Architecture/CornerArch_OUT_4.vmf
+Old Version/Prefabs/HL2 - Architecture/CornerArch_OUT_6.vmf
+Old Version/Prefabs/HL2 - Architecture/CornerArch_OUT_8.vmf
+Old Version/Prefabs/HL2 - Architecture/DoorApartment.vmf
+Old Version/Prefabs/HL2 - Architecture/DoorDouble.vmf
+Old Version/Prefabs/HL2 - Architecture/DoorDoubleAR.vmf
+Old Version/Prefabs/HL2 - Architecture/DoorFenceExterior.vmf
+Old Version/Prefabs/HL2 - Architecture/DoorFenceInterior.vmf
+Old Version/Prefabs/HL2 - Architecture/DoorSingle.vmf
+Old Version/Prefabs/HL2 - Architecture/DoorSingleAR.vmf
+Old Version/Prefabs/HL2 - Architecture/DoorWindows.vmf
+Old Version/Prefabs/HL2 - Architecture/ElevatorCage.vmf
+Old Version/Prefabs/HL2 - Architecture/ElevatorFreight.vmf
+Old Version/Prefabs/HL2 - Architecture/ElevatorSilo.vmf
+Old Version/Prefabs/HL2 - Architecture/ElevatorUnderground.vmf
+Old Version/Prefabs/HL2 - Architecture/Ladder_1180_Metal.vmf
+Old Version/Prefabs/HL2 - Architecture/Ladder_128_Metal.vmf
+Old Version/Prefabs/HL2 - Architecture/Ladder_128_Metal_Bars.vmf
+Old Version/Prefabs/HL2 - Architecture/Ladder_128_Metal_Mobile.vmf
+Old Version/Prefabs/HL2 - Architecture/Ladder_128_Metal_Rung.vmf
+Old Version/Prefabs/HL2 - Architecture/Ladder_148_Wood.vmf
+Old Version/Prefabs/HL2 - Architecture/Ladder_496_Metal.vmf
+Old Version/Prefabs/HL2 - Architecture/PhysDoorDouble.vmf
+Old Version/Prefabs/HL2 - Architecture/PhysDoorSingle.vmf
+Old Version/Prefabs/HL2 - Architecture/Pipe_16_Connector.vmf
+Old Version/Prefabs/HL2 - Architecture/Pipe_16_I.vmf
+Old Version/Prefabs/HL2 - Architecture/Pipe_16_L.vmf
+Old Version/Prefabs/HL2 - Architecture/Pipe_16_T.vmf
+Old Version/Prefabs/HL2 - Architecture/Pipe_16_X.vmf
+Old Version/Prefabs/HL2 - Architecture/Pipe_24_Connector.vmf
+Old Version/Prefabs/HL2 - Architecture/Pipe_24_I.vmf
+Old Version/Prefabs/HL2 - Architecture/Pipe_24_L.vmf
+Old Version/Prefabs/HL2 - Architecture/Pipe_24_T.vmf
+Old Version/Prefabs/HL2 - Architecture/Pipe_24_X.vmf
+Old Version/Prefabs/HL2 - Architecture/PipeSystem.vmf
+Old Version/Prefabs/HL2 - Architecture/StairSpiral.vmf
+Old Version/Prefabs/HL2 - Architecture/StairStep.vmf
+Old Version/Prefabs/HL2 - Architecture/StairStepClip.vmf
+Old Version/Prefabs/HL2 - Architecture/TrainTrack_I.vmf
+Old Version/Prefabs/HL2 - Architecture/TrainTrack_X.vmf
+Old Version/Prefabs/HL2 - Architecture/TrainTrack_Y.vmf
+Old Version/Prefabs/HL2 - Architecture/TrainTracks.vmf
+Old Version/Prefabs/HL2 - Architecture/Vent_Bend.vmf
+Old Version/Prefabs/HL2 - Architecture/Vent_Cube.vmf
+Old Version/Prefabs/HL2 - Architecture/Vent_I.vmf
+Old Version/Prefabs/HL2 - Architecture/Vent_I_Closed.vmf
+Old Version/Prefabs/HL2 - Architecture/Vent_I_Connectors.vmf
+Old Version/Prefabs/HL2 - Architecture/Vent_I_Opening_1.vmf
+Old Version/Prefabs/HL2 - Architecture/Vent_I_Opening_2.vmf
+Old Version/Prefabs/HL2 - Architecture/Vent_I_Opening_2_L.vmf
+Old Version/Prefabs/HL2 - Architecture/Vent_I_Opening_3.vmf
+Old Version/Prefabs/HL2 - Architecture/Vent_I_Opening_4.vmf
+Old Version/Prefabs/HL2 - Architecture/Vent_I_Opening_End.vmf
+Old Version/Prefabs/HL2 - Architecture/Vent_L.vmf
+Old Version/Prefabs/HL2 - Architecture/Vent_L_Small.vmf
+Old Version/Prefabs/HL2 - Architecture/Vent_T.vmf
+Old Version/Prefabs/HL2 - Architecture/Vent_X.vmf
+Old Version/Prefabs/HL2 - Architecture/Window_26_48_16.vmf
+Old Version/Prefabs/HL2 - Architecture/Window_26_48_16_AR.vmf
+Old Version/Prefabs/HL2 - Architecture/Window_26_48_8.vmf
+Old Version/Prefabs/HL2 - Architecture/Window_26_48_8_AR.vmf
+Old Version/Prefabs/HL2 - Architecture/Window_32_56_16.vmf
+Old Version/Prefabs/HL2 - Architecture/Window_32_56_16_AR.vmf
+Old Version/Prefabs/HL2 - Architecture/Window_32_56_8.vmf
+Old Version/Prefabs/HL2 - Architecture/Window_32_56_8_AR.vmf
+Old Version/Prefabs/HL2 - Architecture/Window_32_64_16.vmf
+Old Version/Prefabs/HL2 - Architecture/Window_32_64_16_AR.vmf
+Old Version/Prefabs/HL2 - Architecture/Window_32_64_8.vmf
+Old Version/Prefabs/HL2 - Architecture/Window_32_64_8_AR.vmf
+Old Version/Prefabs/HL2 - Architecture/Window_56_64_16.vmf
+Old Version/Prefabs/HL2 - Architecture/Window_56_64_16_AR.vmf
+Old Version/Prefabs/HL2 - Architecture/Window_56_64_8.vmf
+Old Version/Prefabs/HL2 - Architecture/Window_56_64_8_AR.vmf
+Old Version/Prefabs/HL2 - Architecture/Window_96_64_16.vmf
+Old Version/Prefabs/HL2 - Architecture/Window_96_64_16_AR.vmf
+Old Version/Prefabs/HL2 - Architecture/Window_96_64_8.vmf
+Old Version/Prefabs/HL2 - Architecture/Window_96_64_8_AR.vmf
+Old Version/Prefabs/HL2 - Architecture/WindowApartment.vmf
+Old Version/Prefabs/HL2 - Architecture/WindowApartmentAR.vmf
+Old Version/Prefabs/HL2 - Architecture/WindowCourtyard.vmf
+Old Version/Prefabs/HL2 - Architecture/WindowCourtyardAR.vmf
+Old Version/Prefabs/HL2 - Buttons/CombineButton.vmf
+Old Version/Prefabs/HL2 - Buttons/CombineButtonTO.vmf
+Old Version/Prefabs/HL2 - Buttons/CombineLockButton.vmf
+Old Version/Prefabs/HL2 - Buttons/CrankButton.vmf
+Old Version/Prefabs/HL2 - Buttons/ElevatorButton.vmf
+Old Version/Prefabs/HL2 - Buttons/FireButton.vmf
+Old Version/Prefabs/HL2 - Buttons/FreightButton.vmf
+Old Version/Prefabs/HL2 - Buttons/HandLeverButton.vmf
+Old Version/Prefabs/HL2 - Buttons/KeypadButton.vmf
+Old Version/Prefabs/HL2 - Buttons/LeverHandleButton.vmf
+Old Version/Prefabs/HL2 - Buttons/MoveLeverButton.vmf
+Old Version/Prefabs/HL2 - Buttons/PowerBoxButton.vmf
+Old Version/Prefabs/HL2 - Buttons/SwitchButton.vmf
+Old Version/Prefabs/HL2 - Buttons/SwitchLeverButton.vmf
+Old Version/Prefabs/HL2 - Buttons/SwitchLightButton.vmf
+Old Version/Prefabs/HL2 - Buttons/TPSwitchButton.vmf
+Old Version/Prefabs/HL2 - Buttons/TramLeverButton.vmf
+Old Version/Prefabs/HL2 - Buttons/ValveButton.vmf
+Old Version/Prefabs/HL2 - Combine/Autogun.vmf
+Old Version/Prefabs/HL2 - Combine/BallGenerator.vmf
+Old Version/Prefabs/HL2 - Combine/BallLauncher.vmf
+Old Version/Prefabs/HL2 - Combine/BallSocket.vmf
+Old Version/Prefabs/HL2 - Combine/BallSocketTO.vmf
+Old Version/Prefabs/HL2 - Combine/BallSpawner.vmf
+Old Version/Prefabs/HL2 - Combine/Binocular.vmf
+Old Version/Prefabs/HL2 - Combine/Breencast.vmf
+Old Version/Prefabs/HL2 - Combine/BunkerGun.vmf
+Old Version/Prefabs/HL2 - Combine/BunkerProp.vmf
+Old Version/Prefabs/HL2 - Combine/Console.vmf
+Old Version/Prefabs/HL2 - Combine/ConsoleBR.vmf
+Old Version/Prefabs/HL2 - Combine/CoreballProp.vmf
+Old Version/Prefabs/HL2 - Combine/DispenserProp.vmf
+Old Version/Prefabs/HL2 - Combine/DoorCombine.vmf
+Old Version/Prefabs/HL2 - Combine/DoorVerticalCombine.vmf
+Old Version/Prefabs/HL2 - Combine/EnergyVortex.vmf
+Old Version/Prefabs/HL2 - Combine/GateCombineCitizen.vmf
+Old Version/Prefabs/HL2 - Combine/GateCombineVehicle.vmf
+Old Version/Prefabs/HL2 - Combine/GunRack.vmf
+Old Version/Prefabs/HL2 - Combine/MonitorScreen.vmf
+Old Version/Prefabs/HL2 - Combine/MortarGun.vmf
+Old Version/Prefabs/HL2 - Combine/PrisonPodRide.vmf
+Old Version/Prefabs/HL2 - Combine/RazorTrain.vmf
+Old Version/Prefabs/HL2 - Combine/RollermineDispenser.vmf
+Old Version/Prefabs/HL2 - Combine/ShieldBridge.vmf
+Old Version/Prefabs/HL2 - Combine/ShieldBridgeST.vmf
+Old Version/Prefabs/HL2 - Combine/ShieldWall.vmf
+Old Version/Prefabs/HL2 - Combine/ShieldWallST.vmf
+Old Version/Prefabs/HL2 - Combine/StasisFieldProp.vmf
+Old Version/Prefabs/HL2 - Combine/StasisFieldPropTO.vmf
+Old Version/Prefabs/HL2 - Combine/TeleportProp.vmf
+Old Version/Prefabs/HL2 - Combine/ThumperBig.vmf
+Old Version/Prefabs/HL2 - Combine/ThumperSmall.vmf
+Old Version/Prefabs/HL2 - Combine/TurretLocker.vmf
+Old Version/Prefabs/HL2 - Combine/WallCrusher.vmf
+Old Version/Prefabs/HL2 - Combine/WatchTower.vmf
+Old Version/Prefabs/HL2 - Combine/WeaponStripper.vmf
+Old Version/Prefabs/HL2 - Lighting/BulbLong.vmf
+Old Version/Prefabs/HL2 - Lighting/BulbShort.vmf
+Old Version/Prefabs/HL2 - Lighting/CageLightRed.vmf
+Old Version/Prefabs/HL2 - Lighting/CageLightWhite.vmf
+Old Version/Prefabs/HL2 - Lighting/ColumnLight.vmf
+Old Version/Prefabs/HL2 - Lighting/CombineLightBig.vmf
+Old Version/Prefabs/HL2 - Lighting/CombineLightSmall.vmf
+Old Version/Prefabs/HL2 - Lighting/CombineLightStick.vmf
+Old Version/Prefabs/HL2 - Lighting/CombineLightWall.vmf
+Old Version/Prefabs/HL2 - Lighting/DeckLight.vmf
+Old Version/Prefabs/HL2 - Lighting/DomeLight.vmf
+Old Version/Prefabs/HL2 - Lighting/FixtureLight.vmf
+Old Version/Prefabs/HL2 - Lighting/FloodDoubleLight.vmf
+Old Version/Prefabs/HL2 - Lighting/FloodGreenCubeLight.vmf
+Old Version/Prefabs/HL2 - Lighting/FloodGreenSphereLight.vmf
+Old Version/Prefabs/HL2 - Lighting/FloodLight.vmf
+Old Version/Prefabs/HL2 - Lighting/Flourescent.vmf
+Old Version/Prefabs/HL2 - Lighting/ForestSpotlight.vmf
+Old Version/Prefabs/HL2 - Lighting/HangingLight.vmf
+Old Version/Prefabs/HL2 - Lighting/Industrial.vmf
+Old Version/Prefabs/HL2 - Lighting/IndustrialBell.vmf
+Old Version/Prefabs/HL2 - Lighting/IndustrialCluster.vmf
+Old Version/Prefabs/HL2 - Lighting/IndustrialFloodLight.vmf
+Old Version/Prefabs/HL2 - Lighting/LightSconce.vmf
+Old Version/Prefabs/HL2 - Lighting/MountedCeiling.vmf
+Old Version/Prefabs/HL2 - Lighting/MountedWall.vmf
+Old Version/Prefabs/HL2 - Lighting/OfficeWall.vmf
+Old Version/Prefabs/HL2 - Lighting/OutdoorLamp.vmf
+Old Version/Prefabs/HL2 - Lighting/PrisonCage.vmf
+Old Version/Prefabs/HL2 - Lighting/PrisonFlourBig.vmf
+Old Version/Prefabs/HL2 - Lighting/PrisonFlourBroken.vmf
+Old Version/Prefabs/HL2 - Lighting/PrisonFlourMedium.vmf
+Old Version/Prefabs/HL2 - Lighting/PrisonFlourSmall.vmf
+Old Version/Prefabs/HL2 - Lighting/RedLight.vmf
+Old Version/Prefabs/HL2 - Lighting/RedLightWall.vmf
+Old Version/Prefabs/HL2 - Lighting/RedLightWhite.vmf
+Old Version/Prefabs/HL2 - Lighting/SecurityLight.vmf
+Old Version/Prefabs/HL2 - Lighting/SpotLightLampBig.vmf
+Old Version/Prefabs/HL2 - Lighting/SpotLightLampSmall.vmf
+Old Version/Prefabs/HL2 - Lighting/WallLight.vmf
+Old Version/Prefabs/HL2 - Logic/BlinkLight.vmf
+Old Version/Prefabs/HL2 - Logic/CameraLogic.vmf
+Old Version/Prefabs/HL2 - Logic/ElevatorMonoLogic.vmf
+Old Version/Prefabs/HL2 - Logic/ElevatorMultiLogic.vmf
+Old Version/Prefabs/HL2 - Logic/GameGlobalSingle.vmf
+Old Version/Prefabs/HL2 - Logic/KeypadLogic.vmf
+Old Version/Prefabs/HL2 - Logic/ObjectInsert.vmf
+Old Version/Prefabs/HL2 - Logic/RunwayLights.vmf
+Old Version/Prefabs/HL2 - Logic/SoundScape.vmf
+Old Version/Prefabs/HL2 - Logic/SoundScapeTrigger.vmf
+Old Version/Prefabs/HL2 - Logic/TrainCurveLogic.vmf
+Old Version/Prefabs/HL2 - Logic/TrainLineLogic.vmf
+Old Version/Prefabs/HL2 - Monitors/CombineBigMonitor.vmf
+Old Version/Prefabs/HL2 - Monitors/CombineGiantMonitor.vmf
+Old Version/Prefabs/HL2 - Monitors/CombineMediumMonitor.vmf
+Old Version/Prefabs/HL2 - Monitors/CombineMediumMonitorDY.vmf
+Old Version/Prefabs/HL2 - Monitors/CombineSmallMonitor.vmf
+Old Version/Prefabs/HL2 - Monitors/ControlRoomMonitor.vmf
+Old Version/Prefabs/HL2 - Monitors/CoreControlMonitor.vmf
+Old Version/Prefabs/HL2 - Monitors/IntBigMonitor.vmf
+Old Version/Prefabs/HL2 - Monitors/IntSmallMonitor.vmf
+Old Version/Prefabs/HL2 - Monitors/LabMonitor.vmf
+Old Version/Prefabs/HL2 - Monitors/MasterInterfaceMonitor.vmf
+Old Version/Prefabs/HL2 - Monitors/MonitorBayMonitor.vmf
+Old Version/Prefabs/HL2 - Monitors/SecurityMonitor.vmf
+Old Version/Prefabs/HL2 - Monitors/SiloMonitor.vmf
+Old Version/Prefabs/HL2 - Monitors/TVBreenCast.vmf
+Old Version/Prefabs/HL2 - Monitors/TVMonitor.vmf
+Old Version/Prefabs/HL2 - NPC/AntlionBurrowSpawn.vmf
+Old Version/Prefabs/HL2 - NPC/AntlionSandSpawn.vmf
+Old Version/Prefabs/HL2 - NPC/APCDriver.vmf
+Old Version/Prefabs/HL2 - NPC/Bullseye.vmf
+Old Version/Prefabs/HL2 - NPC/Dropship_Dropoff.vmf
+Old Version/Prefabs/HL2 - NPC/Dropship_FlyPath.vmf
+Old Version/Prefabs/HL2 - NPC/GoalAssault.vmf
+Old Version/Prefabs/HL2 - NPC/GoalStandoff.vmf
+Old Version/Prefabs/HL2 - NPC/Gunship.vmf
+Old Version/Prefabs/HL2 - NPC/MetropolicePolice.vmf
+Old Version/Prefabs/HL2 - NPC/Spawner_AllUnits.vmf
+Old Version/Prefabs/HL2 - NPC/Spawner_AttackPlayer.vmf
+Old Version/Prefabs/HL2 - NPC/SS_Alyx_EMPCombolock.vmf
+Old Version/Prefabs/HL2 - NPC/SS_Alyx_EMPConsole.vmf
+Old Version/Prefabs/HL2 - NPC/SS_FastZombie_SlumpA.vmf
+Old Version/Prefabs/HL2 - NPC/SS_FastZombie_SlumpB.vmf
+Old Version/Prefabs/HL2 - NPC/SS_Soldier_Rapel_384.vmf
+Old Version/Prefabs/HL2 - NPC/SS_Soldier_Rapel_456.vmf
+Old Version/Prefabs/HL2 - NPC/SS_Soldier_Rapel_480.vmf
+Old Version/Prefabs/HL2 - NPC/SS_Soldier_Rapel_552.vmf
+Old Version/Prefabs/HL2 - NPC/SS_Soldier_Rapel_648.vmf
+Old Version/Prefabs/HL2 - NPC/SS_Vortigaunt_Generator.vmf
+Old Version/Prefabs/HL2 - NPC/SS_Zombie_Canal.vmf
+Old Version/Prefabs/HL2 - NPC/SS_Zombie_SlumpA.vmf
+Old Version/Prefabs/HL2 - NPC/SS_Zombie_SlumpB.vmf
+Old Version/Prefabs/HL2 - NPC/SS_Zombie_WallPound.vmf
+Old Version/Prefabs/HL2 - NPC/SS_Zombine_SlumpA.vmf
+Old Version/Prefabs/HL2 - NPC/SS_Zombine_SlumpB.vmf
+Old Version/Prefabs/HL2 - NPC/SS_Zombine_WallPound.vmf
+Old Version/Prefabs/HL2 - NPC/Turret_Ground.vmf
+Old Version/Prefabs/HL2 - Setpiece/AntlionDetector.vmf
+Old Version/Prefabs/HL2 - Setpiece/AntlionEgg.vmf
+Old Version/Prefabs/HL2 - Setpiece/APCBattery.vmf
+Old Version/Prefabs/HL2 - Setpiece/BeamRam.vmf
+Old Version/Prefabs/HL2 - Setpiece/CarBatteryDevice.vmf
+Old Version/Prefabs/HL2 - Setpiece/CraneCargoMover.vmf
+Old Version/Prefabs/HL2 - Setpiece/CraneVehicle.vmf
+Old Version/Prefabs/HL2 - Setpiece/DrawBridge.vmf
+Old Version/Prefabs/HL2 - Setpiece/ElectricalPlug.vmf
+Old Version/Prefabs/HL2 - Setpiece/ElevatorPulley.vmf
+Old Version/Prefabs/HL2 - Setpiece/ExplodingBarrel.vmf
+Old Version/Prefabs/HL2 - Setpiece/FanTurbine.vmf
+Old Version/Prefabs/HL2 - Setpiece/FanVentBlockable.vmf
+Old Version/Prefabs/HL2 - Setpiece/Forklift.vmf
+Old Version/Prefabs/HL2 - Setpiece/Gearshift.vmf
+Old Version/Prefabs/HL2 - Setpiece/GeneratorManual.vmf
+Old Version/Prefabs/HL2 - Setpiece/GravityGunHolder.vmf
+Old Version/Prefabs/HL2 - Setpiece/GrubWeb.vmf
+Old Version/Prefabs/HL2 - Setpiece/HangingWire.vmf
+Old Version/Prefabs/HL2 - Setpiece/HealthStation.vmf
+Old Version/Prefabs/HL2 - Setpiece/HEVSuit.vmf
+Old Version/Prefabs/HL2 - Setpiece/KleinerMiniTeleport.vmf
+Old Version/Prefabs/HL2 - Setpiece/LaserDoorCutter.vmf
+Old Version/Prefabs/HL2 - Setpiece/Locker.vmf
+Old Version/Prefabs/HL2 - Setpiece/MagnussonDeviceDispenser.vmf
+Old Version/Prefabs/HL2 - Setpiece/MissileDoor.vmf
+Old Version/Prefabs/HL2 - Setpiece/PlayGround.vmf
+Old Version/Prefabs/HL2 - Setpiece/PowerCable.vmf
+Old Version/Prefabs/HL2 - Setpiece/PulleyBasket.vmf
+Old Version/Prefabs/HL2 - Setpiece/PulleyWeight.vmf
+Old Version/Prefabs/HL2 - Setpiece/RoadBlock.vmf
+Old Version/Prefabs/HL2 - Setpiece/SiloDoor.vmf
+Old Version/Prefabs/HL2 - Setpiece/SkyboxCitadelPortal.vmf
+Old Version/Prefabs/HL2 - Setpiece/SodaMachine.vmf
+Old Version/Prefabs/HL2 - Setpiece/SodaMachine_2.vmf
+Old Version/Prefabs/HL2 - Setpiece/SteamHurt.vmf
+Old Version/Prefabs/HL2 - Setpiece/SuitStation.vmf
+Old Version/Prefabs/HL2 - Setpiece/TrainCart.vmf
+Old Version/Prefabs/HL2 - Setpiece/TrapCar.vmf
+Old Version/Prefabs/HL2 - Setpiece/TrapFire.vmf
+Old Version/Prefabs/HL2 - Setpiece/TrapPropeller.vmf
+Old Version/Prefabs/HL2 - Setpiece/Tripwire.vmf
+Old Version/Prefabs/HL2 - Setpiece/VentFanBlockable.vmf
+Old Version/Prefabs/HL2 - Setpiece/Windmill.vmf
+Old Version/Prefabs/HL2 - Setpiece/WindmillSmall.vmf
+Old Version/Prefabs/HL2 - Setpiece/XenCrystal.vmf
+Old Version/Prefabs/interactive-industrial/power-socket-01.vmf
+Old Version/Prefabs/kleinercast_studio.vmf
+Old Version/Prefabs/koolaid_hunter.vmf
+Old Version/Prefabs/koolaid_hunter_instant.vmf
+Old Version/Prefabs/ladder_simple_1.vmf
+Old Version/Prefabs/Lights/flourescentlight_ceiling.vmf
+Old Version/Prefabs/Lights/light_flourescent_wall.vmf
+Old Version/Prefabs/Lights/light_rotating_spotlight.vmf
+Old Version/Prefabs/Lights/lightbulb.vmf
+Old Version/Prefabs/Lights/spotlight.vmf
+Old Version/Prefabs/Medieval/example.vmf
+Old Version/Prefabs/Medieval/misc_fireplace.vmf
+Old Version/Prefabs/Medieval/misc_ladder1.vmf
+Old Version/Prefabs/Medieval/misc_ladder2.vmf
+Old Version/Prefabs/Medieval/misc_ladder3.vmf
+Old Version/Prefabs/Medieval/wall_cornel1.vmf
+Old Version/Prefabs/Medieval/wall_cornel2.vmf
+Old Version/Prefabs/Medieval/wall_cornel3.vmf
+Old Version/Prefabs/Medieval/wall_cornel4.vmf
+Old Version/Prefabs/Medieval/wall_cornel5.vmf
+Old Version/Prefabs/Medieval/wall_door1.vmf
+Old Version/Prefabs/Medieval/wall_door2.vmf
+Old Version/Prefabs/Medieval/wall_door3.vmf
+Old Version/Prefabs/Medieval/Wall_Medi1.vmf
+Old Version/Prefabs/Medieval/Wall_Medi2.vmf
+Old Version/Prefabs/Medieval/Wall_Medi3.vmf
+Old Version/Prefabs/Medieval/Wall_Medi4.vmf
+Old Version/Prefabs/Medieval/Wall_Medi5.vmf
+Old Version/Prefabs/Medieval/wall_misc1.vmf
+Old Version/Prefabs/Medieval/wall_misc2.vmf
+Old Version/Prefabs/Medieval/wall_misc3.vmf
+Old Version/Prefabs/Medieval/wall_misc4.vmf
+Old Version/Prefabs/Medieval/wall_misc5.vmf
+Old Version/Prefabs/Medieval/wall_misc6.vmf
+Old Version/Prefabs/Medieval/wall_misc7.vmf
+Old Version/Prefabs/Medieval/wall_misc8.vmf
+Old Version/Prefabs/Medieval/wall_s1.vmf
+Old Version/Prefabs/Medieval/wall_s2.vmf
+Old Version/Prefabs/Medieval/wall_s3.vmf
+Old Version/Prefabs/Medieval/wall_s4.vmf
+Old Version/Prefabs/Medieval/wall_s5.vmf
+Old Version/Prefabs/Medieval/wall_s6.vmf
+Old Version/Prefabs/Medieval/Wall_simply.vmf
+Old Version/Prefabs/Medieval/Wall_simply2.vmf
+Old Version/Prefabs/Medieval/Wall_simply2long.vmf
+Old Version/Prefabs/Medieval/Wall_simply3.vmf
+Old Version/Prefabs/Medieval/Wall_simplylong.vmf
+Old Version/Prefabs/Medieval/wall_truss1.vmf
+Old Version/Prefabs/Medieval/wall_truss2.vmf
+Old Version/Prefabs/Medieval/wall_truss3.vmf
+Old Version/Prefabs/Medieval/wall_truss4.vmf
+Old Version/Prefabs/Medieval/wall_truss5.vmf
+Old Version/Prefabs/Medieval/wall_window1.vmf
+Old Version/Prefabs/Medieval/wall_window2.vmf
+Old Version/Prefabs/Medieval/wall_window3.vmf
+Old Version/Prefabs/Medieval/wall_window4.vmf
+Old Version/Prefabs/Medieval/wall_window5.vmf
+Old Version/Prefabs/metal_crate_room.vmf
+Old Version/Prefabs/metal_crate_room_001a.vmf
+Old Version/Prefabs/metal_crate_room_001b.vmf
+Old Version/Prefabs/metal_crate_room_incomplete.vmf
+Old Version/Prefabs/metal_room.vmf
+Old Version/Prefabs/metrocop_assault.vmf
+Old Version/Prefabs/newgame_spawnitems.vmf
+Old Version/Prefabs/newgame_spawnitems_all.vmf
+Old Version/Prefabs/npc-combine/manhack-emitter-01.vmf
+Old Version/Prefabs/npc-combine/scanner-emitter-01.vmf
+Old Version/Prefabs/npc-combine/scanner-emitter-02.vmf
+Old Version/Prefabs/npc_zombie_prone.vmf
+Old Version/Prefabs/npc_zombie_slump.vmf
+Old Version/Prefabs/objects-docks/shipping-container01-blue.vmf
+Old Version/Prefabs/objects-docks/shipping-container01-orange.vmf
+Old Version/Prefabs/objects-docks/shipping-container01-red-open.vmf
+Old Version/Prefabs/objects-docks/shipping-container01-red.vmf
+Old Version/Prefabs/objects-docks/shipping-container02-blue.vmf
+Old Version/Prefabs/objects-docks/shipping-container02-green.vmf
+Old Version/Prefabs/objects-docks/shipping-container02-red-open.vmf
+Old Version/Prefabs/objects-docks/shipping-container02-red.vmf
+Old Version/Prefabs/op_c1_01a_skybox.vmf
+Old Version/Prefabs/op_c2_skybox.vmf
+Old Version/Prefabs/pier_breakable_small.vmf
+Old Version/Prefabs/prefab_brick_warehouse_01.vmf
+Old Version/Prefabs/Prefabs Aftermath - Ep2/newgame_spawnitems.vmf
+Old Version/Prefabs/Prefabs HL2/apc_on_path.vmf
+Old Version/Prefabs/Prefabs HL2/button_keypad.vmf
+Old Version/Prefabs/Prefabs HL2/collapsing_tower.vmf
+Old Version/Prefabs/Prefabs HL2/combine_ball_generator.vmf
+Old Version/Prefabs/Prefabs HL2/combine_ballspawner.vmf
+Old Version/Prefabs/Prefabs HL2/combine_shieldwall.vmf
+Old Version/Prefabs/Prefabs HL2/combine_shieldwall_static.vmf
+Old Version/Prefabs/Prefabs HL2/env_soundscape.vmf
+Old Version/Prefabs/Prefabs HL2/ladder_simple.vmf
+Old Version/Prefabs/Prefabs HL2/newgame_spawn.vmf
+Old Version/Prefabs/Prefabs HL2/newgame_spawn_citadel.vmf
+Old Version/Prefabs/Prefabs HL2/npc_citizen_fleeing.vmf
+Old Version/Prefabs/Prefabs HL2/npc_gman_overwatch.vmf
+Old Version/Prefabs/Prefabs HL2/npc_metrocop_assault.vmf
+Old Version/Prefabs/Prefabs HL2/npc_scanner_on_path.vmf
+Old Version/Prefabs/Prefabs HL2/npc_soldier_assault.vmf
+Old Version/Prefabs/Prefabs HL2/npc_zombie_prone.vmf
+Old Version/Prefabs/Prefabs HL2/npc_zombie_slump.vmf
+Old Version/Prefabs/Prefabs HL2/simple_stairway_steps.vmf
+Old Version/Prefabs/Prefabs Portal/ball_catcher_base.vmf
+Old Version/Prefabs/Prefabs Portal/extreme_elevator.vmf
+Old Version/Prefabs/Prefabs Portal/glass_border.vmf
+Old Version/Prefabs/Prefabs Portal/goopillar_base.vmf
+Old Version/Prefabs/Prefabs Portal/goopillar_bottom.vmf
+Old Version/Prefabs/Prefabs Portal/gun_pedestal.vmf
+Old Version/Prefabs/Prefabs Portal/lift.vmf
+Old Version/Prefabs/Prefabs Portal/metal_stair.vmf
+Old Version/Prefabs/Prefabs Portal/observation_window.vmf
+Old Version/Prefabs/Prefabs Portal/sparking_goopillar.vmf
+Old Version/Prefabs/Prefabs Portal/transition_elevator.vmf
+Old Version/Prefabs/propeller_trap.vmf
+Old Version/Prefabs/pwindow_01_med.vmf
+Old Version/Prefabs/pwindow_01_med_broken.vmf
+Old Version/Prefabs/pwindow_01_short.vmf
+Old Version/Prefabs/pwindow_01_short_broken.vmf
+Old Version/Prefabs/pwindow_01_tall.vmf
+Old Version/Prefabs/pwindow_01_tall_broken.vmf
+Old Version/Prefabs/pwindow_01_wide.vmf
+Old Version/Prefabs/radiator.vmf
+Old Version/Prefabs/sarma_message_system.vmf
+Old Version/Prefabs/scanner_on_path.vmf
+Old Version/Prefabs/se1_door_lab_001.vmf
+Old Version/Prefabs/se1_door_lab_002.vmf
+Old Version/Prefabs/silo_camera.vmf
+Old Version/Prefabs/silo_fan.vmf
+Old Version/Prefabs/simple_stairway_steps.vmf
+Old Version/Prefabs/sodamachine.vmf
+Old Version/Prefabs/soldier_assault.vmf
+Old Version/Prefabs/soundscape.vmf
+Old Version/Prefabs/spawnitems_citadel.vmf
+Old Version/Prefabs/testroom.vmf
+Old Version/Prefabs/traincar.vmf
+Old Version/Prefabs/wall.vmf
+Old Version/Prefabs/wall_break.vmf
+Old Version/Prefabs/warehouse_skylight.vmf
+Old Version/Prefabs/Welding Doors/func_door_double_EW.vmf
+Old Version/Prefabs/Welding Doors/func_door_double_NS.vmf
+Old Version/Prefabs/Welding Doors/func_door_rotating_double_EW.vmf
+Old Version/Prefabs/Welding Doors/func_door_rotating_double_NS.vmf
+Old Version/Prefabs/Welding Doors/func_door_rotating_single_EW.vmf
+Old Version/Prefabs/Welding Doors/func_door_rotating_single_NS.vmf
+Old Version/Prefabs/Welding Doors/func_door_single_E.vmf
+Old Version/Prefabs/Welding Doors/func_door_single_N.vmf
+Old Version/Prefabs/Welding Doors/func_door_single_S.vmf
+Old Version/Prefabs/Welding Doors/func_door_single_W.vmf
+Old Version/Prefabs/Welding Doors/prop_door_double_EW.vmf
+Old Version/Prefabs/Welding Doors/prop_door_double_NS.vmf
+Old Version/Prefabs/Welding Doors/prop_door_single_E.vmf
+Old Version/Prefabs/Welding Doors/prop_door_single_N.vmf
+Old Version/Prefabs/Welding Doors/prop_door_single_S.vmf
+Old Version/Prefabs/Welding Doors/prop_door_single_W.vmf
+Old Version/Prefabs/architectural-building/large-industrial-building-01.vmf
+Old Version/Prefabs/architectural-building/industrial-shack-white-01.vmf
+Old Version/Prefabs/architectural-building/industrial-one-story-grey-01.vmf
+Old Version/Prefabs/architectural-building/hotel-three-story-orange-01.vmf
+Old Version/Prefabs/architectural-building/hotel-four-story-yellow-01.vmf
+Old Version/Prefabs/architectural-building/derelict-three-story-brick-01.vmf
+Old Version/Prefabs/architectural-building/commercial-one-story-white-01.vmf
+Old Version/Prefabs/architectural-building/Building_1.vmf
+Old Version/Prefabs/architectural-building/bigsmallhouse01.vmf
+Old Version/Prefabs/architectural-building/apartments-six-story-red-01.vmf
+Old Version/Prefabs/apc_with_gun.vmf
+Old Version/Prefabs/apc_on_path.vmf
+Old Version/Prefabs/apc_dropship.vmf
+Old Version/Prefabs/alyx_EMP_comblock.vmf
+Old Version/Prefabs/alyx_EMP_combconsole.vmf
+Old Version/Prefabs/Airex_Elevator.vmf

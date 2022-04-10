@@ -1,15 +1,75 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8849"
-	"mapversion" "779"
+	"editorbuild" "8860"
+	"mapversion" "780"
 	"formatversion" "100"
 	"prefab" "1"
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "64"
+}
+palette_plus
+{
+	"color0" "255 255 255"
+	"color1" "255 255 255"
+	"color2" "255 255 255"
+	"color3" "255 255 255"
+	"color4" "255 255 255"
+	"color5" "255 255 255"
+	"color6" "255 255 255"
+	"color7" "255 255 255"
+	"color8" "255 255 255"
+	"color9" "255 255 255"
+	"color10" "255 255 255"
+	"color11" "255 255 255"
+	"color12" "255 255 255"
+	"color13" "255 255 255"
+	"color14" "255 255 255"
+	"color15" "255 255 255"
+}
+colorcorrection_plus
+{
+	"name0" ""
+	"weight0" "1"
+	"name1" ""
+	"weight1" "1"
+	"name2" ""
+	"weight2" "1"
+	"name3" ""
+	"weight3" "1"
+}
+light_plus
+{
+	"samples_sun" "6"
+	"samples_ambient" "40"
+	"samples_vis" "256"
+	"texlight" ""
+	"incremental_delay" "0"
+	"bake_dist" "1024"
+	"radius_scale" "1"
+	"brightness_scale" "1"
+	"ao_scale" "0"
+	"bounced" "1"
+	"incremental" "1"
+	"supersample" "0"
+	"bleed_hack" "1"
+	"soften_cosine" "0"
+	"debug" "0"
+	"cubemap" "1"
+	"hdr" "0"
+}
+bgimages_plus
+{
 }
 world
 {
 	"id" "37940"
-	"mapversion" "779"
+	"mapversion" "780"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -17,124 +77,6 @@ world
 	"maxpropscreenwidth" "-1"
 	"skyname" "sky_day01_01"
 	"vscriptlanguage_client" "-2"
-	solid
-	{
-		"id" "37941"
-		side
-		{
-			"id" "21177"
-			"plane" "(384 768 1152) (896 768 1152) (896 0 1152)"
-			vertices_plus
-			{
-				"v" "384 768 1152"
-				"v" "896 768 1152"
-				"v" "896 0 1152"
-				"v" "384 0 1152"
-			}
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "21178"
-			"plane" "(384 0 0) (896 0 0) (896 768 0)"
-			vertices_plus
-			{
-				"v" "384 0 0"
-				"v" "896 0 0"
-				"v" "896 768 0"
-				"v" "384 768 0"
-			}
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "21179"
-			"plane" "(384 768 1152) (384 0 1152) (384 0 0)"
-			vertices_plus
-			{
-				"v" "384 768 1152"
-				"v" "384 0 1152"
-				"v" "384 0 0"
-				"v" "384 768 0"
-			}
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "21180"
-			"plane" "(896 768 0) (896 0 0) (896 0 1152)"
-			vertices_plus
-			{
-				"v" "896 768 0"
-				"v" "896 0 0"
-				"v" "896 0 1152"
-				"v" "896 768 1152"
-			}
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "21181"
-			"plane" "(896 768 1152) (384 768 1152) (384 768 0)"
-			vertices_plus
-			{
-				"v" "896 768 1152"
-				"v" "384 768 1152"
-				"v" "384 768 0"
-				"v" "896 768 0"
-			}
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "21182"
-			"plane" "(896 0 0) (384 0 0) (384 0 1152)"
-			vertices_plus
-			{
-				"v" "896 0 0"
-				"v" "384 0 0"
-				"v" "384 0 1152"
-				"v" "896 0 1152"
-			}
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 129 142"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
 	solid
 	{
 		"id" "37943"
@@ -1689,7 +1631,7 @@ entity
 			"plane" "(559.992 24 751.992) (512 24 656) (896 24 656)"
 			vertices_plus
 			{
-				"v" "559.992 24 751.992"
+				"v" "560 24 752"
 				"v" "512 24 656"
 				"v" "896 24 656"
 				"v" "848 24 752"
@@ -2201,7 +2143,7 @@ entity
 			"plane" "(559.992 768 751.992) (512 768 656) (896 768 656)"
 			vertices_plus
 			{
-				"v" "559.992 768 751.992"
+				"v" "560 768 752"
 				"v" "512 768 656"
 				"v" "896 768 656"
 				"v" "848 768 752"
