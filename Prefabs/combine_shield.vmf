@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8860"
-	"mapversion" "14"
+	"mapversion" "15"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "14"
+	"mapversion" "15"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -689,6 +689,7 @@ entity
 		"OnTrigger" "shield_mdl,Skin,1,0,-1"
 		"OnTrigger" "shield_snd_trigger,Disable,,0,-1"
 		"OnTrigger" "shield_snd_off,PlaySound,,0,-1"
+		"OnTrigger" "shield_light,TurnOff,,0,-1"
 	}
 	"origin" "8 -8 -88"
 	editor
@@ -703,6 +704,7 @@ entity
 {
 	"id" "78"
 	"classname" "logic_relay"
+	"spawnflags" "0"
 	"targetname" "shield_relay_on"
 	connections
 	{
@@ -712,6 +714,7 @@ entity
 		"OnTrigger" "shield,Enable,,0,-1"
 		"OnTrigger" "shield_snd_idle,PlaySound,,0,-1"
 		"OnTrigger" "shield_snd_on,PlaySound,,0,-1"
+		"OnTrigger" "shield_light,TurnOn,,0,-1"
 	}
 	"origin" "8 8 -88"
 	editor
