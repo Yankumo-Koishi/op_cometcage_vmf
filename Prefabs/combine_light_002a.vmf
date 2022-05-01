@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8849"
-	"mapversion" "2"
+	"editorbuild" "8860"
+	"mapversion" "6"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -16,10 +16,63 @@ viewsettings
 	"bShowLogicalGrid" "0"
 	"nGridSpacing" "4"
 }
+palette_plus
+{
+	"color0" "255 255 255"
+	"color1" "255 255 255"
+	"color2" "255 255 255"
+	"color3" "255 255 255"
+	"color4" "255 255 255"
+	"color5" "255 255 255"
+	"color6" "255 255 255"
+	"color7" "255 255 255"
+	"color8" "255 255 255"
+	"color9" "255 255 255"
+	"color10" "255 255 255"
+	"color11" "255 255 255"
+	"color12" "255 255 255"
+	"color13" "255 255 255"
+	"color14" "255 255 255"
+	"color15" "255 255 255"
+}
+colorcorrection_plus
+{
+	"name0" ""
+	"weight0" "1"
+	"name1" ""
+	"weight1" "1"
+	"name2" ""
+	"weight2" "1"
+	"name3" ""
+	"weight3" "1"
+}
+light_plus
+{
+	"samples_sun" "6"
+	"samples_ambient" "40"
+	"samples_vis" "256"
+	"texlight" ""
+	"incremental_delay" "0"
+	"bake_dist" "1024"
+	"radius_scale" "1"
+	"brightness_scale" "1"
+	"ao_scale" "0"
+	"bounced" "1"
+	"incremental" "1"
+	"supersample" "0"
+	"bleed_hack" "1"
+	"soften_cosine" "0"
+	"debug" "0"
+	"cubemap" "1"
+	"hdr" "0"
+}
+bgimages_plus
+{
+}
 world
 {
 	"id" "1"
-	"mapversion" "2"
+	"mapversion" "6"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -52,7 +105,7 @@ entity
 	"origin" "12 0 -4"
 	editor
 	{
-		"color" "0 159 124"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 9000]"
@@ -63,15 +116,15 @@ entity
 	"id" "5"
 	"classname" "light"
 	"_fifty_percent_distance" "96"
-	"_light" "136 202 238 150"
-	"_lightHDR" "136 202 238 100"
+	"_light" "136 202 238 200"
+	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_quadratic_attn" "1"
-	"_zero_percent_distance" "160"
-	"origin" "48 0 -4"
+	"_zero_percent_distance" "280"
+	"origin" "64 0 -4"
 	editor
 	{
-		"color" "0 125 158"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 9000]"
@@ -90,7 +143,7 @@ entity
 	"origin" "0 0 -24"
 	editor
 	{
-		"color" "0 195 252"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 8000]"
@@ -101,18 +154,19 @@ entity
 	"id" "15"
 	"classname" "light_spot"
 	"_cone" "45"
+	"_constant_attn" "200000"
 	"_exponent" "1"
 	"_inner_cone" "30"
 	"_light" "136 202 238 300"
-	"_lightHDR" "136 202 238 300"
+	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_quadratic_attn" "1"
-	"angles" "0 0 0"
-	"pitch" "0"
+	"angles" "-30 0 0"
+	"pitch" "-30"
 	"origin" "12 0 -4"
 	editor
 	{
-		"color" "0 201 194"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 9000]"
