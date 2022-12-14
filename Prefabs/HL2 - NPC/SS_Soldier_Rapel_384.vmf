@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8860"
-	"mapversion" "6636"
+	"editorbuild" "8864"
+	"mapversion" "6638"
 	"formatversion" "100"
 	"prefab" "1"
 }
@@ -69,7 +69,7 @@ bgimages_plus
 world
 {
 	"id" "74503"
-	"mapversion" "6636"
+	"mapversion" "6638"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -77,154 +77,142 @@ world
 	"maxpropscreenwidth" "-1"
 	"skyname" "sky_day01_01"
 	"vscriptlanguage_client" "-2"
-	hidden
+	solid
 	{
-		solid
+		"id" "74517"
+		side
 		{
-			"id" "74517"
-			side
+			"id" "12"
+			"plane" "(0 -64 384) (0 64 384) (128 64 384)"
+			vertices_plus
 			{
-				"id" "12"
-				"plane" "(0 -64 384) (0 64 384) (128 64 384)"
-				vertices_plus
-				{
-					"v" "0 -64 384"
-					"v" "0 64 384"
-					"v" "128 64 384"
-					"v" "128 -64 384"
-				}
-				"material" "TOOLS/TOOLSSKIP"
-				"uaxis" "[1 0 0 0] 0.25"
-				"vaxis" "[0 -1 0 0] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
+				"v" "0 -64 384"
+				"v" "0 64 384"
+				"v" "128 64 384"
+				"v" "128 -64 384"
 			}
-			side
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11"
+			"plane" "(0 64 0) (0 -64 0) (128 -64 0)"
+			vertices_plus
 			{
-				"id" "11"
-				"plane" "(0 64 0) (0 -64 0) (128 -64 0)"
-				vertices_plus
-				{
-					"v" "0 64 0"
-					"v" "0 -64 0"
-					"v" "128 -64 0"
-					"v" "128 64 0"
-				}
-				"material" "TOOLS/TOOLSSKIP"
-				"uaxis" "[-1 0 0 0] 0.25"
-				"vaxis" "[0 -1 0 0] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
+				"v" "0 64 0"
+				"v" "0 -64 0"
+				"v" "128 -64 0"
+				"v" "128 64 0"
 			}
-			side
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "10"
+			"plane" "(0 -64 0) (0 64 0) (0 64 384)"
+			vertices_plus
 			{
-				"id" "10"
-				"plane" "(0 -64 0) (0 64 0) (0 64 384)"
-				vertices_plus
-				{
-					"v" "0 -64 0"
-					"v" "0 64 0"
-					"v" "0 64 384"
-					"v" "0 -64 384"
-				}
-				"material" "TOOLS/TOOLSSKIP"
-				"uaxis" "[0 -1 0 0] 0.25"
-				"vaxis" "[0 0 -1 0] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
+				"v" "0 -64 0"
+				"v" "0 64 0"
+				"v" "0 64 384"
+				"v" "0 -64 384"
 			}
-			side
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9"
+			"plane" "(128 64 0) (128 -64 0) (128 -64 384)"
+			vertices_plus
 			{
-				"id" "9"
-				"plane" "(128 64 0) (128 -64 0) (128 -64 384)"
-				vertices_plus
-				{
-					"v" "128 64 0"
-					"v" "128 -64 0"
-					"v" "128 -64 384"
-					"v" "128 64 384"
-				}
-				"material" "TOOLS/TOOLSSKIP"
-				"uaxis" "[0 1 0 0] 0.25"
-				"vaxis" "[0 0 -1 0] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
+				"v" "128 64 0"
+				"v" "128 -64 0"
+				"v" "128 -64 384"
+				"v" "128 64 384"
 			}
-			side
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8"
+			"plane" "(0 64 0) (128 64 0) (128 64 384)"
+			vertices_plus
 			{
-				"id" "8"
-				"plane" "(0 64 0) (128 64 0) (128 64 384)"
-				vertices_plus
-				{
-					"v" "0 64 0"
-					"v" "128 64 0"
-					"v" "128 64 384"
-					"v" "0 64 384"
-				}
-				"material" "TOOLS/TOOLSSKIP"
-				"uaxis" "[-1 0 0 0] 0.25"
-				"vaxis" "[0 0 -1 0] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
+				"v" "0 64 0"
+				"v" "128 64 0"
+				"v" "128 64 384"
+				"v" "0 64 384"
 			}
-			side
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "7"
+			"plane" "(128 -64 0) (0 -64 0) (0 -64 384)"
+			vertices_plus
 			{
-				"id" "7"
-				"plane" "(128 -64 0) (0 -64 0) (0 -64 384)"
-				vertices_plus
-				{
-					"v" "128 -64 0"
-					"v" "0 -64 0"
-					"v" "0 -64 384"
-					"v" "128 -64 384"
-				}
-				"material" "TOOLS/TOOLSSKIP"
-				"uaxis" "[1 0 0 0] 0.25"
-				"vaxis" "[0 0 -1 0] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
+				"v" "128 -64 0"
+				"v" "0 -64 0"
+				"v" "0 -64 384"
+				"v" "128 -64 384"
 			}
-			editor
-			{
-				"color" "0 206 155"
-				"visgroupshown" "1"
-				"visgroupautoshown" "1"
-			}
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 206 155"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
 		}
 	}
 }
 entity
 {
-	"id" "74505"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_smg1"
-	"angles" "0 0 0"
-	"BaseSpeedModifier" "1.0"
-	"FriendlyFireOverride" "2"
-	"model" "models/combine_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetDynamicInteractions" "2"
-	"SetProficiencyOverride" "-1"
-	"sleepstate" "3"
-	"spawnflags" "516"
-	"targetname" "rappel_soldier"
-	"waitingtorappel" "No"
-	"origin" "-16 0 384"
+	"id" "74515"
+	"classname" "logic_relay"
+	"targetname" "rappel_soldier_relay"
+	connections
+	{
+		"OnTrigger" "$actor,Wake,,0,-1"
+		"OnTrigger" "rappel_soldier_seq,BeginSequence,,0.01,-1"
+	}
+	"origin" "16 0 400"
 	editor
 	{
-		"color" "0 200 200"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
+		"logicalpos" "[0 7000]"
 	}
 }
 entity
@@ -239,7 +227,7 @@ entity
 	"m_flRadius" "0"
 	"m_flRepeat" "0"
 	"m_fMoveTo" "2"
-	"m_iszEntity" "rappel_soldier"
+	"m_iszEntity" "$actor"
 	"m_iszIdle" "rappel_a_preIdle"
 	"m_iszPlay" "Rappel_e"
 	"maxdxlevel" "0"
@@ -251,7 +239,7 @@ entity
 	{
 		"OnBeginSequence" "rappel_soldier_rope_zipline,SetParentAttachment,zipline,0.02,-1"
 		"OnEndSequence" "rappel_soldier_rope_zipline,ClearParent,,0,-1"
-		"OnBeginSequence" "rappel_soldier_rope_zipline,SetParent,pf_SS_Soldier_Rapel_384_&i_soldier,0.01,-1"
+		"OnBeginSequence" "rappel_soldier_rope_zipline,SetParent,$actor,0.01,-1"
 		"OnEndSequence" "rappel_soldier_rope_static,Break,,0,-1"
 		"OnEndSequence" "rappel_soldier_rope_zipline,Break,,0,-1"
 	}
@@ -307,24 +295,5 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6500]"
-	}
-}
-entity
-{
-	"id" "74515"
-	"classname" "logic_relay"
-	"targetname" "pf_SS_Soldier_Rapel_384_&i_relay"
-	connections
-	{
-		"OnTrigger" "pf_SS_Soldier_Rapel_384_&i_soldier,Wake,,0,-1"
-		"OnTrigger" "pf_SS_Soldier_Rapel_384_&i_SS,BeginSequence,,0.01,-1"
-	}
-	"origin" "16 0 400"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 7000]"
 	}
 }

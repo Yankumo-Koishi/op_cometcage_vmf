@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8860"
-	"mapversion" "15"
+	"editorbuild" "8863"
+	"mapversion" "16"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "15"
+	"mapversion" "16"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -96,7 +96,7 @@ entity
 	"origin" "35.11 0 0.62"
 	"spawnflags" "3"
 	"StartDisabled" "1"
-	"targetname" "fireextinguisher_01_hurt"
+	"targetname" "fireextinguisher_hurt"
 	solid
 	{
 		"id" "369"
@@ -229,7 +229,7 @@ entity
 	"classname" "info_particle_system"
 	"angles" "0 0 0"
 	"effect_name" "steam_jet_80_steam"
-	"targetname" "fireextinguisher_01_vfx"
+	"targetname" "fireextinguisher_vfx"
 	"origin" "0 0 1.31686"
 	editor
 	{
@@ -249,7 +249,7 @@ entity
 	"pitchstart" "100"
 	"radius" "1250"
 	"spawnflags" "16"
-	"targetname" "fireextinguisher_01_snd"
+	"targetname" "fireextinguisher_snd"
 	"origin" "12 0 -8.22317"
 	editor
 	{
@@ -289,14 +289,14 @@ entity
 	"viewhideflags" "0"
 	connections
 	{
-		"OnBreak" "fireextinguisher_01_hurt,Enable,,0,-1"
-		"OnBreak" "fireextinguisher_01_snd,PlaySound,,0,-1"
-		"OnBreak" "fireextinguisher_01_vfx,Start,,0,-1"
-		"OnBreak" "fireextinguisher_01_hurt,Disable,,15,-1"
-		"OnBreak" "fireextinguisher_01_snd,StopSound,,15,-1"
-		"OnBreak" "fireextinguisher_01_vfx,Stop,,15,-1"
-		"OnBreak" "fireextinguisher_01_npcsnd,EmitAISound,,0,-1"
-		"OnBreak" "fireextinguisher_01_npcsnd,Kill,,15,-1"
+		"OnBreak" "fireextinguisher_hurt,Enable,,0,-1"
+		"OnBreak" "fireextinguisher_snd,PlaySound,,0,-1"
+		"OnBreak" "fireextinguisher_vfx,Start,,0,-1"
+		"OnBreak" "fireextinguisher_hurt,Disable,,15,-1"
+		"OnBreak" "fireextinguisher_snd,StopSound,,15,-1"
+		"OnBreak" "fireextinguisher_vfx,Stop,,15,-1"
+		"OnBreak" "fireextinguisher_npcsnd,EmitAISound,,0,-1"
+		"OnBreak" "fireextinguisher_npcsnd,Kill,,15,-1"
 	}
 	solid
 	{
@@ -449,7 +449,7 @@ entity
 	"classname" "ai_sound"
 	"duration" "15"
 	"soundtype" "8"
-	"targetname" "fireextinguisher_01_npcsnd"
+	"targetname" "fireextinguisher_npcsnd"
 	"volume" "120"
 	"origin" "49.4946 0 -2.95639e-05"
 	editor
