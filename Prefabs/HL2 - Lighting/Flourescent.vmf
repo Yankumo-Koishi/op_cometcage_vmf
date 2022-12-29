@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8860"
-	"mapversion" "6236"
+	"editorbuild" "8864"
+	"mapversion" "6237"
 	"formatversion" "100"
 	"prefab" "1"
 }
@@ -69,7 +69,7 @@ bgimages_plus
 world
 {
 	"id" "88128"
-	"mapversion" "6236"
+	"mapversion" "6237"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -111,8 +111,8 @@ entity
 	"_lightscaleHDR" "1"
 	"_quadratic_attn" "1"
 	"_zero_percent_distance" "2048"
-	"angles" "-89.9999 0 0"
-	"pitch" "-89.9999"
+	"angles" "0 0 0"
+	"pitch" "-90"
 	"spawnflags" "0"
 	"origin" "0 0 -10"
 	editor
@@ -145,62 +145,23 @@ entity
 }
 entity
 {
-	"id" "88170"
-	"classname" "env_sprite"
-	"framerate" "10.0"
-	"GlowProxySize" "4"
-	"HDRColorScale" "1.0"
-	"model" "sprites/light_glow02.vmt"
-	"renderamt" "150"
-	"rendercolor" "255 255 255"
-	"rendermode" "9"
-	"scale" "1"
-	"origin" "1.74846e-06 -20 -4"
-	editor
-	{
-		"color" "20 140 20"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -6268]"
-	}
-}
-entity
-{
 	"id" "88174"
-	"classname" "env_sprite"
-	"framerate" "10.0"
+	"classname" "env_lightglow"
+	"angles" "-90 0 0"
 	"GlowProxySize" "4"
 	"HDRColorScale" "1.0"
-	"model" "sprites/light_glow02.vmt"
-	"renderamt" "150"
+	"HorizontalGlowSize" "64"
+	"MaxDist" "16"
+	"MinDist" "8"
+	"OuterMaxDist" "0"
 	"rendercolor" "255 255 255"
-	"rendermode" "9"
-	"scale" "1"
-	"origin" "8.74228e-07 0 -4"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	"VerticalGlowSize" "32"
+	"origin" "9.53674e-07 0 -4"
 	editor
 	{
-		"color" "20 140 20"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -6268]"
-	}
-}
-entity
-{
-	"id" "88178"
-	"classname" "env_sprite"
-	"framerate" "10.0"
-	"GlowProxySize" "4"
-	"HDRColorScale" "1.0"
-	"model" "sprites/light_glow02.vmt"
-	"renderamt" "150"
-	"rendercolor" "255 255 255"
-	"rendermode" "9"
-	"scale" "1"
-	"origin" "0 20 -4"
-	editor
-	{
-		"color" "20 140 20"
+		"color" "255 128 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -6268]"

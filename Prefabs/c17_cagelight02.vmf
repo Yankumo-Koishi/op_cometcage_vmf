@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8860"
-	"mapversion" "9"
+	"editorbuild" "8864"
+	"mapversion" "10"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "9"
+	"mapversion" "10"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -93,7 +93,7 @@ entity
 	"rendercolor" "181 216 251 350"
 	"rendermode" "9"
 	"scale" "0.5"
-	"origin" "-15.6396 0 4.82837"
+	"origin" "-16 0 4"
 	editor
 	{
 		"color" "20 140 20"
@@ -123,7 +123,7 @@ entity
 	"pitch" "-30"
 	"spawnflags" "0"
 	"style" "0"
-	"origin" "-7.63965 0 0.828369"
+	"origin" "-8 0 0"
 	editor
 	{
 		"color" "220 30 220"
@@ -142,7 +142,7 @@ entity
 	"model" "models/props_c17/light_cagelight02_on.mdl"
 	"skin" "0"
 	"solid" "6"
-	"origin" "-19.6396 0 8.82837"
+	"origin" "-20 0 8"
 	editor
 	{
 		"color" "255 255 0"
@@ -161,7 +161,7 @@ entity
 	"_lightscaleHDR" "1"
 	"_linear_attn" "2.5"
 	"_quadratic_attn" "5"
-	"origin" "28.3604 0 -15.1716"
+	"origin" "28 0 -16"
 	editor
 	{
 		"color" "220 30 220"
