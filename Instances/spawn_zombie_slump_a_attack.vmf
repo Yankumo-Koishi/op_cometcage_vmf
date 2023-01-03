@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8864"
-	"mapversion" "45"
+	"editorbuild" "8862"
+	"mapversion" "48"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -78,7 +78,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "45"
+	"mapversion" "48"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -92,8 +92,7 @@ entity
 	"id" "2"
 	"classname" "info_node_hint"
 	"angles" "0 0 0"
-	"Group" "$hintgroup"
-	"hintactivity" "Zombie_Slump_A"
+	"hintactivity" "Zombie_Slump_A_Attack"
 	"hinttype" "12"
 	"hintweight" "1.0"
 	"IgnoreFacing" "2"
@@ -117,12 +116,12 @@ entity
 {
 	"id" "16"
 	"classname" "trigger_once"
-	"origin" "48 0 24"
+	"origin" "48 -0 24"
 	"spawnflags" "1"
 	"StartDisabled" "0"
 	connections
 	{
-		"OnStartTouch" "zombie_busy,DisableHint,,0.01,1"
+		"OnStartTouch" "zombie_busy,Kill,,0.01,1"
 	}
 	solid
 	{

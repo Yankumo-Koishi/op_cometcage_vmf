@@ -1,0 +1,309 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8862"
+	"mapversion" "48"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+	visgroup
+	{
+		"name" "_backup"
+		"visgroupid" "8"
+		"color" "145 214 207"
+	}
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "8"
+}
+palette_plus
+{
+	"color0" "255 255 255"
+	"color1" "255 255 255"
+	"color2" "255 255 255"
+	"color3" "255 255 255"
+	"color4" "255 255 255"
+	"color5" "255 255 255"
+	"color6" "255 255 255"
+	"color7" "255 255 255"
+	"color8" "255 255 255"
+	"color9" "255 255 255"
+	"color10" "255 255 255"
+	"color11" "255 255 255"
+	"color12" "255 255 255"
+	"color13" "255 255 255"
+	"color14" "255 255 255"
+	"color15" "255 255 255"
+}
+colorcorrection_plus
+{
+	"name0" ""
+	"weight0" "1"
+	"name1" ""
+	"weight1" "1"
+	"name2" ""
+	"weight2" "1"
+	"name3" ""
+	"weight3" "1"
+}
+light_plus
+{
+	"samples_sun" "6"
+	"samples_ambient" "40"
+	"samples_vis" "256"
+	"texlight" ""
+	"incremental_delay" "0"
+	"bake_dist" "1024"
+	"radius_scale" "1"
+	"brightness_scale" "1"
+	"ao_scale" "0"
+	"bounced" "1"
+	"incremental" "1"
+	"supersample" "0"
+	"bleed_hack" "1"
+	"soften_cosine" "0"
+	"debug" "0"
+	"cubemap" "1"
+	"hdr" "0"
+}
+bgimages_plus
+{
+}
+world
+{
+	"id" "1"
+	"mapversion" "48"
+	"classname" "worldspawn"
+	"chaptertitlenomessage" "1"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+	"vscriptlanguage_client" "-2"
+}
+entity
+{
+	"id" "2"
+	"classname" "info_node_hint"
+	"angles" "0 0 0"
+	"hintactivity" "Zombie_Slump_A2"
+	"hinttype" "12"
+	"hintweight" "1.0"
+	"IgnoreFacing" "2"
+	"MaximumState" "3"
+	"MinimumState" "1"
+	"nodeFOV" "360"
+	"nodeid" "1"
+	"spawnflags" "0"
+	"targetname" "zombie_busy"
+	"TargetNode" "-1"
+	"origin" "8 0 8"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+hidden
+{
+	entity
+	{
+		"id" "16"
+		"classname" "trigger_once"
+		"origin" "48 -0 24"
+		"spawnflags" "1"
+		"StartDisabled" "0"
+		connections
+		{
+			"OnStartTouch" "zombie_busy,Kill,,0.01,1"
+		}
+		hidden
+		{
+			solid
+			{
+				"id" "14"
+				side
+				{
+					"id" "1"
+					"plane" "(-16 -64 48) (-16 64 48) (112 64 48)"
+					vertices_plus
+					{
+						"v" "-16 -64 48"
+						"v" "-16 64 48"
+						"v" "112 64 48"
+						"v" "112 -64 48"
+					}
+					"material" "TOOLS/TOOLSTRIGGER"
+					"uaxis" "[1 0 0 0] 0.25"
+					"vaxis" "[0 -1 0 0] 0.25"
+					"rotation" "0"
+					"lightmapscale" "16"
+					"smoothing_groups" "0"
+				}
+				side
+				{
+					"id" "2"
+					"plane" "(-16 64 0) (-16 -64 0) (112 -64 0)"
+					vertices_plus
+					{
+						"v" "-16 64 0"
+						"v" "-16 -64 0"
+						"v" "112 -64 0"
+						"v" "112 64 0"
+					}
+					"material" "TOOLS/TOOLSTRIGGER"
+					"uaxis" "[1 0 0 0] 0.25"
+					"vaxis" "[0 -1 0 0] 0.25"
+					"rotation" "0"
+					"lightmapscale" "16"
+					"smoothing_groups" "0"
+				}
+				side
+				{
+					"id" "3"
+					"plane" "(-16 -64 0) (-16 64 0) (-16 64 48)"
+					vertices_plus
+					{
+						"v" "-16 -64 0"
+						"v" "-16 64 0"
+						"v" "-16 64 48"
+						"v" "-16 -64 48"
+					}
+					"material" "TOOLS/TOOLSTRIGGER"
+					"uaxis" "[0 1 0 0] 0.25"
+					"vaxis" "[0 0 -1 0] 0.25"
+					"rotation" "0"
+					"lightmapscale" "16"
+					"smoothing_groups" "0"
+				}
+				side
+				{
+					"id" "4"
+					"plane" "(112 64 0) (112 -64 0) (112 -64 48)"
+					vertices_plus
+					{
+						"v" "112 64 0"
+						"v" "112 -64 0"
+						"v" "112 -64 48"
+						"v" "112 64 48"
+					}
+					"material" "TOOLS/TOOLSTRIGGER"
+					"uaxis" "[0 1 0 0] 0.25"
+					"vaxis" "[0 0 -1 0] 0.25"
+					"rotation" "0"
+					"lightmapscale" "16"
+					"smoothing_groups" "0"
+				}
+				side
+				{
+					"id" "5"
+					"plane" "(-16 64 0) (112 64 0) (112 64 48)"
+					vertices_plus
+					{
+						"v" "-16 64 0"
+						"v" "112 64 0"
+						"v" "112 64 48"
+						"v" "-16 64 48"
+					}
+					"material" "TOOLS/TOOLSTRIGGER"
+					"uaxis" "[1 0 0 0] 0.25"
+					"vaxis" "[0 0 -1 0] 0.25"
+					"rotation" "0"
+					"lightmapscale" "16"
+					"smoothing_groups" "0"
+				}
+				side
+				{
+					"id" "6"
+					"plane" "(112 -64 0) (-16 -64 0) (-16 -64 48)"
+					vertices_plus
+					{
+						"v" "112 -64 0"
+						"v" "-16 -64 0"
+						"v" "-16 -64 48"
+						"v" "112 -64 48"
+					}
+					"material" "TOOLS/TOOLSTRIGGER"
+					"uaxis" "[1 0 0 0] 0.25"
+					"vaxis" "[0 0 -1 0] 0.25"
+					"rotation" "0"
+					"lightmapscale" "16"
+					"smoothing_groups" "0"
+				}
+				editor
+				{
+					"color" "220 30 220"
+					"visgroupshown" "1"
+					"visgroupautoshown" "1"
+				}
+			}
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 500]"
+		}
+	}
+}
+hidden
+{
+	entity
+	{
+		"id" "38"
+		"classname" "info_node_hint"
+		"angles" "0 0 0"
+		"hintactivity" "Zombie_Slump_A"
+		"hinttype" "12"
+		"hintweight" "1.0"
+		"IgnoreFacing" "2"
+		"MaximumState" "1"
+		"MinimumState" "1"
+		"nodeFOV" "360"
+		"nodeid" "2"
+		"spawnflags" "0"
+		"StartHintDisabled" "0"
+		"targetname" "zombie_dead_busy"
+		"TargetNode" "-1"
+		"origin" "0 0 16"
+		editor
+		{
+			"color" "232 219 8"
+			"visgroupid" "8"
+			"visgroupshown" "0"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 500]"
+		}
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+	cordon
+	{
+		"name" "cordon"
+		"active" "1"
+		box
+		{
+			"mins" "(-1024 -1024 -1024)"
+			"maxs" "(1024 1024 1024)"
+		}
+	}
+}
+quickhide
+{
+	"count" "3"
+}
