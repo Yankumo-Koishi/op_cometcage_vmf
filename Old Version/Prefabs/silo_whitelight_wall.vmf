@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "6362"
+	"mapversion" "6363"
 	"formatversion" "100"
 	"prefab" "1"
 }
@@ -69,7 +69,7 @@ bgimages_plus
 world
 {
 	"id" "95698"
-	"mapversion" "6362"
+	"mapversion" "6363"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -137,13 +137,13 @@ entity
 	"classname" "prop_static"
 	"angles" "0 270 90"
 	"disableselfshadowing" "0"
-	"disableshadows" "1"
+	"disableshadows" "0"
 	"disablevertexlighting" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_silo/light_red2.mdl"
 	"skin" "2"
-	"solid" "0"
+	"solid" "6"
 	"origin" "-28 0 0"
 	editor
 	{
