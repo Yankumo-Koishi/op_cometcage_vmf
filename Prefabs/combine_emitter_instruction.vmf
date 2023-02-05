@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8860"
-	"mapversion" "1"
+	"editorbuild" "8864"
+	"mapversion" "2"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "1"
+	"mapversion" "2"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -122,8 +122,8 @@ entity
 	"_lightscaleHDR" "1"
 	"_quadratic_attn" "1"
 	"_zero_percent_distance" "256"
-	"angles" "-90 90 0"
-	"pitch" "-90"
+	"angles" "-75 0 90"
+	"pitch" "-75"
 	"spawnflags" "0"
 	"origin" "4.66166 1.48715 0.0403976"
 	editor

@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "22"
+	"mapversion" "23"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -78,7 +78,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "22"
+	"mapversion" "23"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -117,6 +117,7 @@ entity
 {
 	"id" "16"
 	"classname" "trigger_once"
+	"filtername" "$trigger_filter"
 	"origin" "0 -0 24"
 	"spawnflags" "1"
 	"StartDisabled" "0"
