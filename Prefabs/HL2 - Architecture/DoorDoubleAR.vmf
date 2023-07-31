@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8860"
-	"mapversion" "3599"
+	"editorbuild" "8864"
+	"mapversion" "3600"
 	"formatversion" "100"
 	"prefab" "1"
 }
@@ -11,7 +11,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "64"
+	"nGridSpacing" "16"
 }
 palette_plus
 {
@@ -69,7 +69,7 @@ bgimages_plus
 world
 {
 	"id" "70489"
-	"mapversion" "3599"
+	"mapversion" "3600"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -563,9 +563,12 @@ entity
 	"forceclosed" "0"
 	"hardware" "1"
 	"health" "0"
+	"kickspeed" "500"
 	"model" "models/props_c17/door01_left.mdl"
 	"modelscale" "1.0"
 	"opendir" "0"
+	"opendistoverride" "-1"
+	"openonkick" "1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"returndelay" "-1"
@@ -597,9 +600,12 @@ entity
 	"forceclosed" "0"
 	"hardware" "1"
 	"health" "0"
+	"kickspeed" "500"
 	"model" "models/props_c17/door01_left.mdl"
 	"modelscale" "1.0"
 	"opendir" "0"
+	"opendistoverride" "-1"
+	"openonkick" "1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"returndelay" "-1"
@@ -628,17 +634,17 @@ entity
 	"targetname" "pf_DoorDoubleAR_&i_area"
 	solid
 	{
-		"id" "70499"
+		"id" "70522"
 		side
 		{
-			"id" "18"
-			"plane" "(-48 0.5 108) (48 0.5 108) (48 -0.5 108)"
+			"id" "42"
+			"plane" "(-48 -0.5 108) (-48 0.498047 108) (0 0.5 108)"
 			vertices_plus
 			{
 				"v" "-48 -0.5 108"
-				"v" "-48 0.5 108"
-				"v" "48 0.5 108"
-				"v" "48 -0.5 108"
+				"v" "-48 0.498047 108"
+				"v" "0 0.5 108"
+				"v" "0 -0.5 108"
 			}
 			"material" "TOOLS/TOOLSAREAPORTAL"
 			"uaxis" "[1 0 0 32] 0.25"
@@ -649,14 +655,14 @@ entity
 		}
 		side
 		{
-			"id" "17"
-			"plane" "(-48 -0.5 5.54727e-06) (48 -0.5 5.54727e-06) (48 0.5 5.54727e-06)"
+			"id" "41"
+			"plane" "(-48 0.501953 0) (-48 -0.5 0) (0 -0.5 0)"
 			vertices_plus
 			{
-				"v" "-48 0.5 0"
+				"v" "-48 0.501953 0"
 				"v" "-48 -0.5 0"
-				"v" "48 -0.5 0"
-				"v" "48 0.5 0"
+				"v" "0 -0.5 0"
+				"v" "0 0.5 0"
 			}
 			"material" "TOOLS/TOOLSAREAPORTAL"
 			"uaxis" "[-1 0 0 -32] 0.25"
@@ -667,13 +673,13 @@ entity
 		}
 		side
 		{
-			"id" "16"
-			"plane" "(-48 0.5 108) (-48 -0.5 108) (-48 -0.5 5.54727e-06)"
+			"id" "40"
+			"plane" "(-48 -0.5 0) (-48 0.498047 0) (-48 0.501953 108)"
 			vertices_plus
 			{
 				"v" "-48 -0.5 0"
-				"v" "-48 0.5 0"
-				"v" "-48 0.5 108"
+				"v" "-48 0.498047 0"
+				"v" "-48 0.501953 108"
 				"v" "-48 -0.5 108"
 			}
 			"material" "TOOLS/TOOLSAREAPORTAL"
@@ -685,31 +691,13 @@ entity
 		}
 		side
 		{
-			"id" "15"
-			"plane" "(48 0.5 5.54727e-06) (48 -0.5 5.54727e-06) (48 -0.5 108)"
-			vertices_plus
-			{
-				"v" "48 0.5 0"
-				"v" "48 -0.5 0"
-				"v" "48 -0.5 108"
-				"v" "48 0.5 108"
-			}
-			"material" "TOOLS/TOOLSAREAPORTAL"
-			"uaxis" "[0 1 0 2] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "14"
-			"plane" "(48 0.5 108) (-48 0.5 108) (-48 0.5 5.54727e-06)"
+			"id" "39"
+			"plane" "(-48 0.5 0) (0 0.5 0) (0 0.5 108)"
 			vertices_plus
 			{
 				"v" "-48 0.5 0"
-				"v" "48 0.5 0"
-				"v" "48 0.5 108"
+				"v" "0 0.5 0"
+				"v" "0 0.5 108"
 				"v" "-48 0.5 108"
 			}
 			"material" "TOOLS/TOOLSAREAPORTAL"
@@ -721,17 +709,35 @@ entity
 		}
 		side
 		{
-			"id" "13"
-			"plane" "(48 -0.5 5.54727e-06) (-48 -0.5 5.54727e-06) (-48 -0.5 108)"
+			"id" "38"
+			"plane" "(0 -0.5 0) (-48 -0.5 0) (-48 -0.5 108)"
 			vertices_plus
 			{
-				"v" "48 -0.5 0"
+				"v" "0 -0.5 0"
 				"v" "-48 -0.5 0"
 				"v" "-48 -0.5 108"
-				"v" "48 -0.5 108"
+				"v" "0 -0.5 108"
 			}
 			"material" "TOOLS/TOOLSAREAPORTAL"
 			"uaxis" "[1 0 0 32] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "37"
+			"plane" "(0 0.501953 0) (0 -0.5 0) (0 -0.5 108)"
+			vertices_plus
+			{
+				"v" "0 0.501953 0"
+				"v" "0 -0.5 0"
+				"v" "0 -0.5 108"
+				"v" "0 0.498047 108"
+			}
+			"material" "TOOLS/TOOLSAREAPORTAL"
+			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -750,5 +756,138 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "70524"
+	"classname" "func_areaportal"
+	"PortalVersion" "1"
+	"StartOpen" "1"
+	"target" "pf_DoorDoubleAR_&i_door_right"
+	solid
+	{
+		"id" "70521"
+		side
+		{
+			"id" "48"
+			"plane" "(0 0.5 108) (48 0.501953 108) (48 -0.5 108)"
+			vertices_plus
+			{
+				"v" "0 0.5 108"
+				"v" "48 0.501953 108"
+				"v" "48 -0.5 108"
+				"v" "0 -0.5 108"
+			}
+			"material" "TOOLS/TOOLSAREAPORTAL"
+			"uaxis" "[1 0 0 32] 0.25"
+			"vaxis" "[0 -1 0 -2] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "47"
+			"plane" "(0 -0.5 0) (48 -0.5 0) (48 0.498047 0)"
+			vertices_plus
+			{
+				"v" "0 -0.5 0"
+				"v" "48 -0.5 0"
+				"v" "48 0.498047 0"
+				"v" "0 0.5 0"
+			}
+			"material" "TOOLS/TOOLSAREAPORTAL"
+			"uaxis" "[-1 0 0 -32] 0.25"
+			"vaxis" "[0 -1 0 -2] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "46"
+			"plane" "(48 0.501953 0) (48 -0.5 0) (48 -0.5 108)"
+			vertices_plus
+			{
+				"v" "48 0.501953 0"
+				"v" "48 -0.5 0"
+				"v" "48 -0.5 108"
+				"v" "48 0.498047 108"
+			}
+			"material" "TOOLS/TOOLSAREAPORTAL"
+			"uaxis" "[0 1 0 2] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "45"
+			"plane" "(0 0.5 0) (48 0.5 0) (48 0.5 108)"
+			vertices_plus
+			{
+				"v" "0 0.5 0"
+				"v" "48 0.5 0"
+				"v" "48 0.5 108"
+				"v" "0 0.5 108"
+			}
+			"material" "TOOLS/TOOLSAREAPORTAL"
+			"uaxis" "[-1 0 0 -32] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "44"
+			"plane" "(48 -0.5 0) (0 -0.5 0) (0 -0.5 108)"
+			vertices_plus
+			{
+				"v" "48 -0.5 0"
+				"v" "0 -0.5 0"
+				"v" "0 -0.5 108"
+				"v" "48 -0.5 108"
+			}
+			"material" "TOOLS/TOOLSAREAPORTAL"
+			"uaxis" "[1 0 0 32] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "43"
+			"plane" "(0 -0.5 0) (0 0.498047 0) (0 0.501953 108)"
+			vertices_plus
+			{
+				"v" "0 -0.5 0"
+				"v" "0 0.498047 0"
+				"v" "0 0.501953 108"
+				"v" "0 -0.5 108"
+			}
+			"material" "TOOLS/TOOLSAREAPORTAL"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 255 255"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 255 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
 	}
 }

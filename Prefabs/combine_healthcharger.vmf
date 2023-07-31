@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "3"
+	"mapversion" "4"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "3"
+	"mapversion" "4"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -90,7 +90,7 @@ entity
 	"HDRColorScale" "1.0"
 	"model" "sprites/grubflare1.vmt"
 	"renderamt" "255"
-	"rendercolor" "154 230 243 25"
+	"rendercolor" "112 175 239"
 	"rendermode" "9"
 	"scale" "0.25"
 	"origin" "2 -2 -0.853271"
@@ -107,7 +107,7 @@ entity
 	"id" "6"
 	"classname" "light"
 	"_fifty_percent_distance" "64"
-	"_light" "154 230 243 25"
+	"_light" "112 175 239 25"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_quadratic_attn" "1"

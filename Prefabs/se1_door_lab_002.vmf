@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8849"
-	"mapversion" "1"
+	"editorbuild" "8864"
+	"mapversion" "2"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -16,10 +16,63 @@ viewsettings
 	"bShowLogicalGrid" "0"
 	"nGridSpacing" "64"
 }
+palette_plus
+{
+	"color0" "255 255 255"
+	"color1" "255 255 255"
+	"color2" "255 255 255"
+	"color3" "255 255 255"
+	"color4" "255 255 255"
+	"color5" "255 255 255"
+	"color6" "255 255 255"
+	"color7" "255 255 255"
+	"color8" "255 255 255"
+	"color9" "255 255 255"
+	"color10" "255 255 255"
+	"color11" "255 255 255"
+	"color12" "255 255 255"
+	"color13" "255 255 255"
+	"color14" "255 255 255"
+	"color15" "255 255 255"
+}
+colorcorrection_plus
+{
+	"name0" ""
+	"weight0" "1"
+	"name1" ""
+	"weight1" "1"
+	"name2" ""
+	"weight2" "1"
+	"name3" ""
+	"weight3" "1"
+}
+light_plus
+{
+	"samples_sun" "6"
+	"samples_ambient" "40"
+	"samples_vis" "256"
+	"texlight" ""
+	"incremental_delay" "0"
+	"bake_dist" "1024"
+	"radius_scale" "1"
+	"brightness_scale" "1"
+	"ao_scale" "0"
+	"bounced" "1"
+	"incremental" "1"
+	"supersample" "0"
+	"bleed_hack" "1"
+	"soften_cosine" "0"
+	"debug" "0"
+	"cubemap" "1"
+	"hdr" "0"
+}
+bgimages_plus
+{
+}
 world
 {
 	"id" "1"
-	"mapversion" "1"
+	"mapversion" "2"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -100,9 +153,9 @@ entity
 				"v" "-4 13 -28"
 				"v" "-4 13 -13"
 			}
-			"material" "LABS/METALCOMBINE001M"
-			"uaxis" "[1 0 0 16] 0.25"
-			"vaxis" "[0 0 -1 256] 0.25"
+			"material" "METAL/CMD/CITADEL_METAL07"
+			"uaxis" "[1 0 0 16] 0.125"
+			"vaxis" "[0 0 -1 256] 0.125"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -118,9 +171,9 @@ entity
 				"v" "-4 18 -33"
 				"v" "-4 13 -28"
 			}
-			"material" "LABS/METALCOMBINE001M"
-			"uaxis" "[1 0 0 16] 0.25"
-			"vaxis" "[0 0 -1 256] 0.25"
+			"material" "METAL/CMD/CITADEL_METAL07"
+			"uaxis" "[1 0 0 16] 0.125"
+			"vaxis" "[0 0 -1 256] 0.125"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -136,9 +189,9 @@ entity
 				"v" "-4 13 -13"
 				"v" "-4 18 -8"
 			}
-			"material" "LABS/METALCOMBINE001M"
-			"uaxis" "[1 0 0 16] 0.25"
-			"vaxis" "[0 0 -1 256] 0.25"
+			"material" "METAL/CMD/CITADEL_METAL07"
+			"uaxis" "[1 0 0 16] 0.125"
+			"vaxis" "[0 0 -1 256] 0.125"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -254,9 +307,9 @@ entity
 				"v" "-4 18 64"
 				"v" "4 18 64"
 			}
-			"material" "LABS/METALCOMBINE001M"
-			"uaxis" "[1 0 0 16] 0.25"
-			"vaxis" "[0 0 -1 256] 0.25"
+			"material" "METAL/CMD/CITADEL_METAL07"
+			"uaxis" "[1 0 0 16] 0.125"
+			"vaxis" "[0 0 -1 256] 0.125"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -372,9 +425,9 @@ entity
 				"v" "4 18 -62"
 				"v" "4 -26 -62"
 			}
-			"material" "LABS/METALCOMBINE001M"
-			"uaxis" "[1 0 0 16] 0.25"
-			"vaxis" "[0 -1 0 -384] 0.25"
+			"material" "METAL/CMD/CITADEL_METAL07"
+			"uaxis" "[1 0 0 16] 0.125"
+			"vaxis" "[0 -1 0 256] 0.125"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -490,9 +543,9 @@ entity
 				"v" "4 -26 64"
 				"v" "-4 -26 64"
 			}
-			"material" "LABS/METALCOMBINE001M"
-			"uaxis" "[1 0 0 16] 0.25"
-			"vaxis" "[0 0 -1 256] 0.25"
+			"material" "METAL/CMD/CITADEL_METAL07"
+			"uaxis" "[1 0 0 16] 0.125"
+			"vaxis" "[0 0 -1 256] 0.125"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -531,7 +584,7 @@ entity
 			"plane" "(-4 18 42.0024) (-4 18 64) (-4 -26 64)"
 			vertices_plus
 			{
-				"v" "-4 18 42.0024"
+				"v" "-4 18 42"
 				"v" "-4 18 64"
 				"v" "-4 -26 64"
 				"v" "-4 -26 42"
@@ -549,7 +602,7 @@ entity
 			"plane" "(4 -26 42.0032) (4 -26 64) (4 18 64)"
 			vertices_plus
 			{
-				"v" "4 -26 42.0032"
+				"v" "4 -26 42"
 				"v" "4 -26 64"
 				"v" "4 18 64"
 				"v" "4 18 42"
@@ -570,7 +623,7 @@ entity
 				"v" "-4 -26 42"
 				"v" "-4 -26 64"
 				"v" "4 -26 64"
-				"v" "4 -26 42.0032"
+				"v" "4 -26 42"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 16] 0.25"
@@ -588,7 +641,7 @@ entity
 				"v" "4 18 42"
 				"v" "4 18 64"
 				"v" "-4 18 64"
-				"v" "-4 18 42.0024"
+				"v" "-4 18 42"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 16] 0.25"
@@ -603,14 +656,14 @@ entity
 			"plane" "(-4 18 42.0024) (-4 -26 42) (4 -26 42.0032)"
 			vertices_plus
 			{
-				"v" "-4 18 42.0024"
+				"v" "-4 18 42"
 				"v" "-4 -26 42"
-				"v" "4 -26 42.0032"
+				"v" "4 -26 42"
 				"v" "4 18 42"
 			}
-			"material" "LABS/METALCOMBINE001M"
-			"uaxis" "[1 0 0 16] 0.25"
-			"vaxis" "[0 -1 0 -384] 0.25"
+			"material" "METAL/CMD/CITADEL_METAL07"
+			"uaxis" "[1 0 0 16] 0.125"
+			"vaxis" "[0 -1 0 256] 0.125"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"

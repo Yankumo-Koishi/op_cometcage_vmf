@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "9"
+	"mapversion" "12"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,7 +14,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "16"
+	"nGridSpacing" "8"
 }
 palette_plus
 {
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "9"
+	"mapversion" "12"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -82,10 +82,21 @@ world
 	"vscriptlanguage_client" "-2"
 	group
 	{
+		"id" "243"
+		editor
+		{
+			"color" "214 111 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
 		"id" "88"
 		editor
 		{
-			"color" "220 220 220"
+			"color" "214 111 0"
+			"groupid" "243"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -111,7 +122,7 @@ entity
 	"origin" "-25.281 1.42004 59.22"
 	editor
 	{
-		"color" "220 220 220"
+		"color" "214 111 0"
 		"groupid" "88"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -134,7 +145,7 @@ entity
 	"origin" "-23.871 2.18994 59.13"
 	editor
 	{
-		"color" "220 220 220"
+		"color" "214 111 0"
 		"groupid" "88"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -161,7 +172,7 @@ entity
 	"origin" "4.289 12.9 0"
 	editor
 	{
-		"color" "220 220 220"
+		"color" "214 111 0"
 		"groupid" "88"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -188,7 +199,7 @@ entity
 	"origin" "19.659 24.46 -40.196"
 	editor
 	{
-		"color" "220 220 220"
+		"color" "214 111 0"
 		"groupid" "88"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -215,7 +226,7 @@ entity
 	"origin" "19.789 24.46 -22.36"
 	editor
 	{
-		"color" "220 220 220"
+		"color" "214 111 0"
 		"groupid" "88"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -242,7 +253,7 @@ entity
 	"origin" "12.869 24.46 -0.196014"
 	editor
 	{
-		"color" "220 220 220"
+		"color" "214 111 0"
 		"groupid" "88"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -269,7 +280,7 @@ entity
 	"origin" "12.459 24.46 7.80399"
 	editor
 	{
-		"color" "220 220 220"
+		"color" "214 111 0"
 		"groupid" "88"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -296,7 +307,7 @@ entity
 	"origin" "14.629 24.3101 23.804"
 	editor
 	{
-		"color" "220 220 220"
+		"color" "214 111 0"
 		"groupid" "88"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -323,7 +334,7 @@ entity
 	"origin" "14.789 24.21 35.804"
 	editor
 	{
-		"color" "220 220 220"
+		"color" "214 111 0"
 		"groupid" "88"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -335,16 +346,16 @@ entity
 	"id" "127"
 	"classname" "light"
 	"_constant_attn" "0"
-	"_fifty_percent_distance" "96"
-	"_light" "147 255 231 50"
+	"_fifty_percent_distance" "0"
+	"_light" "147 255 231 25"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_quadratic_attn" "1"
-	"_zero_percent_distance" "256"
+	"_zero_percent_distance" "0"
 	"origin" "12.869 33.42 15.804"
 	editor
 	{
-		"color" "220 220 220"
+		"color" "214 111 0"
 		"groupid" "88"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -356,20 +367,41 @@ entity
 	"id" "133"
 	"classname" "light"
 	"_constant_attn" "0"
-	"_fifty_percent_distance" "96"
-	"_light" "147 255 231 50"
+	"_fifty_percent_distance" "0"
+	"_light" "147 255 231 25"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_quadratic_attn" "1"
-	"_zero_percent_distance" "256"
+	"_zero_percent_distance" "0"
 	"origin" "12.869 33.42 -32.196"
 	editor
 	{
-		"color" "220 220 220"
+		"color" "214 111 0"
 		"groupid" "88"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[10000 -4768]"
+	}
+}
+entity
+{
+	"id" "182"
+	"classname" "light"
+	"_constant_attn" "0"
+	"_fifty_percent_distance" "96"
+	"_light" "255 0 0 50"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "256"
+	"origin" "-40 0 58.9517"
+	editor
+	{
+		"color" "214 111 0"
+		"groupid" "243"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[10000 -3768]"
 	}
 }
 cameras
